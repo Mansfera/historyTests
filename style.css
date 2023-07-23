@@ -1,0 +1,33 @@
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+body {
+    background: #e6f4f4;
+}
+.tests {
+    width: 90%;
+    padding: 30px;
+    margin: 0 auto 0;
+}
+.images {
+    margin: 0 auto 0;
+    margin-top: 30px;
+    text-align: center;
+}
+.images:hover img {
+    filter: grayscale(100%) blur(2px);
+    filter: gray;
+    transition: all 1s;
+}
+.images:hover img:hover {
+    filter: none;
+    transition: all 1s;
+}
+.image {
+    margin: 5px 5px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+}
