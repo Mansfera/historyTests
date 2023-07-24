@@ -1250,7 +1250,7 @@ let score = 0;
 var test_completed = false;
 let RND_question = 0;
 
-const startingMinutes = 20;
+const startingMinutes = 15;
 let time = startingMinutes * 60;
 startTime = time;
 const countdownEl = document.getElementById('timer');
