@@ -17,6 +17,9 @@ const q9 = document.getElementById("q9");
 const q10 = document.getElementById("q10");
 const q11 = document.getElementById("q11");
 const q12 = document.getElementById("q12");
+const q13 = document.getElementById("q13");
+const q14 = document.getElementById("q14");
+const q15 = document.getElementById("q15");
 
 
 /* 
@@ -1244,7 +1247,7 @@ const alreadyAsked = []
 const mul_ans_alreadyAsked = []
 const selectedAnswers = []
 const mul_selectedAnswers = []
-questionCount = 12; //          <----- КІЛЬКІСТЬ ЗАПИТАНЬ
+questionCount = 15; //          <----- КІЛЬКІСТЬ ЗАПИТАНЬ
 let currentQuestionIndex = 0;
 let score = 0;
 var test_completed = false;
@@ -1283,7 +1286,7 @@ function startQuiz() {
 
 function showQuestion() {
     resetState();
-    if (currentQuestionIndex < 9) {
+    if (currentQuestionIndex < 12) {
         let randomQuestionIndex = Math.floor(Math.random()*questions.length);
         let currentQuestion = questions[randomQuestionIndex];
         while (alreadyAsked.includes(currentQuestion)) {
@@ -1378,7 +1381,7 @@ function showScore(){
 function handleNextButton(){
     currentQuestionIndex++;
     if (!test_completed){
-        if (currentQuestionIndex > 9) {
+        if (currentQuestionIndex > 12) {
             let currentQuestion = mul_ans_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
@@ -1418,7 +1421,7 @@ nextButton.addEventListener("click", ()=>{
 function showCorrectAnswer(id) {
     resetState();
     nextButton.style.display = "block";
-    if (id < 9) {
+    if (id < 12) {
         alreadyAsked[id].answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
@@ -1487,16 +1490,28 @@ q9.addEventListener("click", ()=> {
     showCorrectAnswer(8);
 });
 q10.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[0].question;
+    document.getElementById("question").src = alreadyAsked[9].question;
     showCorrectAnswer(9);
 });
 q11.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[1].question;
+    document.getElementById("question").src = alreadyAsked[10].question;
     showCorrectAnswer(10);
 });
 q12.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[2].question;
+    document.getElementById("question").src = alreadyAsked[11].question;
     showCorrectAnswer(11);
+});
+q13.addEventListener("click", ()=> {
+    document.getElementById("question").src = mul_ans_alreadyAsked[0].question;
+    showCorrectAnswer(12);
+});
+q14.addEventListener("click", ()=> {
+    document.getElementById("question").src = mul_ans_alreadyAsked[1].question;
+    showCorrectAnswer(13);
+});
+q15.addEventListener("click", ()=> {
+    document.getElementById("question").src = mul_ans_alreadyAsked[2].question;
+    showCorrectAnswer(14);
 });
 
 startQuiz();
