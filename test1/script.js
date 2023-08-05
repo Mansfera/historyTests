@@ -1755,15 +1755,15 @@ function selectAnswer(e) {
 function showScore(){
     resetState();
     if (score < 5) {
-        document.getElementById("question").src = "/grades/very_bad_grade.jpg";
+        document.getElementById("question").src = "/grades/very_bad.jpg";
     } else if (score < 10) {
-        document.getElementById("question").src = "/grades/bad_grade.jpg";
+        document.getElementById("question").src = "/grades/bad.jpg";
     } else if (score < 14) {
-        document.getElementById("question").src = "/grades/average_grade.jpg";
+        document.getElementById("question").src = "/grades/average.jpg";
     } else if (score < 16) {
-        document.getElementById("question").src = "/grades/good_grade.jpg";
+        document.getElementById("question").src = "/grades/good.jpg";
     } else if (score >= 16) {
-        document.getElementById("question").src = "/grades/very_good_grade.jpg";
+        document.getElementById("question").src = "/grades/very_good.jpg";
     }
     clearInterval(timerInterval);
     h2_title.innerHTML =`Ви набрали ${score} з ${questionCount} балів!`;
