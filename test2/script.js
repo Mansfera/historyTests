@@ -1,4 +1,3 @@
-
 const h2_title = document.getElementById("h2")
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -1368,7 +1367,17 @@ function selectAnswer(e) {
 
 function showScore(){
     resetState();
-    document.getElementById("question").src = "images/0.png";
+    if (score < 5) {
+        document.getElementById("question").src = "/grades/very_bad_grade.jpg";
+    } else if (score < 10) {
+        document.getElementById("question").src = "/grades/bad_grade.jpg";
+    } else if (score < 14) {
+        document.getElementById("question").src = "/grades/average_grade.jpg";
+    } else if (score < 16) {
+        document.getElementById("question").src = "/grades/good_grade.jpg";
+    } else if (score >= 16) {
+        document.getElementById("question").src = "/grades/very_good_grade.jpg";
+    }
     clearInterval(timerInterval);
     h2_title.innerHTML =`Ви набрали ${score} з ${questionCount} балів!`;
     nextButton. innerHTML = "Пройти знову"
