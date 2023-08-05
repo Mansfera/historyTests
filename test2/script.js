@@ -1035,210 +1035,96 @@ const mul_ans_questions = [
         question: "images/1-1.png",
         selected: "",
         correct: "3124",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-2.png",
         selected: "",
         correct: "3521",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-3.png",
         selected: "",
         correct: "4123",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-4.png",
         selected: "",
         correct: "5143",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-5.png",
         selected: "",
         correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-6.png",
         selected: "",
         correct: "4135",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-7.png",
         selected: "",
         correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-8.png",
         selected: "",
         correct: "1432",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-9.png",
         selected: "",
         correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-10.png",
         selected: "",
         correct: "5421",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-11.png",
         selected: "",
         correct: "3425",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-12.png",
         selected: "",
         correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-13.png",
         selected: "",
         correct: "5243",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-14.png",
         selected: "",
         correct: "4523",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-15.png",
         selected: "",
         correct: "4321",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-16.png",
         selected: "",
         correct: "4213",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-17.png",
         selected: "",
         correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-18.png",
         selected: "",
         correct: "3512",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/1-19.png",
         selected: "",
         correct: "4235",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     }
 ]
 

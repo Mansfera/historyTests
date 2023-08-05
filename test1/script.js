@@ -1464,172 +1464,52 @@ const mul_ans_questions = [
     {
         question: "images/1-1.png",
         selected: "",
-        correct: "3124",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "2431",
     },
     {
         question: "images/1-2.png",
         selected: "",
-        correct: "3521",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "3125",
     },
     {
         question: "images/1-3.png",
         selected: "",
-        correct: "4123",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "1423",
     },
     {
         question: "images/1-4.png",
         selected: "",
-        correct: "5143",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "ВБАГ",
     },
     {
         question: "images/1-5.png",
         selected: "",
-        correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "3215",
     },
     {
         question: "images/1-6.png",
         selected: "",
-        correct: "4135",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "4312",
     },
     {
         question: "images/1-7.png",
         selected: "",
-        correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "2531",
     },
     {
-        question: "images/1-8.png",
-        selected: "",
-        correct: "1432",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-9.png",
-        selected: "",
-        correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-10.png",
-        selected: "",
-        correct: "5421",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-11.png",
-        selected: "",
-        correct: "3425",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-12.png",
-        selected: "",
-        correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-13.png",
-        selected: "",
-        correct: "5243",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-14.png",
-        selected: "",
-        correct: "4523",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-15.png",
-        selected: "",
-        correct: "4321",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
-    },
-    {
-        question: "images/1-16.png",
+        question: "images/2-1.png",
         selected: "",
         correct: "4213",
+    },
+    {
+        question: "images/2-2.png",
+        selected: "",
+        correct: "4132",
+    },
+    {
+        question: "images/2-3.png",
+        selected: "",
+        correct: "3421",
         answers: [
             {text: "А"},
             {text: "Б"},
@@ -1638,37 +1518,114 @@ const mul_ans_questions = [
         ]
     },
     {
-        question: "images/1-17.png",
+        question: "images/2-4.png",
+        selected: "",
+        correct: "3421",
+    },
+    {
+        question: "images/2-4.png",
         selected: "",
         correct: "2431",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
-        question: "images/1-18.png",
+        question: "images/2-5.png",
         selected: "",
-        correct: "3512",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "2134",
     },
     {
-        question: "images/1-19.png",
+        question: "images/2-6.png",
         selected: "",
-        correct: "4235",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
+        correct: "2413",
+    },
+    {
+        question: "images/2-7.png",
+        selected: "",
+        correct: "2143",
+    },
+    {
+        question: "images/2-8.png",
+        selected: "",
+        correct: "3124",
+    },
+    {
+        question: "images/2-9.png",
+        selected: "",
+        correct: "1342",
+    },
+    {
+        question: "images/3-1.png",
+        selected: "",
+        correct: "247",
+    },
+    {
+        question: "images/3-2.png",
+        selected: "",
+        correct: "234",
+    },
+    {
+        question: "images/3-3.png",
+        selected: "",
+        correct: "357",
+    },
+    {
+        question: "images/3-4.png",
+        selected: "",
+        correct: "145",
+    },
+    {
+        question: "images/3-5.png",
+        selected: "",
+        correct: "146",
+    },
+    {
+        question: "images/3-6.png",
+        selected: "",
+        correct: "136",
+    },
+    {
+        question: "images/3-7.png",
+        selected: "",
+        correct: "345",
+    },
+    {
+        question: "images/3-8.png",
+        selected: "",
+        correct: "127",
+    },
+    {
+        question: "images/3-9.png",
+        selected: "",
+        correct: "145",
+    },
+    {
+        question: "images/3-10.png",
+        selected: "",
+        correct: "135",
+    },
+    {
+        question: "images/3-11.png",
+        selected: "",
+        correct: "156",
+    },
+    {
+        question: "images/3-12.png",
+        selected: "",
+        correct: "136",
+    },
+    {
+        question: "images/3-13.png",
+        selected: "",
+        correct: "146",
+    },
+    {
+        question: "images/3-14.png",
+        selected: "",
+        correct: "245",
+    },
+    {
+        question: "images/3-15.png",
+        selected: "",
+        correct: "126",
     }
 ]
 
@@ -1743,7 +1700,7 @@ function showQuestion() {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234";
+        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234, якщо хочете вказати 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ, якщо вам потрібно вибрати 3 правильні значення (наприклад 1,2,3), то вкажіть 123";
         let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
         let currentQuestion = mul_ans_questions[randomQuestionIndex];
         while (mul_ans_alreadyAsked.includes(currentQuestion)) {
