@@ -1499,17 +1499,17 @@ const mul_ans_questions = [
     {
         question: "images/2-1.png",
         selected: "",
-        correct: "4213",
+        correct: "ВБГА",
     },
     {
         question: "images/2-2.png",
         selected: "",
-        correct: "4132",
+        correct: "БГВА",
     },
     {
         question: "images/2-3.png",
         selected: "",
-        correct: "3421",
+        correct: "ГВАБ",
         answers: [
             {text: "А"},
             {text: "Б"},
@@ -1520,37 +1520,37 @@ const mul_ans_questions = [
     {
         question: "images/2-4.png",
         selected: "",
-        correct: "3421",
+        correct: "ГВАБ",
     },
     {
         question: "images/2-4.png",
         selected: "",
-        correct: "2431",
+        correct: "ГВАБ",
     },
     {
         question: "images/2-5.png",
         selected: "",
-        correct: "2134",
+        correct: "БАВГ",
     },
     {
         question: "images/2-6.png",
         selected: "",
-        correct: "2413",
+        correct: "ВАГБ",
     },
     {
         question: "images/2-7.png",
         selected: "",
-        correct: "2143",
+        correct: "БАГВ",
     },
     {
         question: "images/2-8.png",
         selected: "",
-        correct: "3124",
+        correct: "БВАГ",
     },
     {
         question: "images/2-9.png",
         selected: "",
-        correct: "1342",
+        correct: "АГБВ",
     },
     {
         question: "images/3-1.png",
@@ -1700,7 +1700,7 @@ function showQuestion() {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234, якщо хочете вказати 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ, якщо вам потрібно вибрати 3 правильні значення (наприклад 1,2,3), то вкажіть 123";
+        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234, якщо хочете вказати 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ, а якщо 3 правильні значення (наприклад 1,2,3), то вкажіть 123";
         let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
         let currentQuestion = mul_ans_questions[randomQuestionIndex];
         while (mul_ans_alreadyAsked.includes(currentQuestion)) {
