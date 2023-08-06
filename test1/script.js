@@ -1460,7 +1460,7 @@ const questions = [
     }
 ];
 
-const mul_ans_questions = [
+const vidpovidnist_questions = [
     {
         question: "images/1-1.png",
         selected: "",
@@ -1495,7 +1495,9 @@ const mul_ans_questions = [
         question: "images/1-7.png",
         selected: "",
         correct: "2531",
-    },
+    }
+]
+const hronology_questions = [
     {
         question: "images/2-1.png",
         selected: "",
@@ -1551,7 +1553,9 @@ const mul_ans_questions = [
         question: "images/2-9.png",
         selected: "",
         correct: "АГБВ",
-    },
+    }
+]
+const mul_ans_questions = [
     {
         question: "images/3-1.png",
         selected: "",
@@ -1630,9 +1634,13 @@ const mul_ans_questions = [
 ]
 
 const alreadyAsked = []
+const vidpovidnist_alreadyAsked = []
+const hronology_alreadyAsked = []
 const mul_ans_alreadyAsked = []
 const selectedAnswers = []
-const mul_selectedAnswers = []
+const vidpovidnist_selectedAnswers = []
+const hronology_selectedAnswers = []
+const mul_ans_selectedAnswers = []
 questionCount = 15; //          <----- КІЛЬКІСТЬ ЗАПИТАНЬ
 let currentQuestionIndex = 0;
 let score = 0;
@@ -1700,12 +1708,31 @@ function showQuestion() {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234, якщо хочете вказати 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ, а якщо 3 правильні значення (наприклад 1,2,3), то вкажіть 123";
-        let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
-        let currentQuestion = mul_ans_questions[randomQuestionIndex];
-        while (mul_ans_alreadyAsked.includes(currentQuestion)) {
-            randomQuestionIndex = Math.floor(Math.random()*questions.length);
-            currentQuestion = mul_ans_questions[RND_question];
+        let currentQuestion
+        if (currentQuestionIndex == 12) {
+            correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4, то впишіть 1234";
+            let randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length);
+            currentQuestion = vidpovidnist_questions[randomQuestionIndex];
+            while (vidpovidnist_alreadyAsked.includes(currentQuestion)) {
+                randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length);
+                currentQuestion = vidpovidnist_questions[RND_question];
+            }
+        } else if (currentQuestionIndex == 13) {
+            correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ";
+            let randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length);
+            currentQuestion = hronology_questions[randomQuestionIndex];
+            while (hronology_alreadyAsked.includes(currentQuestion)) {
+                randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length);
+                currentQuestion = hronology_questions[RND_question];
+            }
+        } else {
+            correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 3, 4, 5, то вкажіть 345";
+            let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
+            currentQuestion = mul_ans_questions[randomQuestionIndex];
+            while (mul_ans_alreadyAsked.includes(currentQuestion)) {
+                randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
+                currentQuestion = mul_ans_questions[RND_question];
+            }
         }
         RND_question = randomQuestionIndex;
         let questionNo = currentQuestionIndex + 1;
@@ -1777,7 +1804,41 @@ function showScore(){
 function handleNextButton(){
     currentQuestionIndex++;
     if (!test_completed){
-        if (currentQuestionIndex > 12) {
+        if (currentQuestionIndex == 12) {
+            let currentQuestion = vidpovidnist_questions[RND_question];
+            const q_id = document.getElementById("q"+currentQuestionIndex);
+            currentQuestion.selected = answer_field.value;
+            if(currentQuestion.selected == currentQuestion.correct) {
+                answer_field.classList.add("correct");
+                score = score +3;
+                q_id.classList.add("correct");
+                selectedAnswers.push(answer_field);
+                vidpovidnist_selectedAnswers.push(answer_field.value);
+            } else {
+                answer_field.classList.add("incorrect");
+                selectedAnswers.push(answer_field);
+                vidpovidnist_selectedAnswers.push(answer_field.value);
+                q_id.classList.add("incorrect");
+            }
+            vidpovidnist_alreadyAsked.push(currentQuestion);
+        } else if (currentQuestionIndex == 13) {
+            let currentQuestion = hronology_questions[RND_question];
+            const q_id = document.getElementById("q"+currentQuestionIndex);
+            currentQuestion.selected = answer_field.value;
+            if(currentQuestion.selected == currentQuestion.correct) {
+                answer_field.classList.add("correct");
+                score = score +3;
+                q_id.classList.add("correct");
+                selectedAnswers.push(answer_field);
+                hronology_selectedAnswers.push(answer_field.value);
+            } else {
+                answer_field.classList.add("incorrect");
+                selectedAnswers.push(answer_field);
+                hronology_selectedAnswers.push(answer_field.value);
+                q_id.classList.add("incorrect");
+            }
+            hronology_alreadyAsked.push(currentQuestion);
+        } else if (currentQuestionIndex == 14) {
             let currentQuestion = mul_ans_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
@@ -1786,15 +1847,15 @@ function handleNextButton(){
                 score = score +3;
                 q_id.classList.add("correct");
                 selectedAnswers.push(answer_field);
-                mul_selectedAnswers.push(answer_field.value);
+                mul_ans_selectedAnswers.push(answer_field.value);
             } else {
                 answer_field.classList.add("incorrect");
                 selectedAnswers.push(answer_field);
-                mul_selectedAnswers.push(answer_field.value);
+                mul_ans_selectedAnswers.push(answer_field.value);
                 q_id.classList.add("incorrect");
             }
             mul_ans_alreadyAsked.push(currentQuestion);
-        };
+        }
         if(currentQuestionIndex < questionCount) {
             showQuestion();
         } else {
@@ -1838,14 +1899,14 @@ function showCorrectAnswer(id) {
     } else {
         answer_field.style.display = "block";
         answer_field.disabled = true;
-        if (mul_ans_alreadyAsked[id-9].selected == mul_ans_alreadyAsked[id-9].correct) {
+        if (vidpovidnist_alreadyAsked[id-9].selected == vidpovidnist_alreadyAsked[id-9].correct) {
             answer_field.classList.add("correct");
         } else {
             answer_field.classList.add("incorrect");
             correct_answer.style.display = "block";
-            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[id-9].correct;
+            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[id-9].correct;
         }
-        answer_field.value = mul_selectedAnswers[id-9];
+        answer_field.value = vidpovidnist_selectedAnswers[id-9];
     }
 }
 
@@ -1898,15 +1959,15 @@ q12.addEventListener("click", ()=> {
     showCorrectAnswer(11);
 });
 q13.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[0].question;
+    document.getElementById("question").src = vidpovidnist_alreadyAsked[0].question;
     showCorrectAnswer(12);
 });
 q14.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[1].question;
+    document.getElementById("question").src = vidpovidnist_alreadyAsked[1].question;
     showCorrectAnswer(13);
 });
 q15.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[2].question;
+    document.getElementById("question").src = vidpovidnist_alreadyAsked[2].question;
     showCorrectAnswer(14);
 });
 
