@@ -1643,9 +1643,9 @@ let RND_question = 0;
 
 let startingMinutes = 15;
 let time = startingMinutes * 60;
+let timerInterval;
 startTime = time;
 const countdownEl = document.getElementById('timer');
-const timerInterval = setInterval(updateCountdown, 1000);
 function updateCountdown() {
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
@@ -1667,8 +1667,8 @@ function updateCountdown() {
 
 function startQuiz() {
     test_completed = false;
-    startingMinutes = 15;
-    setInterval(timerInterval);
+    time = startingMinutes * 60;
+    timerInterval = setInterval(updateCountdown, 1000);
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Наступне запитання";
@@ -1849,7 +1849,7 @@ function handleNextButton(){
             currentQuestion = hronology_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
-            if(currentQuestion.selected.toUpperCase == currentQuestion.correct.toUpperCase) {
+            if(currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct) {
                 answer_field.classList.add("correct");
                 score = score +3;
                 q_id.classList.add("correct");
@@ -1917,7 +1917,7 @@ function showCorrectAnswer(id) {
             button.dataset.correct = answer.correct;
         }
         const isCorrect = button.dataset.correct === "true";
-        if(alreadyAsked[id].selected === button.innerHTML) {
+        if(alreadyAsked[id].selected.toLocaleUpperCase() === button.innerHTML) {
             button.classList.add("incorrect");
         } 
         if(isCorrect) {
@@ -1939,7 +1939,7 @@ function showCorrectAnswer(id) {
     } else if (id == 13) {
         answer_field.style.display = "block";
         answer_field.disabled = true;
-        if (hronology_alreadyAsked[0].selected.toUpperCase == hronology_alreadyAsked[0].correct.toUpperCase) {
+        if (hronology_alreadyAsked[0].selected.toLocaleUpperCase() == hronology_alreadyAsked[0].correct) {
             answer_field.classList.add("correct");
         } else {
             answer_field.classList.add("incorrect");
