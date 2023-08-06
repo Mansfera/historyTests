@@ -1640,7 +1640,7 @@ const mul_ans_alreadyAsked = []
 const selectedAnswers = []
 const vidpovidnist_selectedAnswers = []
 const hronology_selectedAnswers = []
-const mul_ans_selectedAnswers = []
+const mul_selectedAnswers = []
 questionCount = 15; //          <----- КІЛЬКІСТЬ ЗАПИТАНЬ
 let currentQuestionIndex = 0;
 let score = 0;
@@ -1804,8 +1804,9 @@ function showScore(){
 function handleNextButton(){
     currentQuestionIndex++;
     if (!test_completed){
+        let currentQuestion;
         if (currentQuestionIndex == 12) {
-            let currentQuestion = vidpovidnist_questions[RND_question];
+            currentQuestion = vidpovidnist_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
             if(currentQuestion.selected == currentQuestion.correct) {
@@ -1822,7 +1823,7 @@ function handleNextButton(){
             }
             vidpovidnist_alreadyAsked.push(currentQuestion);
         } else if (currentQuestionIndex == 13) {
-            let currentQuestion = hronology_questions[RND_question];
+            currentQuestion = hronology_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
             if(currentQuestion.selected == currentQuestion.correct) {
@@ -1839,7 +1840,7 @@ function handleNextButton(){
             }
             hronology_alreadyAsked.push(currentQuestion);
         } else if (currentQuestionIndex == 14) {
-            let currentQuestion = mul_ans_questions[RND_question];
+            currentQuestion = mul_ans_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
             if(currentQuestion.selected == currentQuestion.correct) {
@@ -1847,11 +1848,11 @@ function handleNextButton(){
                 score = score +3;
                 q_id.classList.add("correct");
                 selectedAnswers.push(answer_field);
-                mul_ans_selectedAnswers.push(answer_field.value);
+                mul_selectedAnswers.push(answer_field.value);
             } else {
                 answer_field.classList.add("incorrect");
                 selectedAnswers.push(answer_field);
-                mul_ans_selectedAnswers.push(answer_field.value);
+                mul_selectedAnswers.push(answer_field.value);
                 q_id.classList.add("incorrect");
             }
             mul_ans_alreadyAsked.push(currentQuestion);
@@ -1963,11 +1964,11 @@ q13.addEventListener("click", ()=> {
     showCorrectAnswer(12);
 });
 q14.addEventListener("click", ()=> {
-    document.getElementById("question").src = vidpovidnist_alreadyAsked[1].question;
+    document.getElementById("question").src = hronology_alreadyAsked[0].question;
     showCorrectAnswer(13);
 });
 q15.addEventListener("click", ()=> {
-    document.getElementById("question").src = vidpovidnist_alreadyAsked[2].question;
+    document.getElementById("question").src = mul_ans_alreadyAsked[0].question;
     showCorrectAnswer(14);
 });
 
