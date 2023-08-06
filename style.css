@@ -31,3 +31,9 @@ body {
     border-radius: 20px;
     overflow: hidden;
 }
+.version {
+    color: lightblue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
