@@ -1669,7 +1669,7 @@ function startQuiz() {
     test_completed = false;
     startingMinutes = 15;
     setInterval(timerInterval);
-    currentQuestionIndex = 11;
+    currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Наступне запитання";
     answer_field.style.display = "none";
