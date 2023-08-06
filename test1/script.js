@@ -1512,12 +1512,6 @@ const hronology_questions = [
         question: "images/2-3.png",
         selected: "",
         correct: "ГВАБ",
-        answers: [
-            {text: "А"},
-            {text: "Б"},
-            {text: "В"},
-            {text: "Г"},
-        ]
     },
     {
         question: "images/2-4.png",
@@ -1633,21 +1627,21 @@ const mul_ans_questions = [
     }
 ]
 
-const alreadyAsked = []
-const vidpovidnist_alreadyAsked = []
-const hronology_alreadyAsked = []
-const mul_ans_alreadyAsked = []
-const selectedAnswers = []
-const vidpovidnist_selectedAnswers = []
-const hronology_selectedAnswers = []
-const mul_selectedAnswers = []
+let alreadyAsked = []
+let vidpovidnist_alreadyAsked = []
+let hronology_alreadyAsked = []
+let mul_ans_alreadyAsked = []
+let selectedAnswers = []
+let vidpovidnist_selectedAnswers = []
+let hronology_selectedAnswers = []
+let mul_selectedAnswers = []
 questionCount = 15; //          <----- КІЛЬКІСТЬ ЗАПИТАНЬ
 let currentQuestionIndex = 0;
 let score = 0;
 var test_completed = false;
 let RND_question = 0;
 
-const startingMinutes = 15;
+let startingMinutes = 15;
 let time = startingMinutes * 60;
 startTime = time;
 const countdownEl = document.getElementById('timer');
@@ -1672,9 +1666,24 @@ function updateCountdown() {
 }
 
 function startQuiz() {
-    currentQuestionIndex = 0;
+    test_completed = false;
+    startingMinutes = 15;
+    setInterval(timerInterval);
+    currentQuestionIndex = 11;
     score = 0;
     nextButton.innerHTML = "Наступне запитання";
+    answer_field.style.display = "none";
+    answer_field.disabled = false;
+    correct_answer.style.display = "none";
+    block_answers.style.display = "none";
+    alreadyAsked = []
+    vidpovidnist_alreadyAsked = []
+    hronology_alreadyAsked = []
+    mul_ans_alreadyAsked = []
+    selectedAnswers = []
+    vidpovidnist_selectedAnswers = []
+    hronology_selectedAnswers = []
+    mul_selectedAnswers = []
     showQuestion();
 }
 
@@ -1708,38 +1717,49 @@ function showQuestion() {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        let currentQuestion
         if (currentQuestionIndex == 12) {
             correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4, то впишіть 1234";
             let randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length);
-            currentQuestion = vidpovidnist_questions[randomQuestionIndex];
+            let currentQuestion = vidpovidnist_questions[randomQuestionIndex];
             while (vidpovidnist_alreadyAsked.includes(currentQuestion)) {
-                randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length);
+                randomQuestionIndex = Math.floor(Math.random()*questions.length);
                 currentQuestion = vidpovidnist_questions[RND_question];
             }
+            RND_question = randomQuestionIndex;
+            let questionNo = currentQuestionIndex + 1;
+            h2_title.innerHTML = "Питання №"+questionNo;
+
+            document.getElementById("question").src = currentQuestion.question;
+            answer_field.style.display = "block";
         } else if (currentQuestionIndex == 13) {
             correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ";
             let randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length);
-            currentQuestion = hronology_questions[randomQuestionIndex];
+            let currentQuestion = hronology_questions[randomQuestionIndex];
             while (hronology_alreadyAsked.includes(currentQuestion)) {
                 randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length);
                 currentQuestion = hronology_questions[RND_question];
             }
+            RND_question = randomQuestionIndex;
+            let questionNo = currentQuestionIndex + 1;
+            h2_title.innerHTML = "Питання №"+questionNo;
+
+            document.getElementById("question").src = currentQuestion.question;
+            answer_field.style.display = "block";
         } else {
             correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 3, 4, 5, то вкажіть 345";
             let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
-            currentQuestion = mul_ans_questions[randomQuestionIndex];
+            let currentQuestion = mul_ans_questions[randomQuestionIndex];
             while (mul_ans_alreadyAsked.includes(currentQuestion)) {
                 randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
                 currentQuestion = mul_ans_questions[RND_question];
             }
-        }
-        RND_question = randomQuestionIndex;
-        let questionNo = currentQuestionIndex + 1;
-        h2_title.innerHTML = "Питання №"+questionNo;
+            RND_question = randomQuestionIndex;
+            let questionNo = currentQuestionIndex + 1;
+            h2_title.innerHTML = "Питання №"+questionNo;
 
-        document.getElementById("question").src = currentQuestion.question;
-        answer_field.style.display = "block";
+            document.getElementById("question").src = currentQuestion.question;
+            answer_field.style.display = "block";
+        }
     }
 }
 
@@ -1805,7 +1825,7 @@ function handleNextButton(){
     currentQuestionIndex++;
     if (!test_completed){
         let currentQuestion;
-        if (currentQuestionIndex == 12) {
+        if (currentQuestionIndex == 13) {
             currentQuestion = vidpovidnist_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
@@ -1822,11 +1842,14 @@ function handleNextButton(){
                 q_id.classList.add("incorrect");
             }
             vidpovidnist_alreadyAsked.push(currentQuestion);
-        } else if (currentQuestionIndex == 13) {
+        }
+        
+        
+        else if (currentQuestionIndex == 14) {
             currentQuestion = hronology_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
-            if(currentQuestion.selected == currentQuestion.correct) {
+            if(currentQuestion.selected.toUpperCase == currentQuestion.correct.toUpperCase) {
                 answer_field.classList.add("correct");
                 score = score +3;
                 q_id.classList.add("correct");
@@ -1839,7 +1862,10 @@ function handleNextButton(){
                 q_id.classList.add("incorrect");
             }
             hronology_alreadyAsked.push(currentQuestion);
-        } else if (currentQuestionIndex == 14) {
+        } 
+        
+        
+        else if (currentQuestionIndex == 15) {
             currentQuestion = mul_ans_questions[RND_question];
             const q_id = document.getElementById("q"+currentQuestionIndex);
             currentQuestion.selected = answer_field.value;
@@ -1857,13 +1883,15 @@ function handleNextButton(){
             }
             mul_ans_alreadyAsked.push(currentQuestion);
         }
+
+
         if(currentQuestionIndex < questionCount) {
             showQuestion();
         } else {
             showScore();
         }
     } else {
-        location.reload();
+        startQuiz();
     }
     
 }
@@ -1897,17 +1925,39 @@ function showCorrectAnswer(id) {
         }
         button.disabled = true;
         });
-    } else {
+    } else if (id == 12) {
         answer_field.style.display = "block";
         answer_field.disabled = true;
-        if (vidpovidnist_alreadyAsked[id-9].selected == vidpovidnist_alreadyAsked[id-9].correct) {
+        if (vidpovidnist_alreadyAsked[0].selected == vidpovidnist_alreadyAsked[0].correct) {
             answer_field.classList.add("correct");
         } else {
             answer_field.classList.add("incorrect");
             correct_answer.style.display = "block";
-            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[id-9].correct;
+            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[0].correct;
         }
-        answer_field.value = vidpovidnist_selectedAnswers[id-9];
+        answer_field.value = vidpovidnist_selectedAnswers[0];
+    } else if (id == 13) {
+        answer_field.style.display = "block";
+        answer_field.disabled = true;
+        if (hronology_alreadyAsked[0].selected.toUpperCase == hronology_alreadyAsked[0].correct.toUpperCase) {
+            answer_field.classList.add("correct");
+        } else {
+            answer_field.classList.add("incorrect");
+            correct_answer.style.display = "block";
+            correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[0].correct;
+        }
+        answer_field.value = hronology_selectedAnswers[0];
+    } else if (id == 14) {
+        answer_field.style.display = "block";
+        answer_field.disabled = true;
+        if (mul_ans_alreadyAsked[0].selected == mul_ans_alreadyAsked[0].correct) {
+            answer_field.classList.add("correct");
+        } else {
+            answer_field.classList.add("incorrect");
+            correct_answer.style.display = "block";
+            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[0].correct;
+        }
+        answer_field.value = mul_selectedAnswers[0];
     }
 }
 
