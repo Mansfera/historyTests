@@ -1479,7 +1479,7 @@ const vidpovidnist_questions = [
     {
         question: "images/1-4.png",
         selected: "",
-        correct: "ВБАГ",
+        correct: "3214",
     },
     {
         question: "images/1-5.png",
@@ -1817,7 +1817,7 @@ function showScore(){
         document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg";
     }
     clearInterval(timerInterval);
-    h2_title.innerHTML =`Ви набрали ${score} з ${questionCount} балів!`;
+    h2_title.innerHTML =`Ви набрали ${score} з 21 балу!`;
     nextButton. innerHTML = "Пройти знову"
     nextButton.style.display = "block";
     test_completed = true;
