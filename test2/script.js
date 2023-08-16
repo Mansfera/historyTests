@@ -1138,6 +1138,7 @@ let score = 0;
 var test_completed = false;
 let RND_question = 0;
 
+var today = new Date();
 const startingMinutes = 15;
 let time = startingMinutes * 60;
 startTime = time;
@@ -1160,18 +1161,29 @@ function updateCountdown() {
     if (time < startTime/4) {
         document.getElementById('timerDiv').style.background = "#f35b5b";
     }
+
     
-    var today = new Date();
     var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' '+time;
+    var time_str = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time_str;
     document.getElementById("date").innerHTML = dateTime;
 }
 
 function startQuiz() {
+    test_completed = false;
+    time = startingMinutes * 60;
+    timerInterval = setInterval(updateCountdown, 1000);
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Наступне запитання";
+    answer_field.style.display = "none";
+    answer_field.disabled = false;
+    correct_answer.style.display = "none";
+    block_answers.style.display = "none";
+    alreadyAsked = []
+    mul_ans_alreadyAsked = []
+    selectedAnswers = []
+    mul_selectedAnswers = []
     showQuestion();
 }
 
@@ -1310,7 +1322,7 @@ function handleNextButton(){
             showScore();
         }
     } else {
-        location.reload();
+        startQuiz();
     }
     
 }

@@ -1641,6 +1641,7 @@ let score = 0;
 var test_completed = false;
 let RND_question = 0;
 
+var today = new Date();
 let startingMinutes = 15;
 let time = startingMinutes * 60;
 let timerInterval;
@@ -1664,10 +1665,9 @@ function updateCountdown() {
         document.getElementById('timerDiv').style.background = "#f35b5b";
     }
 
-    var today = new Date();
     var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' '+time;
+    var time_str = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time_str;
     document.getElementById("date").innerHTML = dateTime;
 }
 
@@ -1691,7 +1691,6 @@ function startQuiz() {
     hronology_selectedAnswers = []
     mul_selectedAnswers = []
     showQuestion();
-
 }
 
 function showQuestion() {
