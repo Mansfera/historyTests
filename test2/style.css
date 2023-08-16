@@ -58,6 +58,11 @@ body {
     color: white;
 }
 
+.date {
+    text-align: center;
+    color: #51bbf4;
+}
+
 .app {
     background: white;
     width: 90%;

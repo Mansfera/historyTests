@@ -1663,6 +1663,12 @@ function updateCountdown() {
     if (time < startTime/4) {
         document.getElementById('timerDiv').style.background = "#f35b5b";
     }
+
+    var today = new Date();
+    var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time;
+    document.getElementById("date").innerHTML = dateTime;
 }
 
 function startQuiz() {
@@ -1685,6 +1691,7 @@ function startQuiz() {
     hronology_selectedAnswers = []
     mul_selectedAnswers = []
     showQuestion();
+
 }
 
 function showQuestion() {

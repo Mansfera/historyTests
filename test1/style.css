@@ -8,7 +8,6 @@
 body {
     background: #e6f4f4;
 }
-
 .exit_btn {
     margin: 20px 20px;
     border: none;
@@ -56,6 +55,11 @@ body {
     position: relative;
     top: 12px;
     color: white;
+}
+
+.date {
+    text-align: center;
+    color: #51bbf4;
 }
 
 .app {
