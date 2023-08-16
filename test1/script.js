@@ -1768,7 +1768,7 @@ function showQuestion() {
         }
     }
     const q_info_str = document.getElementById("question").src;
-    const cut_q_info_str = q_info_str.slice(27, -4);
+    const cut_q_info_str = q_info_str.slice(36, -4);
     const q_info_num = cut_q_info_str.match(/\d+/g);
     document.getElementById("q_info").innerHTML = ""+q_info_num;
 }
