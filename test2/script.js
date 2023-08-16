@@ -128,7 +128,6 @@ const questions = [
         ]
     },
         {
-        selected: 0,
         selected: "",
         question: "images/9.png",
         answers: [
@@ -1128,22 +1127,20 @@ const mul_ans_questions = [
     }
 ]
 
-const alreadyAsked = []
-const mul_ans_alreadyAsked = []
-const selectedAnswers = []
-const mul_selectedAnswers = []
-questionCount = 15; //          <----- КІЛЬКІСТЬ ЗАПИТАНЬ
+let alreadyAsked = []
+let mul_ans_alreadyAsked = []
+let selectedAnswers = []
+let mul_selectedAnswers = []
+questionCount = 15;
 let currentQuestionIndex = 0;
 let score = 0;
 var test_completed = false;
 let RND_question = 0;
 
-var today = new Date();
-const startingMinutes = 15;
+let startingMinutes = 15;
 let time = startingMinutes * 60;
 startTime = time;
 const countdownEl = document.getElementById('timer');
-const timerInterval = setInterval(updateCountdown, 1000);
 function updateCountdown() {
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
@@ -1162,7 +1159,7 @@ function updateCountdown() {
         document.getElementById('timerDiv').style.background = "#f35b5b";
     }
 
-    
+    var today = new Date();
     var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
     var time_str = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     var dateTime = date+' '+time_str;
