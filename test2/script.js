@@ -1213,6 +1213,10 @@ function showQuestion() {
         document.getElementById("question").src = currentQuestion.question;
         answer_field.style.display = "block";
     }
+    const q_info_str = document.getElementById("question").src;
+    const cut_q_info_str = q_info_str.slice(27, -4);
+    const q_info_num = cut_q_info_str.match(/\d+/g);
+    document.getElementById("q_info").innerHTML = ""+q_info_num;
 }
 
 function resetState() {
@@ -1346,6 +1350,10 @@ function showCorrectAnswer(id) {
         }
         answer_field.value = mul_selectedAnswers[id-9];
     }
+    const q_info_str = document.getElementById("question").src;
+    const cut_q_info_str = q_info_str.slice(27, -4);
+    const q_info_num = cut_q_info_str.match(/\d+/g);
+    document.getElementById("q_info").innerHTML = ""+q_info_num;
 }
 
 q1.addEventListener("click", ()=> {

@@ -171,3 +171,9 @@ body {
 .selected {
     background: #a1a1a1;
 }
+.q_info {
+    color: rgb(186, 221, 233);
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
