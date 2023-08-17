@@ -1,24 +1,24 @@
 const h2_title = document.getElementById("h2")
-const answerButtons = document.getElementById("answer-buttons");
-const nextButton = document.getElementById("next-btn");
-const block_answers = document.getElementById("block_answers");
-const answer_field = document.getElementById("text_input");
-const correct_answer = document.getElementById("correct_answer");
-const q1 = document.getElementById("q1");
-const q2 = document.getElementById("q2");
-const q3 = document.getElementById("q3");
-const q4 = document.getElementById("q4");
-const q5 = document.getElementById("q5");
-const q6 = document.getElementById("q6");
-const q7 = document.getElementById("q7");
-const q8 = document.getElementById("q8");
-const q9 = document.getElementById("q9");
-const q10 = document.getElementById("q10");
-const q11 = document.getElementById("q11");
-const q12 = document.getElementById("q12");
-const q13 = document.getElementById("q13");
-const q14 = document.getElementById("q14");
-const q15 = document.getElementById("q15");
+const answerButtons = document.getElementById("answer-buttons")
+const nextButton = document.getElementById("next-btn")
+const block_answers = document.getElementById("block_answers")
+const answer_field = document.getElementById("text_input")
+const correct_answer = document.getElementById("correct_answer")
+const q1 = document.getElementById("q1")
+const q2 = document.getElementById("q2")
+const q3 = document.getElementById("q3")
+const q4 = document.getElementById("q4")
+const q5 = document.getElementById("q5")
+const q6 = document.getElementById("q6")
+const q7 = document.getElementById("q7")
+const q8 = document.getElementById("q8")
+const q9 = document.getElementById("q9")
+const q10 = document.getElementById("q10")
+const q11 = document.getElementById("q11")
+const q12 = document.getElementById("q12")
+const q13 = document.getElementById("q13")
+const q14 = document.getElementById("q14")
+const q15 = document.getElementById("q15")
 
 
 /* 
@@ -1131,305 +1131,305 @@ let alreadyAsked = []
 let mul_ans_alreadyAsked = []
 let selectedAnswers = []
 let mul_selectedAnswers = []
-questionCount = 15;
-let currentQuestionIndex = 0;
-let score = 0;
-var test_completed = false;
-let RND_question = 0;
+questionCount = 15
+let currentQuestionIndex = 0
+let score = 0
+var test_completed = false
+let RND_question = 0
 
-let startingMinutes = 15;
-let time = startingMinutes * 60;
-startTime = time;
-const countdownEl = document.getElementById('timer');
+let startingMinutes = 15
+let time = startingMinutes * 60
+startTime = time
+const countdownEl = document.getElementById('timer')
 function updateCountdown() {
-    const minutes = Math.floor(time / 60);
-    let seconds = time % 60;
-    seconds = seconds < 10 ? '0' + seconds : seconds;
-    countdownEl.innerHTML =`Часу залишилося: ${minutes}:${seconds}`;
+    const minutes = Math.floor(time / 60)
+    let seconds = time % 60
+    seconds = seconds < 10 ? '0' + seconds : seconds
+    countdownEl.innerHTML =`Часу залишилося: ${minutes}:${seconds}`
     if (time == 0) {
-        showScore();
-        clearInterval(timerInterval);
-        countdownEl.innerHTML = "Час вийшов!";
+        showScore()
+        clearInterval(timerInterval)
+        countdownEl.innerHTML = "Час вийшов!"
     } else {
-        time--;
+        time--
     }if (time < startTime/2) {
-        document.getElementById('timerDiv').style.background = "#f7c510";
+        document.getElementById('timerDiv').style.background = "#f7c510"
     }
     if (time < startTime/4) {
-        document.getElementById('timerDiv').style.background = "#f35b5b";
+        document.getElementById('timerDiv').style.background = "#f35b5b"
     }
 
-    var today = new Date();
-    var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
-    var time_str = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' '+time_str;
-    document.getElementById("date").innerHTML = dateTime;
+    var today = new Date()
+    var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()
+    var time_str = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
+    var dateTime = date+' '+time_str
+    document.getElementById("date").innerHTML = dateTime
 }
 
 function startQuiz() {
-    test_completed = false;
-    time = startingMinutes * 60;
-    timerInterval = setInterval(updateCountdown, 1000);
-    currentQuestionIndex = 0;
-    score = 0;
-    nextButton.innerHTML = "Наступне запитання";
-    answer_field.style.display = "none";
-    answer_field.disabled = false;
-    correct_answer.style.display = "none";
-    block_answers.style.display = "none";
+    test_completed = false
+    time = startingMinutes * 60
+    timerInterval = setInterval(updateCountdown, 1000)
+    currentQuestionIndex = 0
+    score = 0
+    nextButton.innerHTML = "Наступне запитання"
+    answer_field.style.display = "none"
+    answer_field.disabled = false
+    correct_answer.style.display = "none"
+    block_answers.style.display = "none"
     alreadyAsked = []
     mul_ans_alreadyAsked = []
     selectedAnswers = []
     mul_selectedAnswers = []
-    showQuestion();
+    showQuestion()
 }
 
 function showQuestion() {
-    resetState();
+    resetState()
     if (currentQuestionIndex < 12) {
-        let randomQuestionIndex = Math.floor(Math.random()*questions.length);
-        let currentQuestion = questions[randomQuestionIndex];
+        let randomQuestionIndex = Math.floor(Math.random()*questions.length)
+        let currentQuestion = questions[randomQuestionIndex]
         while (alreadyAsked.includes(currentQuestion)) {
-            randomQuestionIndex = Math.floor(Math.random()*questions.length);
-            currentQuestion = questions[RND_question];
+            randomQuestionIndex = Math.floor(Math.random()*questions.length)
+            currentQuestion = questions[randomQuestionIndex]
         }
-        RND_question = randomQuestionIndex;
-        let questionNo = currentQuestionIndex + 1;
+        RND_question = randomQuestionIndex
+        let questionNo = currentQuestionIndex + 1
         h2_title.innerHTML = "Питання №"+questionNo
 
-        document.getElementById("question").src = currentQuestion.question;
+        document.getElementById("question").src = currentQuestion.question
 
         currentQuestion.answers.forEach(answer => {
-            const button = document.createElement("button");
-            button.innerHTML = answer.text;
-            button.classList.add("btn");
-            answerButtons.appendChild(button);
+            const button = document.createElement("button")
+            button.innerHTML = answer.text
+            button.classList.add("btn")
+            answerButtons.appendChild(button)
             if (answer.correct) {
-                button.dataset.correct = answer.correct;
+                button.dataset.correct = answer.correct
             }
-            button.addEventListener("click" , selectAnswer);
-        });
+            button.addEventListener("click" , selectAnswer)
+        })
     }
     else {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234";
-        let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length);
-        let currentQuestion = mul_ans_questions[randomQuestionIndex];
+        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234"
+        let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length)
+        let currentQuestion = mul_ans_questions[randomQuestionIndex]
         while (mul_ans_alreadyAsked.includes(currentQuestion)) {
-            randomQuestionIndex = Math.floor(Math.random()*questions.length);
-            currentQuestion = mul_ans_questions[RND_question];
+            randomQuestionIndex = Math.floor(Math.random()*questions.length)
+            currentQuestion = mul_ans_questions[randomQuestionIndex]
         }
-        RND_question = randomQuestionIndex;
-        let questionNo = currentQuestionIndex + 1;
-        h2_title.innerHTML = "Питання №"+questionNo;
+        RND_question = randomQuestionIndex
+        let questionNo = currentQuestionIndex + 1
+        h2_title.innerHTML = "Питання №"+questionNo
 
-        document.getElementById("question").src = currentQuestion.question;
-        answer_field.style.display = "block";
+        document.getElementById("question").src = currentQuestion.question
+        answer_field.style.display = "block"
     }
-    const q_info_str = document.getElementById("question").src;
-    const cut_q_info_str = q_info_str.slice(36, -4);
-    const q_info_num = cut_q_info_str.match(/\d+/g);
-    document.getElementById("q_info").innerHTML = ""+q_info_num;
+    const q_info_str = document.getElementById("question").src
+    const cut_q_info_str = q_info_str.slice(36, -4)
+    const q_info_num = cut_q_info_str.match(/\d+/g)
+    document.getElementById("q_info").innerHTML = ""+q_info_num
 }
 
 function resetState() {
-    answer_field.value = "";
-    answer_field.style.display = "none";
-    answer_field.classList.remove("correct");
-    answer_field.classList.remove("incorrect");
-    correct_answer.style.display = "none";
-    nextButton.style.display = "none";
+    answer_field.value = ""
+    answer_field.style.display = "none"
+    answer_field.classList.remove("correct")
+    answer_field.classList.remove("incorrect")
+    correct_answer.style.display = "none"
+    nextButton.style.display = "none"
     while(answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild);
+        answerButtons.removeChild(answerButtons.firstChild)
     }
 }
 
 function selectAnswer(e) {
-    let currentQuestion = questions[RND_question];
-    const q_id = document.getElementById("q"+(currentQuestionIndex+1));
-    const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
+    let currentQuestion = questions[RND_question]
+    const q_id = document.getElementById("q"+(currentQuestionIndex+1))
+    const selectedBtn = e.target
+    const isCorrect = selectedBtn.dataset.correct === "true"
     if(isCorrect) {
-        selectedBtn.classList.add("correct");
-        selectedAnswers.push(selectedBtn);
-        score++;
+        selectedBtn.classList.add("correct")
+        selectedAnswers.push(selectedBtn)
+        score++
         q_id.classList.add("correct")
     } else {
-        selectedBtn.classList.add("incorrect");
-        selectedAnswers.push(selectedBtn);
-        q_id.classList.add("incorrect");
+        selectedBtn.classList.add("incorrect")
+        selectedAnswers.push(selectedBtn)
+        q_id.classList.add("incorrect")
     }
-    selectedBtn.classList.add("selected");
+    selectedBtn.classList.add("selected")
     Array.from(answerButtons.children).forEach(button => {
-        button.disabled = true;
-    });
-    currentQuestion.selected = selectedBtn.innerHTML;
-    alreadyAsked.push(currentQuestion);
-    nextButton.style.display = "block";
+        button.disabled = true
+    })
+    currentQuestion.selected = selectedBtn.innerHTML
+    alreadyAsked.push(currentQuestion)
+    nextButton.style.display = "block"
 }
 
 function showScore(){
-    resetState();
+    resetState()
     if (score < 5) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_bad.jpg";
+        document.getElementById("question").src = "/siteHistoryTests/grades/very_bad.jpg"
     } else if (score < 10) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/bad.jpg";
+        document.getElementById("question").src = "/siteHistoryTests/grades/bad.jpg"
     } else if (score < 14) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/average.jpg";
+        document.getElementById("question").src = "/siteHistoryTests/grades/average.jpg"
     } else if (score < 16) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/good.jpg";
+        document.getElementById("question").src = "/siteHistoryTests/grades/good.jpg"
     } else if (score >= 16) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg";
+        document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg"
     }
-    clearInterval(timerInterval);
-    h2_title.innerHTML =`Ви набрали ${score} з ${questionCount} балів!`;
+    clearInterval(timerInterval)
+    h2_title.innerHTML =`Ви набрали ${score} з ${questionCount} балів!`
     nextButton. innerHTML = "Пройти знову"
-    nextButton.style.display = "block";
-    test_completed = true;
-    block_answers.style.display = "block";
-    answer_field.style.display = "none";
+    nextButton.style.display = "block"
+    test_completed = true
+    block_answers.style.display = "block"
+    answer_field.style.display = "none"
 }
 
 function handleNextButton(){
-    currentQuestionIndex++;
+    currentQuestionIndex++
     if (!test_completed){
         if (currentQuestionIndex > 12) {
-            let currentQuestion = mul_ans_questions[RND_question];
-            const q_id = document.getElementById("q"+currentQuestionIndex);
-            currentQuestion.selected = answer_field.value;
+            let currentQuestion = mul_ans_questions[RND_question]
+            const q_id = document.getElementById("q"+currentQuestionIndex)
+            currentQuestion.selected = answer_field.value
             if(currentQuestion.selected == currentQuestion.correct) {
-                answer_field.classList.add("correct");
-                score = score +3;
-                q_id.classList.add("correct");
-                selectedAnswers.push(answer_field);
-                mul_selectedAnswers.push(answer_field.value);
+                answer_field.classList.add("correct")
+                score = score +3
+                q_id.classList.add("correct")
+                selectedAnswers.push(answer_field)
+                mul_selectedAnswers.push(answer_field.value)
             } else {
-                answer_field.classList.add("incorrect");
-                selectedAnswers.push(answer_field);
-                mul_selectedAnswers.push(answer_field.value);
-                q_id.classList.add("incorrect");
+                answer_field.classList.add("incorrect")
+                selectedAnswers.push(answer_field)
+                mul_selectedAnswers.push(answer_field.value)
+                q_id.classList.add("incorrect")
             }
-            mul_ans_alreadyAsked.push(currentQuestion);
-        };
+            mul_ans_alreadyAsked.push(currentQuestion)
+        }
         if(currentQuestionIndex < questionCount) {
-            showQuestion();
+            showQuestion()
         } else {
-            showScore();
+            showScore()
         }
     } else {
-        startQuiz();
+        startQuiz()
     }
     
 }
 
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length) {
-        handleNextButton();
+        handleNextButton()
     } else {
-        startQuiz();
+        startQuiz()
     }
-});
+})
 
 function showCorrectAnswer(id) {
-    resetState();
-    nextButton.style.display = "block";
+    resetState()
+    nextButton.style.display = "block"
     if (id < 12) {
         alreadyAsked[id].answers.forEach(answer => {
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerButtons.appendChild(button);
+        const button = document.createElement("button")
+        button.innerHTML = answer.text
+        button.classList.add("btn")
+        answerButtons.appendChild(button)
         if (answer.correct) {
-            button.dataset.correct = answer.correct;
+            button.dataset.correct = answer.correct
         }
-        const isCorrect = button.dataset.correct === "true";
+        const isCorrect = button.dataset.correct === "true"
         if(alreadyAsked[id].selected === button.innerHTML) {
-            button.classList.add("incorrect");
+            button.classList.add("incorrect")
         } 
         if(isCorrect) {
-            button.classList.add("correct");
+            button.classList.add("correct")
         }
-        button.disabled = true;
-        });
+        button.disabled = true
+        })
     } else {
-        answer_field.style.display = "block";
-        answer_field.disabled = true;
+        answer_field.style.display = "block"
+        answer_field.disabled = true
         if (mul_ans_alreadyAsked[id-9].selected == mul_ans_alreadyAsked[id-9].correct) {
-            answer_field.classList.add("correct");
+            answer_field.classList.add("correct")
         } else {
-            answer_field.classList.add("incorrect");
-            correct_answer.style.display = "block";
-            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[id-9].correct;
+            answer_field.classList.add("incorrect")
+            correct_answer.style.display = "block"
+            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[id-9].correct
         }
-        answer_field.value = mul_selectedAnswers[id-9];
+        answer_field.value = mul_selectedAnswers[id-9]
     }
-    const q_info_str = document.getElementById("question").src;
-    const cut_q_info_str = q_info_str.slice(27, -4);
-    const q_info_num = cut_q_info_str.match(/\d+/g);
-    document.getElementById("q_info").innerHTML = ""+q_info_num;
+    const q_info_str = document.getElementById("question").src
+    const cut_q_info_str = q_info_str.slice(27, -4)
+    const q_info_num = cut_q_info_str.match(/\d+/g)
+    document.getElementById("q_info").innerHTML = ""+q_info_num
 }
 
 q1.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[0].question;
-    showCorrectAnswer(0);
-});
+    document.getElementById("question").src = alreadyAsked[0].question
+    showCorrectAnswer(0)
+})
 q2.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[1].question;
-    showCorrectAnswer(1);
-});
+    document.getElementById("question").src = alreadyAsked[1].question
+    showCorrectAnswer(1)
+})
 q3.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[2].question;
-    showCorrectAnswer(2);
-});
+    document.getElementById("question").src = alreadyAsked[2].question
+    showCorrectAnswer(2)
+})
 q4.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[3].question;
-    showCorrectAnswer(3);
-});
+    document.getElementById("question").src = alreadyAsked[3].question
+    showCorrectAnswer(3)
+})
 q5.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[4].question;
-    showCorrectAnswer(4);
-});
+    document.getElementById("question").src = alreadyAsked[4].question
+    showCorrectAnswer(4)
+})
 q6.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[5].question;
-    showCorrectAnswer(5);
-});
+    document.getElementById("question").src = alreadyAsked[5].question
+    showCorrectAnswer(5)
+})
 q7.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[6].question;
-    showCorrectAnswer(6);
-});
+    document.getElementById("question").src = alreadyAsked[6].question
+    showCorrectAnswer(6)
+})
 q8.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[7].question;
-    showCorrectAnswer(7);
-});
+    document.getElementById("question").src = alreadyAsked[7].question
+    showCorrectAnswer(7)
+})
 q9.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[8].question;
-    showCorrectAnswer(8);
-});
+    document.getElementById("question").src = alreadyAsked[8].question
+    showCorrectAnswer(8)
+})
 q10.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[9].question;
-    showCorrectAnswer(9);
-});
+    document.getElementById("question").src = alreadyAsked[9].question
+    showCorrectAnswer(9)
+})
 q11.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[10].question;
-    showCorrectAnswer(10);
-});
+    document.getElementById("question").src = alreadyAsked[10].question
+    showCorrectAnswer(10)
+})
 q12.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[11].question;
-    showCorrectAnswer(11);
-});
+    document.getElementById("question").src = alreadyAsked[11].question
+    showCorrectAnswer(11)
+})
 q13.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[0].question;
-    showCorrectAnswer(12);
-});
+    document.getElementById("question").src = mul_ans_alreadyAsked[0].question
+    showCorrectAnswer(12)
+})
 q14.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[1].question;
-    showCorrectAnswer(13);
-});
+    document.getElementById("question").src = mul_ans_alreadyAsked[1].question
+    showCorrectAnswer(13)
+})
 q15.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[2].question;
-    showCorrectAnswer(14);
-});
+    document.getElementById("question").src = mul_ans_alreadyAsked[2].question
+    showCorrectAnswer(14)
+})
 
-startQuiz();
+startQuiz()
