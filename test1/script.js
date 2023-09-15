@@ -1519,11 +1519,6 @@ const hronology_questions = [
         correct: "ГВАБ",
     },
     {
-        question: "images/2-4.png",
-        selected: "",
-        correct: "ГВАБ",
-    },
-    {
         question: "images/2-5.png",
         selected: "",
         correct: "БАВГ",

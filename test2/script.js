@@ -36,13 +36,13 @@ const q15 = document.getElementById("q15")
             {text: "Текст варіанту 1", correct: false},
             {text: "Текст варіанту 2", correct: true}, //<---- false = не правильне, true = правильне
             {text: "Текст варіанту 3", correct: false},
-            {text: "Текст варіанту 4" , correct: false}, 
+            {text: "Текст варіанту 4", correct: false}, 
         ]
     }
 
 
 
-КІЛЬКІСТЬ ВІДПОВІДЕЙ    НЕ     ОБОВ'ЯЗКОВО МАЄ БУТИ 4, просто скопіюйте останній рядок {text: "Текст варіанту" , correct: false}, і натисніть Enter та вставте його
+КІЛЬКІСТЬ ВІДПОВІДЕЙ    НЕ     ОБОВ'ЯЗКОВО МАЄ БУТИ 4, просто скопіюйте останній рядок {text: "Текст варіанту", correct: false}, і натисніть Enter та вставте його
 */
 
 
@@ -53,18 +53,18 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/2.png",
         answers: [
-            {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -72,9 +72,9 @@ const questions = [
         question: "images/3.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -82,9 +82,9 @@ const questions = [
         question: "images/4.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -94,17 +94,17 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/6.png",
         answers: [
-            {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -113,8 +113,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -124,27 +124,27 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
         {
         selected: "",
         question: "images/9.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/10.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -154,7 +154,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -162,9 +162,9 @@ const questions = [
         question: "images/12.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -173,8 +173,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -183,8 +183,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -194,7 +194,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -204,7 +204,7 @@ const questions = [
             {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -213,18 +213,18 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/18.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -232,9 +232,9 @@ const questions = [
         question: "images/19.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -242,9 +242,9 @@ const questions = [
         question: "images/20.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -254,7 +254,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -262,19 +262,19 @@ const questions = [
         question: "images/22.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/23.png",
         answers: [
-            {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -284,17 +284,17 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/25.png",
         answers: [
-            {text: "А", correct: true},
-            {text: "Б", correct: false},
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -304,27 +304,27 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/27.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/28.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -332,19 +332,19 @@ const questions = [
         question: "images/29.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/30.png",
         answers: [
-            {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -352,9 +352,9 @@ const questions = [
         question: "images/31.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -363,8 +363,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -372,9 +372,9 @@ const questions = [
         question: "images/33.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -384,27 +384,27 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/35.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/36.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -414,7 +414,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -422,19 +422,19 @@ const questions = [
         question: "images/38.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/39.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -444,7 +444,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -453,8 +453,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -463,8 +463,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -472,9 +472,9 @@ const questions = [
         question: "images/43.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -482,9 +482,9 @@ const questions = [
         question: "images/44.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -492,9 +492,9 @@ const questions = [
         question: "images/45.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -502,19 +502,19 @@ const questions = [
         question: "images/46.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/47.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -523,8 +523,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -532,9 +532,9 @@ const questions = [
         question: "images/49.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -542,9 +542,9 @@ const questions = [
         question: "images/50.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -552,9 +552,9 @@ const questions = [
         question: "images/51.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -564,7 +564,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -572,19 +572,19 @@ const questions = [
         question: "images/53.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/54.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -594,7 +594,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -604,17 +604,17 @@ const questions = [
             {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/57.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -624,7 +624,7 @@ const questions = [
             {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -633,8 +633,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -644,7 +644,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -652,9 +652,9 @@ const questions = [
         question: "images/61.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -664,17 +664,17 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/63.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -682,29 +682,29 @@ const questions = [
         question: "images/64.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/65.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/66.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -712,9 +712,9 @@ const questions = [
         question: "images/67.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -724,7 +724,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -732,19 +732,19 @@ const questions = [
         question: "images/69.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/70.png",
         answers: [
-            {text: "А", correct: true},
-            {text: "Б", correct: false},
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -753,18 +753,18 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/72.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -772,9 +772,9 @@ const questions = [
         question: "images/73.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -782,9 +782,9 @@ const questions = [
         question: "images/74.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -793,8 +793,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -803,48 +803,48 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/77.png",
         answers: [
-            {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/78.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/79.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/80.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -853,8 +853,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -864,7 +864,7 @@ const questions = [
             {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -872,9 +872,9 @@ const questions = [
         question: "images/83.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -882,19 +882,19 @@ const questions = [
         question: "images/84.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/85.png",
         answers: [
-            {text: "А", correct: true},
-            {text: "Б", correct: false},
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -902,19 +902,19 @@ const questions = [
         question: "images/86.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/87.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -924,7 +924,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -933,8 +933,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -944,17 +944,17 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/91.png",
         answers: [
-            {text: "А", correct: true},
-            {text: "Б", correct: false},
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -963,18 +963,18 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
         selected: "",
         question: "images/93.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -984,7 +984,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -994,7 +994,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -1002,9 +1002,9 @@ const questions = [
         question: "images/96.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -1012,9 +1012,9 @@ const questions = [
         question: "images/97.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
+            {text: "Б", correct: true},
             {text: "В", correct: false},
-            {text: "Г" , correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -1022,14 +1022,13 @@ const questions = [
         question: "images/98.png",
         answers: [
             {text: "А", correct: false},
-            {text: "Б", correct: false},
-            {text: "В", correct: true},
-            {text: "Г" , correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
         ]
     }
 ]
-
-const mul_ans_questions = [
+const vidpovidnist_questions = [
     {
         question: "images/1-1.png",
         selected: "",
@@ -1127,9 +1126,204 @@ const mul_ans_questions = [
     }
 ]
 
+const hronology_questions = [
+    {
+        question: "images/2-1.png",
+        selected: "",
+        correct: "ГАБВ",
+    },
+    {
+        question: "images/2-2.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "images/2-3.png",
+        selected: "",
+        correct: "БГАВ",
+    },
+    {
+        question: "images/2-4.png",
+        selected: "",
+        correct: "ВГАБ",
+    },
+    {
+        question: "images/2-5.png",
+        selected: "",
+        correct: "ВАГБ",
+    },
+    {
+        question: "images/2-6.png",
+        selected: "",
+        correct: "БГВА",
+    },
+    {
+        question: "images/2-7.png",
+        selected: "",
+        correct: "ГАБВ",
+    },
+    {
+        question: "images/2-8.png",
+        selected: "",
+        correct: "АГВБ",
+    },
+    {
+        question: "images/2-9.png",
+        selected: "",
+        correct: "БАВГ",
+    },
+    {
+        question: "images/2-10.png",
+        selected: "",
+        correct: "БГАВ",
+    },
+    {
+        question: "images/2-11.png",
+        selected: "",
+        correct: "ГВБА",
+    },
+    {
+        question: "images/2-12.png",
+        selected: "",
+        correct: "ВАГБ",
+    },
+    {
+        question: "images/2-13.png",
+        selected: "",
+        correct: "ГАБВ",
+    },
+    {
+        question: "images/2-14.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "images/2-15.png",
+        selected: "",
+        correct: "ГАБВ",
+    }
+]
+
+const mul_ans_questions = [
+    {
+        question: "images/3-1.png",
+        selected: "",
+        correct: "246",
+    },
+    {
+        question: "images/3-2.png",
+        selected: "",
+        correct: "135",
+    },
+    {
+        question: "images/3-3.png",
+        selected: "",
+        correct: "123",
+    },
+    {
+        question: "images/3-4.png",
+        selected: "",
+        correct: "146",
+    },
+    {
+        question: "images/3-5.png",
+        selected: "",
+        correct: "246",
+    },
+    {
+        question: "images/3-6.png",
+        selected: "",
+        correct: "346",
+    },
+    {
+        question: "images/3-7.png",
+        selected: "",
+        correct: "345",
+    },
+    {
+        question: "images/3-8.png",
+        selected: "",
+        correct: "146",
+    },
+    {
+        question: "images/3-9.png",
+        selected: "",
+        correct: "235",
+    },
+    {
+        question: "images/3-10.png",
+        selected: "",
+        correct: "126",
+    },
+    {
+        question: "images/3-11.png",
+        selected: "",
+        correct: "245",
+    },
+    {
+        question: "images/3-12.png",
+        selected: "",
+        correct: "156",
+    },
+    {
+        question: "images/3-13.png",
+        selected: "",
+        correct: "357",
+    },
+    {
+        question: "images/3-14.png",
+        selected: "",
+        correct: "124",
+    },
+    {
+        question: "images/3-15.png",
+        selected: "",
+        correct: "136",
+    },
+    {
+        question: "images/3-16.png",
+        selected: "",
+        correct: "136",
+    },
+    {
+        question: "images/3-17.png",
+        selected: "",
+        correct: "234",
+    },
+    {
+        question: "images/3-18.png",
+        selected: "",
+        correct: "145",
+    },
+    {
+        question: "images/3-19.png",
+        selected: "",
+        correct: "127",
+    },
+    {
+        question: "images/3-20.png",
+        selected: "",
+        correct: "235",
+    },
+    {
+        question: "images/3-21.png",
+        selected: "",
+        correct: "134",
+    },
+    {
+        question: "images/3-22.png",
+        selected: "",
+        correct: "246",
+    }
+]
+
 let alreadyAsked = []
+let vidpovidnist_alreadyAsked = []
+let hronology_alreadyAsked = []
 let mul_ans_alreadyAsked = []
 let selectedAnswers = []
+let vidpovidnist_selectedAnswers = []
+let hronology_selectedAnswers = []
 let mul_selectedAnswers = []
 questionCount = 15
 let currentQuestionIndex = 0
@@ -1139,6 +1333,7 @@ let RND_question = 0
 
 let startingMinutes = 15
 let time = startingMinutes * 60
+let timerInterval
 startTime = time
 const countdownEl = document.getElementById('timer')
 function updateCountdown() {
@@ -1178,8 +1373,12 @@ function startQuiz() {
     correct_answer.style.display = "none"
     block_answers.style.display = "none"
     alreadyAsked = []
+    vidpovidnist_alreadyAsked = []
+    hronology_alreadyAsked = []
     mul_ans_alreadyAsked = []
     selectedAnswers = []
+    vidpovidnist_selectedAnswers = []
+    hronology_selectedAnswers = []
     mul_selectedAnswers = []
     showQuestion()
 }
@@ -1214,19 +1413,49 @@ function showQuestion() {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4 то впишіть 1234"
-        let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length)
-        let currentQuestion = mul_ans_questions[randomQuestionIndex]
-        while (mul_ans_alreadyAsked.includes(currentQuestion)) {
-            randomQuestionIndex = Math.floor(Math.random()*questions.length)
-            currentQuestion = mul_ans_questions[randomQuestionIndex]
-        }
-        RND_question = randomQuestionIndex
-        let questionNo = currentQuestionIndex + 1
-        h2_title.innerHTML = "Питання №"+questionNo
+        if (currentQuestionIndex == 12) {
+            correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4, то впишіть 1234"
+            let randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length)
+            let currentQuestion = vidpovidnist_questions[randomQuestionIndex]
+            while (vidpovidnist_alreadyAsked.includes(currentQuestion)) {
+                randomQuestionIndex = Math.floor(Math.random()*questions.length)
+                currentQuestion = vidpovidnist_questions[randomQuestionIndex]
+            }
+            RND_question = randomQuestionIndex
+            let questionNo = currentQuestionIndex + 1
+            h2_title.innerHTML = "Питання №"+questionNo
 
-        document.getElementById("question").src = currentQuestion.question
-        answer_field.style.display = "block"
+            document.getElementById("question").src = currentQuestion.question
+            answer_field.style.display = "block"
+        } else if (currentQuestionIndex == 13) {
+            correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ"
+            let randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length)
+            let currentQuestion = hronology_questions[randomQuestionIndex]
+            while (hronology_alreadyAsked.includes(currentQuestion)) {
+                randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length)
+                currentQuestion = hronology_questions[randomQuestionIndex]
+            }
+            RND_question = randomQuestionIndex
+            let questionNo = currentQuestionIndex + 1
+            h2_title.innerHTML = "Питання №"+questionNo
+
+            document.getElementById("question").src = currentQuestion.question
+            answer_field.style.display = "block"
+        } else {
+            correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 3, 4, 5, то вкажіть 345"
+            let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length)
+            let currentQuestion = mul_ans_questions[randomQuestionIndex]
+            while (mul_ans_alreadyAsked.includes(currentQuestion)) {
+                randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length)
+                currentQuestion = mul_ans_questions[randomQuestionIndex]
+            }
+            RND_question = randomQuestionIndex
+            let questionNo = currentQuestionIndex + 1
+            h2_title.innerHTML = "Питання №"+questionNo
+
+            document.getElementById("question").src = currentQuestion.question
+            answer_field.style.display = "block"
+        }
     }
     const q_info_str = document.getElementById("question").src
     const cut_q_info_str = q_info_str.slice(36, -4)
@@ -1284,7 +1513,7 @@ function showScore(){
         document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg"
     }
     clearInterval(timerInterval)
-    h2_title.innerHTML =`Ви набрали ${score} з ${questionCount} балів!`
+    h2_title.innerHTML =`Ви набрали ${score} з 21 балу!`
     nextButton. innerHTML = "Пройти знову"
     nextButton.style.display = "block"
     test_completed = true
@@ -1295,8 +1524,49 @@ function showScore(){
 function handleNextButton(){
     currentQuestionIndex++
     if (!test_completed){
-        if (currentQuestionIndex > 12) {
-            let currentQuestion = mul_ans_questions[RND_question]
+        let currentQuestion
+        if (currentQuestionIndex == 13) {
+            currentQuestion = vidpovidnist_questions[RND_question]
+            const q_id = document.getElementById("q"+currentQuestionIndex)
+            currentQuestion.selected = answer_field.value
+            if(currentQuestion.selected == currentQuestion.correct) {
+                answer_field.classList.add("correct")
+                score = score +3
+                q_id.classList.add("correct")
+                selectedAnswers.push(answer_field)
+                vidpovidnist_selectedAnswers.push(answer_field.value)
+            } else {
+                answer_field.classList.add("incorrect")
+                selectedAnswers.push(answer_field)
+                vidpovidnist_selectedAnswers.push(answer_field.value)
+                q_id.classList.add("incorrect")
+            }
+            vidpovidnist_alreadyAsked.push(currentQuestion)
+        }
+        
+        
+        else if (currentQuestionIndex == 14) {
+            currentQuestion = hronology_questions[RND_question]
+            const q_id = document.getElementById("q"+currentQuestionIndex)
+            currentQuestion.selected = answer_field.value
+            if(currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct) {
+                answer_field.classList.add("correct")
+                score = score +3
+                q_id.classList.add("correct")
+                selectedAnswers.push(answer_field)
+                hronology_selectedAnswers.push(answer_field.value)
+            } else {
+                answer_field.classList.add("incorrect")
+                selectedAnswers.push(answer_field)
+                hronology_selectedAnswers.push(answer_field.value)
+                q_id.classList.add("incorrect")
+            }
+            hronology_alreadyAsked.push(currentQuestion)
+        } 
+        
+        
+        else if (currentQuestionIndex == 15) {
+            currentQuestion = mul_ans_questions[RND_question]
             const q_id = document.getElementById("q"+currentQuestionIndex)
             currentQuestion.selected = answer_field.value
             if(currentQuestion.selected == currentQuestion.correct) {
@@ -1313,6 +1583,7 @@ function handleNextButton(){
             }
             mul_ans_alreadyAsked.push(currentQuestion)
         }
+
         if(currentQuestionIndex < questionCount) {
             showQuestion()
         } else {
@@ -1325,11 +1596,7 @@ function handleNextButton(){
 }
 
 nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < questions.length) {
-        handleNextButton()
-    } else {
-        startQuiz()
-    }
+    handleNextButton()
 })
 
 function showCorrectAnswer(id) {
@@ -1345,7 +1612,7 @@ function showCorrectAnswer(id) {
             button.dataset.correct = answer.correct
         }
         const isCorrect = button.dataset.correct === "true"
-        if(alreadyAsked[id].selected === button.innerHTML) {
+        if(alreadyAsked[id].selected.toLocaleUpperCase() === button.innerHTML) {
             button.classList.add("incorrect")
         } 
         if(isCorrect) {
@@ -1353,17 +1620,39 @@ function showCorrectAnswer(id) {
         }
         button.disabled = true
         })
-    } else {
+    } else if (id == 12) {
         answer_field.style.display = "block"
         answer_field.disabled = true
-        if (mul_ans_alreadyAsked[id-9].selected == mul_ans_alreadyAsked[id-9].correct) {
+        if (vidpovidnist_alreadyAsked[0].selected == vidpovidnist_alreadyAsked[0].correct) {
             answer_field.classList.add("correct")
         } else {
             answer_field.classList.add("incorrect")
             correct_answer.style.display = "block"
-            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[id-9].correct
+            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[0].correct
         }
-        answer_field.value = mul_selectedAnswers[id-9]
+        answer_field.value = vidpovidnist_selectedAnswers[0]
+    } else if (id == 13) {
+        answer_field.style.display = "block"
+        answer_field.disabled = true
+        if (hronology_alreadyAsked[0].selected.toLocaleUpperCase() == hronology_alreadyAsked[0].correct) {
+            answer_field.classList.add("correct")
+        } else {
+            answer_field.classList.add("incorrect")
+            correct_answer.style.display = "block"
+            correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[0].correct
+        }
+        answer_field.value = hronology_selectedAnswers[0]
+    } else if (id == 14) {
+        answer_field.style.display = "block"
+        answer_field.disabled = true
+        if (mul_ans_alreadyAsked[0].selected == mul_ans_alreadyAsked[0].correct) {
+            answer_field.classList.add("correct")
+        } else {
+            answer_field.classList.add("incorrect")
+            correct_answer.style.display = "block"
+            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[0].correct
+        }
+        answer_field.value = mul_selectedAnswers[0]
     }
     const q_info_str = document.getElementById("question").src
     const cut_q_info_str = q_info_str.slice(27, -4)
@@ -1420,15 +1709,15 @@ q12.addEventListener("click", ()=> {
     showCorrectAnswer(11)
 })
 q13.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[0].question
+    document.getElementById("question").src = vidpovidnist_alreadyAsked[0].question
     showCorrectAnswer(12)
 })
 q14.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[1].question
+    document.getElementById("question").src = hronology_alreadyAsked[0].question
     showCorrectAnswer(13)
 })
 q15.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[2].question
+    document.getElementById("question").src = mul_ans_alreadyAsked[0].question
     showCorrectAnswer(14)
 })
 
