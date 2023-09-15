@@ -1165,7 +1165,7 @@ const hronology_questions = [
     {
         question: "images/2-8.png",
         selected: "",
-        correct: "АГВБ",
+        correct: "АВГБ",
     },
     {
         question: "images/2-9.png",
