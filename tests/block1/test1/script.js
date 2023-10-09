@@ -1457,6 +1457,26 @@ const questions = [
             {text: "В", correct: false},
             {text: "Г" , correct: false},
         ]
+    },
+    {
+        selected: "",
+        question: "images/142.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "images/143.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
     }
 ]
 
