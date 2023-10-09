@@ -1222,7 +1222,7 @@ const questions = [
         selected: "",
         question: "images/118.png",
         answers: [
-          {text: "А", correct: false},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
             {text: "Г" , correct: true},
@@ -1425,17 +1425,17 @@ const questions = [
             {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
         selected: "",
         question: "images/139.png",
         answers: [
-            {text: "А", correct: false},
-            {text: "Б", correct: true},
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -1506,7 +1506,7 @@ const hronology_questions = [
     {
         question: "images/2-2.png",
         selected: "",
-        correct: "БГВА",
+        correct: "БГАВ",
     },
     {
         question: "images/2-3.png",
@@ -1541,7 +1541,7 @@ const hronology_questions = [
     {
         question: "images/2-9.png",
         selected: "",
-        correct: "АГБВ",
+        correct: "АВГБ",
     }
 ]
 const mul_ans_questions = [

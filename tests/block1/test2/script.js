@@ -131,10 +131,10 @@ const questions = [
         selected: "",
         question: "images/9.png",
         answers: [
-            {text: "А", correct: true},
+            {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г", correct: false},
+            {text: "Г", correct: true},
         ]
     },
     {
@@ -1135,7 +1135,7 @@ const hronology_questions = [
     {
         question: "images/2-2.png",
         selected: "",
-        correct: "ВБАГ",
+        correct: "ВБГА",
     },
     {
         question: "images/2-3.png",
