@@ -1026,6 +1026,16 @@ const questions = [
             {text: "В", correct: false},
             {text: "Г", correct: false},
         ]
+    },
+    {
+        selected: "",
+        question: "images/99.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
     }
 ]
 const vidpovidnist_questions = [
@@ -1314,6 +1324,11 @@ const mul_ans_questions = [
         question: "images/3-22.png",
         selected: "",
         correct: "246",
+    },
+    {
+        question: "images/3-23.png",
+        selected: "",
+        correct: "357",
     }
 ]
 

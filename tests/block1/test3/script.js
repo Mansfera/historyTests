@@ -1436,9 +1436,17 @@ const questions = [
             {text: "В", correct: true},
             {text: "Г", correct: false},
         ]
+    },
+    {
+        selected: "",
+        question: "images/140.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
     }
-
-
 ]
 const vidpovidnist_questions = [
     {
