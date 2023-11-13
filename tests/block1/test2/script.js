@@ -1346,6 +1346,8 @@ let score = 0
 var test_completed = false
 let RND_question = 0
 
+let clicked_variant
+
 let startingMinutes = 15
 let time = startingMinutes * 60
 let timerInterval
@@ -1423,6 +1425,7 @@ function showQuestion() {
             }
             button.addEventListener("click" , selectAnswer)
         })
+        this_Q = currentQuestion
     }
     else {
         nextButton.style.display = "block"
@@ -1491,26 +1494,36 @@ function resetState() {
 }
 
 function selectAnswer(e) {
-    let currentQuestion = questions[RND_question]
     const q_id = document.getElementById("q"+(currentQuestionIndex+1))
+    let currentQuestion = questions[RND_question]
     const selectedBtn = e.target
+    Array.from(answerButtons.children).forEach(button => {
+        button.classList.remove("selected")
+        button.classList.remove("incorrect")
+        button.classList.remove("correct")
+    })
+    q_id.classList.remove("incorrect")
+    q_id.classList.remove("correct")
+    if (alreadyAsked[currentQuestion] != null) {
+        if (alreadyAsked[currentQuestionIndex].question == currentQuestion.question) {
+            alreadyAsked.remove[currentQuestionIndex]
+        }
+    }
     const isCorrect = selectedBtn.dataset.correct === "true"
     if(isCorrect) {
+        selectedBtn.classList.add("selected")
         selectedBtn.classList.add("correct")
-        selectedAnswers.push(selectedBtn)
-        score++
         q_id.classList.add("correct")
+        clicked_variant = selectedBtn
+        score++
     } else {
+        selectedBtn.classList.add("selected")
         selectedBtn.classList.add("incorrect")
-        selectedAnswers.push(selectedBtn)
         q_id.classList.add("incorrect")
+        clicked_variant = selectedBtn
     }
-    selectedBtn.classList.add("selected")
-    Array.from(answerButtons.children).forEach(button => {
-        button.disabled = true
-    })
     currentQuestion.selected = selectedBtn.innerHTML
-    alreadyAsked.push(currentQuestion)
+    this_Q = currentQuestion
     nextButton.style.display = "block"
 }
 
@@ -1540,6 +1553,11 @@ function handleNextButton(){
     currentQuestionIndex++
     if (!test_completed){
         let currentQuestion
+        if (currentQuestionIndex < 13) {
+            selectedAnswers.push(clicked_variant)
+            alreadyAsked.push(this_Q)
+        }
+
         if (currentQuestionIndex == 13) {
             currentQuestion = vidpovidnist_questions[RND_question]
             const q_id = document.getElementById("q"+currentQuestionIndex)
