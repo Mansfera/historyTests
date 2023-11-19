@@ -1477,7 +1477,7 @@ const vidpovidnist_questions = [
     {
         question: "images/1-12.png",
         selected: "",
-        correct: "3514",
+        correct: "2514",
     },
     {
         question: "images/1-13.png",
@@ -1965,6 +1965,7 @@ function handleNextButton(){
                 q_id.classList.add("incorrect")
             }
             mul_ans_alreadyAsked.push(currentQuestion)
+            nextButton. innerHTML = "Завершити тест"
         }
 
         if(currentQuestionIndex < questionCount) {

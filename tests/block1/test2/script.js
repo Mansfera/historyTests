@@ -131,10 +131,10 @@ const questions = [
         selected: "",
         question: "images/9.png",
         answers: [
-            {text: "А", correct: false},
+            {text: "А", correct: true},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
@@ -1615,6 +1615,7 @@ function handleNextButton(){
                 q_id.classList.add("incorrect")
             }
             mul_ans_alreadyAsked.push(currentQuestion)
+            nextButton. innerHTML = "Завершити тест"
         }
 
         if(currentQuestionIndex < questionCount) {

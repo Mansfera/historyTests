@@ -135,7 +135,7 @@ const questions = [
             {text: "А", correct: false},
             {text: "Б", correct: false},
             {text: "В", correct: false},
-            {text: "Г" , correct: false},
+            {text: "Г" , correct: true},
         ]
     },
     {
@@ -1925,6 +1925,7 @@ function handleNextButton(){
                 q_id.classList.add("incorrect")
             }
             mul_ans_alreadyAsked.push(currentQuestion)
+            nextButton. innerHTML = "Завершити тест"
         }
 
         if(currentQuestionIndex < questionCount) {

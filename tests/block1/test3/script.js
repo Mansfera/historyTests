@@ -1950,6 +1950,7 @@ function handleNextButton(){
                 q_id.classList.add("incorrect")
             }
             mul_ans_alreadyAsked.push(currentQuestion)
+            nextButton. innerHTML = "Завершити тест"
         }
 
         if(currentQuestionIndex < questionCount) {
