@@ -389,7 +389,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/34.png",          // ⛔️⛔️⛔️ ВІДСУТНЄ ПИТАННЯ ⛔️⛔️⛔️
+        question: "images/35.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
