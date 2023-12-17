@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Mansfera's history tests" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Тест з історії для самоперевірки та підготовки до НМТ/ЗНО! © Mansfera"/>
+    <link rel="icon" type="image/x-icon" href="../../site-icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Тест з історії</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="timer" id="timerDiv">
+            <p id="timer">Часу залишилося: 00:00</p>
+        </div>
+        <button class="exit_btn" onclick="location.href='../index.html';">
+            <span class="exit_btn_text">⬅ Вийти з тестування</span>
+        </button>
+        <p class="date", id="date">Дата</p>
+    </div>
+    <div class="app">
+        <h2 id="h1">Національно-визвольна війна Українського народу середини XVII ст.</h1>
+        <h4 id="h2">Запитання №</h2>
+        <div class="quiz">
+            <img class="image" src="images/0.png" draggable="false" id="question"/>
+            <div class="answer_buttons" id="answer-buttons">
+                <button class="btn">Варіант 1</button>
+                <button class="btn">Варіант 2</button> 
+                <button class="btn">Варіант 3</button> 
+                <button class="btn">Варіант 4</button>
+            </div> 
+            <input class="text_input" id="text_input" maxlength="4" type="text">
+            <p id="correct_answer"></p>
+            <button id="next-btn">Наступне запитання</button>
+            <div class="block_answers" id="block_answers">
+                <button class="q_id" id="q1">1</button>
+                <button class="q_id" id="q2">2</button>
+                <button class="q_id" id="q3">3</button>
+                <button class="q_id" id="q4">4</button>
+                <button class="q_id" id="q5">5</button>
+                <button class="q_id" id="q6">6</button>
+                <button class="q_id" id="q7">7</button>
+                <button class="q_id" id="q8">8</button>
+                <button class="q_id" id="q9">9</button>
+                <button class="q_id" id="q10">10</button>
+                <button class="q_id" id="q11">11</button>
+                <button class="q_id" id="q12">12</button>
+                <button class="q_id" id="q13">13</button>
+                <button class="q_id" id="q14">14</button>
+                <button class="q_id" id="q15">15</button>
+            </div>
+        </div> 
+    </div>
+    <p class="q_info", id="q_info">0</p>
+</body>
+<script src="script.js"></script>
+</html>
