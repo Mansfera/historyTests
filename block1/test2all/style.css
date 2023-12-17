@@ -8,7 +8,6 @@
 body {
     background: #e6f4f4;
 }
-
 .exit_btn {
     margin: 20px 20px;
     border: none;
@@ -173,8 +172,11 @@ body {
 .correct {
     background: #9aeabc;
 }
+.selected_all {
+    background: #ffffff;
+}
 .selected {
-    background: #a1a1a1;
+    background: #aaaaaa;
 }
 .q_info {
     color: rgb(186, 221, 233);
