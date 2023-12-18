@@ -50,7 +50,7 @@ body {
     margin: 4px;
     width: calc(33.33% - 10px);
     height: 240px;
-    background-color: #939393;
+    background-color: #7ad1ce;
     border-radius: 11px;
 
     display: flex;
@@ -101,20 +101,22 @@ body {
     font-size: xx-large;
 }
 .b1 {
-    
+    background-color: #fb9a9a;
 }
 .b2 {
     background-color: #b887f0;
 }
 .b3 {
-    
+    background-color: cornflowerblue;
 }
 .b4 {
-    
+    background-color: #7ad1ce;
 }
 .b5 {
-
+    background-color: rgb(147, 207, 64);
 }
-.blocked {
+/* .blocked {
     cursor: not-allowed;
-}
+    color: dimgray;
+    background-color: dimgray;
+} */
