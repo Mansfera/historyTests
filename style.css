@@ -50,7 +50,7 @@ body {
     margin: 4px;
     width: calc(33.33% - 10px);
     height: 240px;
-    background-color: #63AEA1;
+    background-color: #939393;
     border-radius: 11px;
 
     display: flex;
@@ -60,7 +60,7 @@ body {
 }
 .test p {
     width: 75%;
-    height: 30%;
+    height: auto;
     color: #FFFF;
     font-size: 110%;
     overflow: hidden;
@@ -99,4 +99,22 @@ body {
 }
 .test-final p {
     font-size: xx-large;
+}
+.b1 {
+    
+}
+.b2 {
+    background-color: #b887f0;
+}
+.b3 {
+    
+}
+.b4 {
+    
+}
+.b5 {
+
+}
+.blocked {
+    cursor: not-allowed;
 }
