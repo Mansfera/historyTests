@@ -8,8 +8,10 @@ body {
     display: flex;
     justify-content: center;
 }
+.top_bar {
+    position: absolute;
+}
 .exit_btn {
-    margin: 20px 20px;
     border: none;
     padding: 10px 44px;
     font-size: 16px;
@@ -40,6 +42,7 @@ body {
     mix-blend-mode: lighten;
 }
 .tests {
+    margin-top: 50px;
     width: 70%;
     display: flex;
     flex-wrap: wrap;
