@@ -1250,7 +1250,6 @@ const vidpovidnist_questions = [
         correct: "4215",
     }
 ]
-
 const hronology_questions = [
     {
         question: "images/2-1.png",
@@ -1383,7 +1382,6 @@ const hronology_questions = [
         correct: "БАГВ",
     }
 ]
-
 const mul_ans_questions = [
     {
         question: "images/3-1.png",

@@ -46,7 +46,7 @@ const q30 = document.getElementById("q30")
     ,    //<---- НЕ ЗАБУДЬТЕ ПРО КОМУ 
     {
         selected: "",
-        question: "images//1.png",
+        question: "../test1/images//1.png",
         answers: [
             {text: "Текст варіанту 1", correct: false},
             {text: "Текст варіанту 2", correct: true}, //<---- false = не правильне, true = правильне
@@ -64,7 +64,7 @@ const q30 = document.getElementById("q30")
 const questions1 = [
     {
         selected: "",
-        question: "images/1.png",
+        question: "../test1/images/1.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -74,7 +74,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/2.png",
+        question: "../test1/images/2.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -84,7 +84,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/3.png",
+        question: "../test1/images/3.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -94,7 +94,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/4.png",
+        question: "../test1/images/4.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -104,7 +104,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/5.png",
+        question: "../test1/images/5.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -114,7 +114,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/6.png",
+        question: "../test1/images/6.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -124,7 +124,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/7.png",
+        question: "../test1/images/7.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -134,7 +134,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/8.png",
+        question: "../test1/images/8.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -145,7 +145,7 @@ const questions1 = [
         {
         selected: 0,
         selected: "",
-        question: "images/9.png",
+        question: "../test1/images/9.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -155,7 +155,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/10.png",
+        question: "../test1/images/10.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -165,7 +165,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/11.png",
+        question: "../test1/images/11.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -175,7 +175,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/12.png",
+        question: "../test1/images/12.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -185,7 +185,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/13.png",
+        question: "../test1/images/13.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -195,7 +195,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/14.png",
+        question: "../test1/images/14.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -205,7 +205,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/15.png",
+        question: "../test1/images/15.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -215,7 +215,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/16.png",
+        question: "../test1/images/16.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -225,7 +225,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/17.png",
+        question: "../test1/images/17.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -235,7 +235,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/18.png",
+        question: "../test1/images/18.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -245,7 +245,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/19.png",
+        question: "../test1/images/19.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -255,7 +255,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/20.png",
+        question: "../test1/images/20.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -265,7 +265,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/21.png",
+        question: "../test1/images/21.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -275,7 +275,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/22.png",
+        question: "../test1/images/22.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -285,7 +285,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/23.png",
+        question: "../test1/images/23.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -295,7 +295,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/24.png",
+        question: "../test1/images/24.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -305,7 +305,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/25.png",
+        question: "../test1/images/25.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -315,7 +315,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/26.png",
+        question: "../test1/images/26.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -325,7 +325,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/27.png",
+        question: "../test1/images/27.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -335,7 +335,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/28.png",
+        question: "../test1/images/28.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -345,7 +345,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/29.png",
+        question: "../test1/images/29.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -355,7 +355,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/30.png",
+        question: "../test1/images/30.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -365,7 +365,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/31.png",
+        question: "../test1/images/31.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -375,7 +375,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/32.png",
+        question: "../test1/images/32.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -385,7 +385,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/33.png",
+        question: "../test1/images/33.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -395,7 +395,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/34.png",
+        question: "../test1/images/34.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -405,7 +405,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/35.png",
+        question: "../test1/images/35.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -415,7 +415,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/36.png",
+        question: "../test1/images/36.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -425,7 +425,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/37.png",
+        question: "../test1/images/37.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -435,7 +435,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/38.png",
+        question: "../test1/images/38.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -445,7 +445,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/39.png",
+        question: "../test1/images/39.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -455,7 +455,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/40.png",
+        question: "../test1/images/40.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -465,7 +465,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/41.png",
+        question: "../test1/images/41.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -475,7 +475,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/42.png",
+        question: "../test1/images/42.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -485,7 +485,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/43.png",
+        question: "../test1/images/43.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -495,7 +495,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/44.png",
+        question: "../test1/images/44.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -505,7 +505,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/45.png",
+        question: "../test1/images/45.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -515,7 +515,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/46.png",
+        question: "../test1/images/46.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -525,7 +525,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/47.png",
+        question: "../test1/images/47.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -535,7 +535,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/48.png",
+        question: "../test1/images/48.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -545,7 +545,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/49.png",
+        question: "../test1/images/49.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -555,7 +555,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/50.png",
+        question: "../test1/images/50.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -565,7 +565,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/51.png",
+        question: "../test1/images/51.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -575,7 +575,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/52.png",
+        question: "../test1/images/52.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -585,7 +585,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/53.png",
+        question: "../test1/images/53.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -595,7 +595,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/54.png",
+        question: "../test1/images/54.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -605,7 +605,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/55.png",
+        question: "../test1/images/55.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -615,7 +615,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/56.png",
+        question: "../test1/images/56.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -625,7 +625,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/57.png",
+        question: "../test1/images/57.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -635,7 +635,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/58.png",
+        question: "../test1/images/58.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -645,7 +645,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/59.png",
+        question: "../test1/images/59.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -655,7 +655,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/60.png",
+        question: "../test1/images/60.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -665,7 +665,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/61.png",
+        question: "../test1/images/61.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -675,7 +675,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/62.png",
+        question: "../test1/images/62.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -685,7 +685,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/63.png",
+        question: "../test1/images/63.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -695,7 +695,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/64.png",
+        question: "../test1/images/64.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -705,7 +705,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/65.png",
+        question: "../test1/images/65.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -715,7 +715,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/66.png",
+        question: "../test1/images/66.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -725,7 +725,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/67.png",
+        question: "../test1/images/67.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -735,7 +735,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/68.png",
+        question: "../test1/images/68.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -745,7 +745,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/69.png",
+        question: "../test1/images/69.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -755,7 +755,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/70.png",
+        question: "../test1/images/70.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -765,7 +765,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/71.png",
+        question: "../test1/images/71.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -775,7 +775,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/72.png",
+        question: "../test1/images/72.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -785,7 +785,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/73.png",
+        question: "../test1/images/73.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -795,7 +795,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/74.png",
+        question: "../test1/images/74.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -805,7 +805,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/75.png",
+        question: "../test1/images/75.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -815,7 +815,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/76.png",
+        question: "../test1/images/76.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -825,7 +825,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/77.png",
+        question: "../test1/images/77.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -835,7 +835,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/78.png",
+        question: "../test1/images/78.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -845,7 +845,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/79.png",
+        question: "../test1/images/79.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -855,7 +855,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/80.png",
+        question: "../test1/images/80.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -865,7 +865,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/81.png",
+        question: "../test1/images/81.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -875,7 +875,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/82.png",
+        question: "../test1/images/82.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -885,7 +885,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/83.png",
+        question: "../test1/images/83.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -895,7 +895,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/84.png",
+        question: "../test1/images/84.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -905,7 +905,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/85.png",
+        question: "../test1/images/85.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -915,7 +915,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/86.png",
+        question: "../test1/images/86.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -925,7 +925,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/87.png",
+        question: "../test1/images/87.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -935,7 +935,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/88.png",
+        question: "../test1/images/88.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -945,7 +945,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/89.png",
+        question: "../test1/images/89.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -955,7 +955,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/90.png",
+        question: "../test1/images/90.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -965,7 +965,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/91.png",
+        question: "../test1/images/91.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -975,7 +975,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/92.png",
+        question: "../test1/images/92.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -985,7 +985,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/93.png",
+        question: "../test1/images/93.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -995,7 +995,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/94.png",
+        question: "../test1/images/94.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1005,7 +1005,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/95.png",
+        question: "../test1/images/95.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1015,7 +1015,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/96.png",
+        question: "../test1/images/96.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1025,7 +1025,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/97.png",
+        question: "../test1/images/97.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1035,7 +1035,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/98.png",
+        question: "../test1/images/98.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1045,7 +1045,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/99.png",
+        question: "../test1/images/99.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1055,7 +1055,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/100.png",
+        question: "../test1/images/100.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1065,7 +1065,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/101.png",
+        question: "../test1/images/101.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1075,7 +1075,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/102.png",
+        question: "../test1/images/102.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1085,7 +1085,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/103.png",
+        question: "../test1/images/103.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1095,7 +1095,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/104.png",
+        question: "../test1/images/104.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1105,7 +1105,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/105.png",
+        question: "../test1/images/105.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1115,7 +1115,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/106.png",
+        question: "../test1/images/106.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1125,7 +1125,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/107.png",
+        question: "../test1/images/107.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1135,7 +1135,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/108.png",
+        question: "../test1/images/108.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1145,7 +1145,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/109.png",
+        question: "../test1/images/109.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1155,7 +1155,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/110.png",
+        question: "../test1/images/110.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1165,7 +1165,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/111.png",
+        question: "../test1/images/111.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1175,7 +1175,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/112.png",
+        question: "../test1/images/112.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1185,7 +1185,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/113.png",
+        question: "../test1/images/113.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1195,7 +1195,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/114.png",
+        question: "../test1/images/114.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1205,7 +1205,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/115.png",
+        question: "../test1/images/115.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1215,7 +1215,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/116.png",
+        question: "../test1/images/116.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1225,7 +1225,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/117.png",
+        question: "../test1/images/117.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1235,7 +1235,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/118.png",
+        question: "../test1/images/118.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1245,7 +1245,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/119.png",
+        question: "../test1/images/119.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1255,7 +1255,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/120.png",
+        question: "../test1/images/120.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1265,7 +1265,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/121.png",
+        question: "../test1/images/121.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1275,7 +1275,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/122.png",
+        question: "../test1/images/122.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1285,7 +1285,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/123.png",
+        question: "../test1/images/123.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1295,7 +1295,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/124.png",
+        question: "../test1/images/124.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1305,7 +1305,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/125.png",
+        question: "../test1/images/125.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1315,7 +1315,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/126.png",
+        question: "../test1/images/126.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1325,7 +1325,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/127.png",
+        question: "../test1/images/127.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1335,7 +1335,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/128.png",
+        question: "../test1/images/128.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1345,7 +1345,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/129.png",
+        question: "../test1/images/129.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1355,7 +1355,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/130.png",
+        question: "../test1/images/130.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1365,7 +1365,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/131.png",
+        question: "../test1/images/131.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1375,7 +1375,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/132.png",
+        question: "../test1/images/132.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1385,7 +1385,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/133.png",
+        question: "../test1/images/133.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1395,7 +1395,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/134.png",
+        question: "../test1/images/134.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1405,7 +1405,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/135.png",
+        question: "../test1/images/135.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1415,7 +1415,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/136.png",
+        question: "../test1/images/136.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1425,7 +1425,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/137.png",
+        question: "../test1/images/137.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1435,7 +1435,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/138.png",
+        question: "../test1/images/138.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1445,7 +1445,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/139.png",
+        question: "../test1/images/139.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1455,7 +1455,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/140.png",
+        question: "../test1/images/140.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1465,7 +1465,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/141.png",
+        question: "../test1/images/141.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1475,7 +1475,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/142.png",
+        question: "../test1/images/142.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1485,7 +1485,7 @@ const questions1 = [
     },
     {
         selected: "",
-        question: "images/143.png",
+        question: "../test1/images/143.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1494,172 +1494,173 @@ const questions1 = [
         ]
     }
 ]
-
 const vidpovidnist_questions1 = [
     {
-        question: "images/1-1.png",
+        question: "../test1/images/1-1.png",
         selected: "",
         correct: "2431",
     },
     {
-        question: "images/1-2.png",
+        question: "../test1/images/1-2.png",
         selected: "",
         correct: "3125",
     },
     {
-        question: "images/1-3.png",
+        question: "../test1/images/1-3.png",
         selected: "",
         correct: "1423",
     },
     {
-        question: "images/1-4.png",
+        question: "../test1/images/1-4.png",
         selected: "",
         correct: "3214",
     },
     {
-        question: "images/1-5.png",
+        question: "../test1/images/1-5.png",
         selected: "",
         correct: "3215",
     },
     {
-        question: "images/1-6.png",
+        question: "../test1/images/1-6.png",
         selected: "",
         correct: "4312",
     },
     {
-        question: "images/1-7.png",
+        question: "../test1/images/1-7.png",
         selected: "",
         correct: "2531",
     }
 ]
 const hronology_questions1 = [
     {
-        question: "images/2-1.png",
+        question: "../test1/images/2-1.png",
         selected: "",
         correct: "ВБГА",
     },
     {
-        question: "images/2-2.png",
+        question: "../test1/images/2-2.png",
         selected: "",
         correct: "БГАВ",
     },
     {
-        question: "images/2-3.png",
+        question: "../test1/images/2-3.png",
         selected: "",
         correct: "ГВАБ",
     },
     {
-        question: "images/2-4.png",
+        question: "../test1/images/2-4.png",
         selected: "",
         correct: "ГВАБ",
     },
     {
-        question: "images/2-5.png",
+        question: "../test1/images/2-5.png",
         selected: "",
         correct: "БАВГ",
     },
     {
-        question: "images/2-6.png",
+        question: "../test1/images/2-6.png",
         selected: "",
         correct: "ВАГБ",
     },
     {
-        question: "images/2-7.png",
+        question: "../test1/images/2-7.png",
         selected: "",
         correct: "БАГВ",
     },
     {
-        question: "images/2-8.png",
+        question: "../test1/images/2-8.png",
         selected: "",
         correct: "БВАГ",
     },
     {
-        question: "images/2-9.png",
+        question: "../test1/images/2-9.png",
         selected: "",
         correct: "АВГБ",
     }
 ]
 const mul_ans_questions1 = [
     {
-        question: "images/3-1.png",
+        question: "../test1/images/3-1.png",
         selected: "",
         correct: "247",
     },
     {
-        question: "images/3-2.png",
+        question: "../test1/images/3-2.png",
         selected: "",
         correct: "234",
     },
     {
-        question: "images/3-3.png",
+        question: "../test1/images/3-3.png",
         selected: "",
         correct: "357",
     },
     {
-        question: "images/3-4.png",
+        question: "../test1/images/3-4.png",
         selected: "",
         correct: "145",
     },
     {
-        question: "images/3-5.png",
+        question: "../test1/images/3-5.png",
         selected: "",
         correct: "146",
     },
     {
-        question: "images/3-6.png",
+        question: "../test1/images/3-6.png",
         selected: "",
         correct: "136",
     },
     {
-        question: "images/3-7.png",
+        question: "../test1/images/3-7.png",
         selected: "",
         correct: "345",
     },
     {
-        question: "images/3-8.png",
+        question: "../test1/images/3-8.png",
         selected: "",
         correct: "127",
     },
     {
-        question: "images/3-9.png",
+        question: "../test1/images/3-9.png",
         selected: "",
         correct: "145",
     },
     {
-        question: "images/3-10.png",
+        question: "../test1/images/3-10.png",
         selected: "",
         correct: "135",
     },
     {
-        question: "images/3-11.png",
+        question: "../test1/images/3-11.png",
         selected: "",
         correct: "156",
     },
     {
-        question: "images/3-12.png",
+        question: "../test1/images/3-12.png",
         selected: "",
         correct: "136",
     },
     {
-        question: "images/3-13.png",
+        question: "../test1/images/3-13.png",
         selected: "",
         correct: "146",
     },
     {
-        question: "images/3-14.png",
+        question: "../test1/images/3-14.png",
         selected: "",
         correct: "245",
     },
     {
-        question: "images/3-15.png",
+        question: "../test1/images/3-15.png",
         selected: "",
         correct: "126",
     }
 ]
-const questions = [
+
+
+const questions2 = [
     {
         selected: "",
-        question: "images/1.png",
+        question: "../test2/images/1.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1669,7 +1670,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/2.png",
+        question: "../test2/images/2.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1679,7 +1680,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/3.png",
+        question: "../test2/images/3.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1689,7 +1690,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/4.png",
+        question: "../test2/images/4.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1699,7 +1700,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/5.png",
+        question: "../test2/images/5.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1709,7 +1710,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/6.png",
+        question: "../test2/images/6.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1719,7 +1720,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/7.png",
+        question: "../test2/images/7.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1729,7 +1730,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/8.png",
+        question: "../test2/images/8.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1739,7 +1740,7 @@ const questions = [
     },
         {
         selected: "",
-        question: "images/9.png",
+        question: "../test2/images/9.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1749,7 +1750,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/10.png",
+        question: "../test2/images/10.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1759,7 +1760,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/11.png",
+        question: "../test2/images/11.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1769,7 +1770,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/12.png",
+        question: "../test2/images/12.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1779,7 +1780,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/13.png",
+        question: "../test2/images/13.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1789,7 +1790,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/14.png",
+        question: "../test2/images/14.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1799,7 +1800,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/15.png",
+        question: "../test2/images/15.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1809,7 +1810,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/16.png",
+        question: "../test2/images/16.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1819,7 +1820,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/17.png",
+        question: "../test2/images/17.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1829,7 +1830,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/18.png",
+        question: "../test2/images/18.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1839,7 +1840,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/19.png",
+        question: "../test2/images/19.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1849,7 +1850,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/20.png",
+        question: "../test2/images/20.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1859,7 +1860,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/21.png",
+        question: "../test2/images/21.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1869,7 +1870,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/22.png",
+        question: "../test2/images/22.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1879,7 +1880,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/23.png",
+        question: "../test2/images/23.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1889,7 +1890,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/24.png",
+        question: "../test2/images/24.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1899,7 +1900,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/25.png",
+        question: "../test2/images/25.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1909,7 +1910,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/26.png",
+        question: "../test2/images/26.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1919,7 +1920,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/27.png",
+        question: "../test2/images/27.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1929,7 +1930,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/28.png",
+        question: "../test2/images/28.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1939,7 +1940,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/29.png",
+        question: "../test2/images/29.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1949,7 +1950,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/30.png",
+        question: "../test2/images/30.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -1959,7 +1960,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/31.png",
+        question: "../test2/images/31.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1969,7 +1970,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/32.png",
+        question: "../test2/images/32.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1979,7 +1980,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/33.png",
+        question: "../test2/images/33.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -1989,7 +1990,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/34.png",
+        question: "../test2/images/34.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -1999,7 +2000,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/35.png",
+        question: "../test2/images/35.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2009,7 +2010,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/36.png",
+        question: "../test2/images/36.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2019,7 +2020,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/37.png",
+        question: "../test2/images/37.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2029,7 +2030,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/38.png",
+        question: "../test2/images/38.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2039,7 +2040,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/39.png",
+        question: "../test2/images/39.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2049,7 +2050,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/40.png",
+        question: "../test2/images/40.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2059,7 +2060,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/41.png",
+        question: "../test2/images/41.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2069,7 +2070,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/42.png",
+        question: "../test2/images/42.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2079,7 +2080,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/43.png",
+        question: "../test2/images/43.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2089,7 +2090,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/44.png",
+        question: "../test2/images/44.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2099,7 +2100,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/45.png",
+        question: "../test2/images/45.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2109,7 +2110,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/46.png",
+        question: "../test2/images/46.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2119,7 +2120,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/47.png",
+        question: "../test2/images/47.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2129,7 +2130,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/48.png",
+        question: "../test2/images/48.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2139,7 +2140,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/49.png",
+        question: "../test2/images/49.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2149,7 +2150,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/50.png",
+        question: "../test2/images/50.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2159,7 +2160,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/51.png",
+        question: "../test2/images/51.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2169,7 +2170,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/52.png",
+        question: "../test2/images/52.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2179,7 +2180,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/53.png",
+        question: "../test2/images/53.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2189,7 +2190,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/54.png",
+        question: "../test2/images/54.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2199,7 +2200,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/55.png",
+        question: "../test2/images/55.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2209,7 +2210,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/56.png",
+        question: "../test2/images/56.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2219,7 +2220,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/57.png",
+        question: "../test2/images/57.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2229,7 +2230,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/58.png",
+        question: "../test2/images/58.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2239,7 +2240,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/59.png",
+        question: "../test2/images/59.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2249,7 +2250,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/60.png",
+        question: "../test2/images/60.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2259,7 +2260,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/61.png",
+        question: "../test2/images/61.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2269,7 +2270,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/62.png",
+        question: "../test2/images/62.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2279,7 +2280,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/63.png",
+        question: "../test2/images/63.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2289,7 +2290,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/64.png",
+        question: "../test2/images/64.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2299,7 +2300,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/65.png",
+        question: "../test2/images/65.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2309,7 +2310,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/66.png",
+        question: "../test2/images/66.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2319,7 +2320,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/67.png",
+        question: "../test2/images/67.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2329,7 +2330,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/68.png",
+        question: "../test2/images/68.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2339,7 +2340,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/69.png",
+        question: "../test2/images/69.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2349,7 +2350,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/70.png",
+        question: "../test2/images/70.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2359,7 +2360,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/71.png",
+        question: "../test2/images/71.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2369,7 +2370,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/72.png",
+        question: "../test2/images/72.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2379,7 +2380,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/73.png",
+        question: "../test2/images/73.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2389,7 +2390,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/74.png",
+        question: "../test2/images/74.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2399,7 +2400,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/75.png",
+        question: "../test2/images/75.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2409,7 +2410,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/76.png",
+        question: "../test2/images/76.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2419,7 +2420,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/77.png",
+        question: "../test2/images/77.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2429,7 +2430,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/78.png",
+        question: "../test2/images/78.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2439,7 +2440,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/79.png",
+        question: "../test2/images/79.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2449,7 +2450,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/80.png",
+        question: "../test2/images/80.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2459,7 +2460,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/81.png",
+        question: "../test2/images/81.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2469,7 +2470,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/82.png",
+        question: "../test2/images/82.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2479,7 +2480,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/83.png",
+        question: "../test2/images/83.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2489,7 +2490,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/84.png",
+        question: "../test2/images/84.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2499,7 +2500,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/85.png",
+        question: "../test2/images/85.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2509,7 +2510,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/86.png",
+        question: "../test2/images/86.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2519,7 +2520,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/87.png",
+        question: "../test2/images/87.png",
         answers: [
             {text: "А", correct: true},
             {text: "Б", correct: false},
@@ -2529,7 +2530,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/88.png",
+        question: "../test2/images/88.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2539,7 +2540,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/89.png",
+        question: "../test2/images/89.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2549,7 +2550,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/90.png",
+        question: "../test2/images/90.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2559,7 +2560,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/91.png",
+        question: "../test2/images/91.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2569,7 +2570,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/92.png",
+        question: "../test2/images/92.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2579,7 +2580,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/93.png",
+        question: "../test2/images/93.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2589,7 +2590,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/94.png",
+        question: "../test2/images/94.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2599,7 +2600,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/95.png",
+        question: "../test2/images/95.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
@@ -2609,7 +2610,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/96.png",
+        question: "../test2/images/96.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2619,7 +2620,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/97.png",
+        question: "../test2/images/97.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2629,7 +2630,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/98.png",
+        question: "../test2/images/98.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2639,7 +2640,7 @@ const questions = [
     },
     {
         selected: "",
-        question: "images/99.png",
+        question: "../test2/images/99.png",
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: true},
@@ -2648,297 +2649,6516 @@ const questions = [
         ]
     }
 ]
-const vidpovidnist_questions = [
+const vidpovidnist_questions2 = [
     {
-        question: "images/1-1.png",
+        question: "../test2/images/1-1.png",
         selected: "",
         correct: "3124",
     },
     {
-        question: "images/1-2.png",
+        question: "../test2/images/1-2.png",
         selected: "",
         correct: "3521",
     },
     {
-        question: "images/1-3.png",
+        question: "../test2/images/1-3.png",
         selected: "",
         correct: "4123",
     },
     {
-        question: "images/1-4.png",
+        question: "../test2/images/1-4.png",
         selected: "",
         correct: "5143",
     },
     {
-        question: "images/1-5.png",
+        question: "../test2/images/1-5.png",
         selected: "",
         correct: "2431",
     },
     {
-        question: "images/1-6.png",
+        question: "../test2/images/1-6.png",
         selected: "",
         correct: "4135",
     },
     {
-        question: "images/1-7.png",
+        question: "../test2/images/1-7.png",
         selected: "",
         correct: "2431",
     },
     {
-        question: "images/1-8.png",
+        question: "../test2/images/1-8.png",
         selected: "",
         correct: "1432",
     },
     {
-        question: "images/1-9.png",
+        question: "../test2/images/1-9.png",
         selected: "",
         correct: "2431",
     },
     {
-        question: "images/1-10.png",
+        question: "../test2/images/1-10.png",
         selected: "",
         correct: "5421",
     },
     {
-        question: "images/1-11.png",
+        question: "../test2/images/1-11.png",
         selected: "",
         correct: "3425",
     },
     {
-        question: "images/1-12.png",
+        question: "../test2/images/1-12.png",
         selected: "",
         correct: "2431",
     },
     {
-        question: "images/1-13.png",
+        question: "../test2/images/1-13.png",
         selected: "",
         correct: "5243",
     },
     {
-        question: "images/1-14.png",
+        question: "../test2/images/1-14.png",
         selected: "",
         correct: "4523",
     },
     {
-        question: "images/1-15.png",
+        question: "../test2/images/1-15.png",
         selected: "",
         correct: "4321",
     },
     {
-        question: "images/1-16.png",
+        question: "../test2/images/1-16.png",
         selected: "",
         correct: "4213",
     },
     {
-        question: "images/1-17.png",
+        question: "../test2/images/1-17.png",
         selected: "",
         correct: "2431",
     },
     {
-        question: "images/1-18.png",
+        question: "../test2/images/1-18.png",
         selected: "",
         correct: "3512",
     },
     {
-        question: "images/1-19.png",
+        question: "../test2/images/1-19.png",
         selected: "",
         correct: "4235",
     }
 ]
-
-const hronology_questions = [
+const hronology_questions2 = [
     {
-        question: "images/2-1.png",
+        question: "../test2/images/2-1.png",
         selected: "",
         correct: "ГАБВ",
     },
     {
-        question: "images/2-2.png",
+        question: "../test2/images/2-2.png",
         selected: "",
         correct: "ВБГА",
     },
     {
-        question: "images/2-3.png",
+        question: "../test2/images/2-3.png",
         selected: "",
         correct: "БГАВ",
     },
     {
-        question: "images/2-4.png",
+        question: "../test2/images/2-4.png",
         selected: "",
         correct: "ВГАБ",
     },
     {
-        question: "images/2-5.png",
+        question: "../test2/images/2-5.png",
         selected: "",
         correct: "ВАГБ",
     },
     {
-        question: "images/2-6.png",
+        question: "../test2/images/2-6.png",
         selected: "",
         correct: "БГВА",
     },
     {
-        question: "images/2-7.png",
+        question: "../test2/images/2-7.png",
         selected: "",
         correct: "ГАБВ",
     },
     {
-        question: "images/2-8.png",
+        question: "../test2/images/2-8.png",
         selected: "",
         correct: "АВГБ",
     },
     {
-        question: "images/2-9.png",
+        question: "../test2/images/2-9.png",
         selected: "",
         correct: "БАВГ",
     },
     {
-        question: "images/2-10.png",
+        question: "../test2/images/2-10.png",
         selected: "",
         correct: "БГАВ",
     },
     {
-        question: "images/2-11.png",
+        question: "../test2/images/2-11.png",
         selected: "",
         correct: "ГВБА",
     },
     {
-        question: "images/2-12.png",
+        question: "../test2/images/2-12.png",
         selected: "",
         correct: "ВАГБ",
     },
     {
-        question: "images/2-13.png",
+        question: "../test2/images/2-13.png",
         selected: "",
         correct: "ГАБВ",
     },
     {
-        question: "images/2-14.png",
+        question: "../test2/images/2-14.png",
         selected: "",
         correct: "ВБАГ",
     },
     {
-        question: "images/2-15.png",
+        question: "../test2/images/2-15.png",
         selected: "",
         correct: "ГАБВ",
     }
 ]
-
-const mul_ans_questions = [
+const mul_ans_questions2 = [
     {
-        question: "images/3-1.png",
+        question: "../test2/images/3-1.png",
         selected: "",
         correct: "246",
     },
     {
-        question: "images/3-2.png",
+        question: "../test2/images/3-2.png",
         selected: "",
         correct: "135",
     },
     {
-        question: "images/3-3.png",
+        question: "../test2/images/3-3.png",
         selected: "",
         correct: "123",
     },
     {
-        question: "images/3-4.png",
+        question: "../test2/images/3-4.png",
         selected: "",
         correct: "146",
     },
     {
-        question: "images/3-5.png",
+        question: "../test2/images/3-5.png",
         selected: "",
         correct: "246",
     },
     {
-        question: "images/3-6.png",
+        question: "../test2/images/3-6.png",
         selected: "",
         correct: "346",
     },
     {
-        question: "images/3-7.png",
+        question: "../test2/images/3-7.png",
         selected: "",
         correct: "345",
     },
     {
-        question: "images/3-8.png",
+        question: "../test2/images/3-8.png",
         selected: "",
         correct: "146",
     },
     {
-        question: "images/3-9.png",
+        question: "../test2/images/3-9.png",
         selected: "",
         correct: "235",
     },
     {
-        question: "images/3-10.png",
+        question: "../test2/images/3-10.png",
         selected: "",
         correct: "126",
     },
     {
-        question: "images/3-11.png",
+        question: "../test2/images/3-11.png",
         selected: "",
         correct: "245",
     },
     {
-        question: "images/3-12.png",
+        question: "../test2/images/3-12.png",
         selected: "",
         correct: "156",
     },
     {
-        question: "images/3-13.png",
+        question: "../test2/images/3-13.png",
         selected: "",
         correct: "357",
     },
     {
-        question: "images/3-14.png",
+        question: "../test2/images/3-14.png",
         selected: "",
         correct: "124",
     },
     {
-        question: "images/3-15.png",
+        question: "../test2/images/3-15.png",
         selected: "",
         correct: "136",
     },
     {
-        question: "images/3-16.png",
+        question: "../test2/images/3-16.png",
         selected: "",
         correct: "136",
     },
     {
-        question: "images/3-17.png",
+        question: "../test2/images/3-17.png",
         selected: "",
         correct: "234",
     },
     {
-        question: "images/3-18.png",
+        question: "../test2/images/3-18.png",
         selected: "",
         correct: "145",
     },
     {
-        question: "images/3-19.png",
+        question: "../test2/images/3-19.png",
         selected: "",
         correct: "127",
     },
     {
-        question: "images/3-20.png",
+        question: "../test2/images/3-20.png",
         selected: "",
         correct: "235",
     },
     {
-        question: "images/3-21.png",
+        question: "../test2/images/3-21.png",
         selected: "",
         correct: "134",
     },
     {
-        question: "images/3-22.png",
+        question: "../test2/images/3-22.png",
         selected: "",
         correct: "246",
     },
     {
-        question: "images/3-23.png",
+        question: "../test2/images/3-23.png",
         selected: "",
         correct: "357",
+    }
+]
+
+
+const questions3 = [
+    {
+        selected: "",
+        question: "../test3/images/1.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/2.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/3.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/4.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/5.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/6.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/7.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/8.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+        {
+        selected: "",
+        question: "../test3/images/9.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/10.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/11.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/12.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/13.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/14.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/15.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/16.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/17.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/18.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/19.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/20.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/21.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/22.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/23.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/24.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/25.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/26.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/27.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/28.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/29.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/30.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/31.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/32.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/33.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/34.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/35.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/36.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/37.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/38.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/39.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/40.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/41.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/42.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/43.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/44.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/45.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/46.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/47.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/48.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/49.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/50.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/51.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/52.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/53.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/54.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/55.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/56.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/57.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/58.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/59.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/60.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/61.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/62.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/63.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/64.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/65.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/66.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/67.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/68.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/69.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/70.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/71.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/72.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/73.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/74.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/75.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/76.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/77.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/78.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/79.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/80.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/81.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/82.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/83.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/84.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/85.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/86.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/87.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/88.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/89.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/90.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/91.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/92.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/93.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/94.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/95.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/96.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/97.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/98.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/99.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/100.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/101.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/102.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/103.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/104.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/105.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/106.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/107.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/108.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/109.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/110.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/111.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/112.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/113.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/114.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/115.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/116.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/117.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/118.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/119.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/120.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/121.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/122.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/123.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/124.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/125.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/126.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/127.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/128.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/129.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/130.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/131.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/132.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/133.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/134.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/135.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/136.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/137.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/138.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/139.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test3/images/140.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    }
+]
+const vidpovidnist_questions3 = [
+    {
+        question: "../test3/images/1-1.png",
+        selected: "",
+        correct: "1453",
+    },
+    {
+        question: "../test3/images/1-2.png",
+        selected: "",
+        correct: "4123",
+    },
+    {
+        question: "../test3/images/1-3.png",
+        selected: "",
+        correct: "3412",
+    },
+    {
+        question: "../test3/images/1-4.png",
+        selected: "",
+        correct: "1523",
+    },
+    {
+        question: "../test3/images/1-5.png",
+        selected: "",
+        correct: "3542",
+    },
+    {
+        question: "../test3/images/1-6.png",
+        selected: "",
+        correct: "3514",
+    },
+    {
+        question: "../test3/images/1-7.png",
+        selected: "",
+        correct: "4152",
+    },
+    {
+        question: "../test3/images/1-8.png",
+        selected: "",
+        correct: "5123",
+    },
+    {
+        question: "../test3/images/1-9.png",
+        selected: "",
+        correct: "4315",
+    },
+    {
+        question: "../test3/images/1-10.png",
+        selected: "",
+        correct: "2354",
+    },
+    {
+        question: "../test3/images/1-11.png",
+        selected: "",
+        correct: "4521",
+    },
+    {
+        question: "../test3/images/1-12.png",
+        selected: "",
+        correct: "3152",
+    },
+    {
+        question: "../test3/images/1-13.png",
+        selected: "",
+        correct: "5431",
+    },
+    {
+        question: "../test3/images/1-14.png",
+        selected: "",
+        correct: "5324",
+    },
+    {
+        question: "../test3/images/1-15.png",
+        selected: "",
+        correct: "4213",
+    },
+    {
+        question: "../test3/images/1-16.png",
+        selected: "",
+        correct: "3425",
+    },
+    {
+        question: "../test3/images/1-17.png",
+        selected: "",
+        correct: "3412",
+    },
+    {
+        question: "../test3/images/1-18.png",
+        selected: "",
+        correct: "3514",
+    },
+    {
+        question: "../test3/images/1-19.png",
+        selected: "",
+        correct: "2341",
+    }
+]
+const hronology_questions3 = [
+    {
+        question: "../test3/images/2-1.png",
+        selected: "",
+        correct: "ВБГА",
+    },
+    {
+        question: "../test3/images/2-2.png",
+        selected: "",
+        correct: "ГБВА",
+    },
+    {
+        question: "../test3/images/2-3.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test3/images/2-4.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test3/images/2-5.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test3/images/2-6.png",
+        selected: "",
+        correct: "ГАВБ",
+    },
+    {
+        question: "../test3/images/2-7.png",
+        selected: "",
+        correct: "БГАВ",
+    },
+    {
+        question: "../test3/images/2-8.png",
+        selected: "",
+        correct: "АГБВ",
+    },
+    {
+        question: "../test3/images/2-9.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test3/images/2-10.png",
+        selected: "",
+        correct: "БВАГ",
+    },
+    {
+        question: "../test3/images/2-11.png",
+        selected: "",
+        correct: "ВГБА",
+    },
+    {
+        question: "../test3/images/2-12.png",
+        selected: "",
+        correct: "ВАГБ",
+    },
+    {
+        question: "../test3/images/2-13.png",
+        selected: "",
+        correct: "ГБАВ",
+    }
+]
+const mul_ans_questions3 = [
+    {
+        question: "../test3/images/3-1.png",
+        selected: "",
+        correct: "147",
+    },
+    {
+        question: "../test3/images/3-2.png",
+        selected: "",
+        correct: "256",
+    },
+    {
+        question: "../test3/images/3-3.png",
+        selected: "",
+        correct: "235",
+    },
+    {
+        question: "../test3/images/3-4.png",
+        selected: "",
+        correct: "356",
+    },
+    {
+        question: "../test3/images/3-5.png",
+        selected: "",
+        correct: "145",
+    },
+    {
+        question: "../test3/images/3-6.png",
+        selected: "",
+        correct: "156",
+    },
+    {
+        question: "../test3/images/3-7.png",
+        selected: "",
+        correct: "124",
+    },
+    {
+        question: "../test3/images/3-8.png",
+        selected: "",
+        correct: "156",
+    },
+    {
+        question: "../test3/images/3-9.png",
+        selected: "",
+        correct: "346",
+    },
+    {
+        question: "../test3/images/3-10.png",
+        selected: "",
+        correct: "246",
+    }
+]
+
+
+const questions4 = [
+    {
+        selected: "",
+        question: "../test4/images/1.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/2.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/3.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/4.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/5.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/6.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/7.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/8.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+        {
+        selected: "",
+        question: "../test4/images/9.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/10.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/11.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/12.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/13.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/14.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/15.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/16.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/17.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/18.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/19.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/20.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/21.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/22.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/23.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/24.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/25.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/26.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/27.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/28.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/29.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/30.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/31.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/32.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/33.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/34.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/35.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/36.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/37.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/38.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/39.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/40.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/41.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/42.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/43.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/44.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/45.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/46.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/47.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/48.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/49.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/50.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/51.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/52.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/53.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/54.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/55.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/56.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/57.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/58.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/59.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/60.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/61.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/62.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/63.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/64.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/65.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/66.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/67.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/68.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/69.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/70.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/71.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/72.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/73.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/74.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/75.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/76.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/77.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/78.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/79.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/80.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/81.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/82.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/83.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/84.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/85.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/86.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/87.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/88.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/89.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/90.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/91.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/92.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/93.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/94.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/95.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/96.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/97.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/98.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/99.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/100.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/101.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/102.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/103.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/104.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/105.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/106.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/107.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/108.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/109.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/110.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/111.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/112.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/113.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/114.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/115.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/116.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/117.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/118.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/119.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/120.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/121.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/122.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/123.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/124.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/125.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/126.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/127.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/128.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/129.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/130.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/131.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/132.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/133.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/134.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/135.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/136.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test4/images/137.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    }
+]
+const vidpovidnist_questions4 = [
+    {
+        question: "../test4/images/1-1.png",
+        selected: "",
+        correct: "3145",
+    },
+    {
+        question: "../test4/images/1-2.png",
+        selected: "",
+        correct: "2415",
+    },
+    {
+        question: "../test4/images/1-3.png",
+        selected: "",
+        correct: "3154",
+    },
+    {
+        question: "../test4/images/1-4.png",
+        selected: "",
+        correct: "3512",
+    },
+    {
+        question: "../test4/images/1-5.png",
+        selected: "",
+        correct: "4135",
+    },
+    {
+        question: "../test4/images/1-6.png",
+        selected: "",
+        correct: "4213",
+    },
+    {
+        question: "../test4/images/1-7.png",
+        selected: "",
+        correct: "4132",
+    },
+    {
+        question: "../test4/images/1-8.png",
+        selected: "",
+        correct: "1524",
+    },
+    {
+        question: "../test4/images/1-9.png",
+        selected: "",
+        correct: "2453",
+    },
+    {
+        question: "../test4/images/1-10.png",
+        selected: "",
+        correct: "2351",
+    },
+    {
+        question: "../test4/images/1-11.png",
+        selected: "",
+        correct: "3451",
+    },
+    {
+        question: "../test4/images/1-12.png",
+        selected: "",
+        correct: "2514",
+    },
+    {
+        question: "../test4/images/1-13.png",
+        selected: "",
+        correct: "3412",
+    },
+    {
+        question: "../test4/images/1-14.png",
+        selected: "",
+        correct: "2354",
+    },
+    {
+        question: "../test4/images/1-15.png",
+        selected: "",
+        correct: "3125",
+    },
+    {
+        question: "../test4/images/1-16.png",
+        selected: "",
+        correct: "1234",
+    },
+    {
+        question: "../test4/images/1-17.png",
+        selected: "",
+        correct: "3541",
+    },
+    {
+        question: "../test4/images/1-18.png",
+        selected: "",
+        correct: "2431",
+    }
+]
+const hronology_questions4 = [
+    {
+        question: "../test4/images/2-1.png",
+        selected: "",
+        correct: "АБВГ",
+    },
+    {
+        question: "../test4/images/2-2.png",
+        selected: "",
+        correct: "ВГБА",
+    },
+    {
+        question: "../test4/images/2-3.png",
+        selected: "",
+        correct: "ВГАБ",
+    },
+    {
+        question: "../test4/images/2-4.png",
+        selected: "",
+        correct: "БГВА",
+    },
+    {
+        question: "../test4/images/2-5.png",
+        selected: "",
+        correct: "ГБАВ",
+    },
+    {
+        question: "../test4/images/2-6.png",
+        selected: "",
+        correct: "ВАГБ",
+    },
+    {
+        question: "../test4/images/2-7.png",
+        selected: "",
+        correct: "БВАГ",
+    },
+    {
+        question: "../test4/images/2-8.png",
+        selected: "",
+        correct: "ВБГА",
+    },
+    {
+        question: "../test4/images/2-9.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "../test4/images/2-10.png",
+        selected: "",
+        correct: "БВАГ",
+    },
+    {
+        question: "../test4/images/2-11.png",
+        selected: "",
+        correct: "БВАГ",
+    },
+    {
+        question: "../test4/images/2-12.png",
+        selected: "",
+        correct: "ВГБА",
+    },
+    {
+        question: "../test4/images/2-13.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test4/images/2-14.png",
+        selected: "",
+        correct: "ГАВБ",
+    },
+    {
+        question: "../test4/images/2-15.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test4/images/2-16.png",
+        selected: "",
+        correct: "ВБГА",
+    }
+]
+const mul_ans_questions4 = [
+    {
+        question: "../test4/images/3-1.png",
+        selected: "",
+        correct: "256",
+    },
+    {
+        question: "../test4/images/3-2.png",
+        selected: "",
+        correct: "236",
+    },
+    {
+        question: "../test4/images/3-3.png",
+        selected: "",
+        correct: "235",
+    },
+    {
+        question: "../test4/images/3-4.png",
+        selected: "",
+        correct: "156",
+    },
+    {
+        question: "../test4/images/3-5.png",
+        selected: "",
+        correct: "457",
+    },
+    {
+        question: "../test4/images/3-6.png",
+        selected: "",
+        correct: "347",
+    },
+    {
+        question: "../test4/images/3-7.png",
+        selected: "",
+        correct: "357",
+    },
+    {
+        question: "../test4/images/3-8.png",
+        selected: "",
+        correct: "245",
+    },
+    {
+        question: "../test4/images/3-9.png",
+        selected: "",
+        correct: "246",
+    },
+    {
+        question: "../test4/images/3-10.png",
+        selected: "",
+        correct: "235",
+    },
+    {
+        question: "../test4/images/3-11.png",
+        selected: "",
+        correct: "126",
+    },
+    {
+        question: "../test4/images/3-12.png",
+        selected: "",
+        correct: "345",
+    },
+    {
+        question: "../test4/images/3-13.png",
+        selected: "",
+        correct: "246",
+    },
+    {
+        question: "../test4/images/3-14.png",
+        selected: "",
+        correct: "134",
+    },
+    {
+        question: "../test4/images/3-15.png",
+        selected: "",
+        correct: "123",
+    },
+    {
+        question: "../test4/images/3-16.png",
+        selected: "",
+        correct: "124",
+    },
+    {
+        question: "../test4/images/3-17.png",
+        selected: "",
+        correct: "134",
+    }
+]
+
+
+const questions5 = [
+    {
+        selected: "",
+        question: "../test5/images/1.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/2.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/3.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/4.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/5.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/6.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/7.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/8.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+        {
+        selected: "",
+        question: "../test5/images/9.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/10.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/11.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/12.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/13.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/14.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/15.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/16.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/17.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/18.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/19.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/20.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/21.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/22.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/23.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/24.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/25.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/26.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/27.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/28.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/29.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/30.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/31.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/32.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/33.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/34.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/35.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/36.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/37.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/38.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/39.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/40.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/41.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/42.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/43.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/44.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/45.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/46.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/47.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/48.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/49.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/50.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/51.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/52.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/53.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/54.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/55.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/56.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/57.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/58.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/59.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/60.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/61.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/62.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/63.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/64.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/65.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/66.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/67.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/68.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/69.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/70.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/71.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/72.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/73.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/74.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/75.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/76.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/77.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/78.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/79.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/80.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/81.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/82.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/83.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/84.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/85.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/86.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/87.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/88.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/89.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/90.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/91.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/92.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/93.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/94.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/95.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/96.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/97.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/98.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/99.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/100.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/101.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/102.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/103.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/104.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/105.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/106.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/107.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/108.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/109.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/110.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/111.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test5/images/112.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    }
+]
+const vidpovidnist_questions5 = [
+    {
+        question: "../test5/images/1-1.png",
+        selected: "",
+        correct: "3412",
+    },
+    {
+        question: "../test5/images/1-2.png",
+        selected: "",
+        correct: "4512",
+    },
+    {
+        question: "../test5/images/1-3.png",
+        selected: "",
+        correct: "3452",
+    },
+    {
+        question: "../test5/images/1-4.png",
+        selected: "",
+        correct: "2154",
+    },
+    {
+        question: "../test5/images/1-5.png",
+        selected: "",
+        correct: "3452",
+    },
+    {
+        question: "../test5/images/1-6.png",
+        selected: "",
+        correct: "1324",
+    },
+    {
+        question: "../test5/images/1-7.png",
+        selected: "",
+        correct: "4321",
+    },
+    {
+        question: "../test5/images/1-8.png",
+        selected: "",
+        correct: "2153",
+    },
+    {
+        question: "../test5/images/1-9.png",
+        selected: "",
+        correct: "1245",
+    },
+    {
+        question: "../test5/images/1-10.png",
+        selected: "",
+        correct: "3214",
+    },
+    {
+        question: "../test5/images/1-11.png",
+        selected: "",
+        correct: "1253",
+    },
+    {
+        question: "../test5/images/1-12.png",
+        selected: "",
+        correct: "4312",
+    },
+    {
+        question: "../test5/images/1-13.png",
+        selected: "",
+        correct: "4325",
+    },
+    {
+        question: "../test5/images/1-14.png",
+        selected: "",
+        correct: "2153",
+    },
+    {
+        question: "../test5/images/1-15.png",
+        selected: "",
+        correct: "3521",
+    },
+    {
+        question: "../test5/images/1-16.png",
+        selected: "",
+        correct: "4215",
+    }
+]
+const hronology_questions5 = [
+    {
+        question: "../test5/images/2-1.png",
+        selected: "",
+        correct: "ВГБА",
+    },
+    {
+        question: "../test5/images/2-2.png",
+        selected: "",
+        correct: "АГБВ",
+    },
+    {
+        question: "../test5/images/2-3.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "../test5/images/2-4.png",
+        selected: "",
+        correct: "ГАБВ",
+    },
+    {
+        question: "../test5/images/2-5.png",
+        selected: "",
+        correct: "БГВА",
+    },
+    {
+        question: "../test5/images/2-6.png",
+        selected: "",
+        correct: "АГБВ",
+    },
+    {
+        question: "../test5/images/2-7.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "../test5/images/2-8.png",
+        selected: "",
+        correct: "БАВГ",
+    },
+    {
+        question: "../test5/images/2-9.png",
+        selected: "",
+        correct: "БАВГ",
+    },
+    {
+        question: "../test5/images/2-10.png",
+        selected: "",
+        correct: "АБГВ",
+    },
+    {
+        question: "../test5/images/2-11.png",
+        selected: "",
+        correct: "АБВГ",
+    },
+    {
+        question: "../test5/images/2-12.png",
+        selected: "",
+        correct: "ГАБВ",
+    },
+    {
+        question: "../test5/images/2-13.png",
+        selected: "",
+        correct: "БВГА",
+    },
+    {
+        question: "../test5/images/2-14.png",
+        selected: "",
+        correct: "АВБГ",
+    },
+    {
+        question: "../test5/images/2-15.png",
+        selected: "",
+        correct: "БАВГ",
+    },
+    {
+        question: "../test5/images/2-16.png",
+        selected: "",
+        correct: "БГВА",
+    },
+    {
+        question: "../test5/images/2-17.png",
+        selected: "",
+        correct: "ВАБГ",
+    },
+    {
+        question: "../test5/images/2-18.png",
+        selected: "",
+        correct: "АБГВ",
+    },
+    {
+        question: "../test5/images/2-19.png",
+        selected: "",
+        correct: "ГВБА",
+    },
+    {
+        question: "../test5/images/2-20.png",
+        selected: "",
+        correct: "БГАВ",
+    },
+    {
+        question: "../test5/images/2-21.png",
+        selected: "",
+        correct: "ГВБА",
+    },
+    {
+        question: "../test5/images/2-22.png",
+        selected: "",
+        correct: "ВГБА",
+    },
+    {
+        question: "../test5/images/2-23.png",
+        selected: "",
+        correct: "ВБГА",
+    },
+    {
+        question: "../test5/images/2-24.png",
+        selected: "",
+        correct: "ВБГА",
+    },
+    {
+        question: "../test5/images/2-25.png",
+        selected: "",
+        correct: "ВГАБ",
+    },
+    {
+        question: "../test5/images/2-26.png",
+        selected: "",
+        correct: "БАГВ",
+    }
+]
+const mul_ans_questions5 = [
+    {
+        question: "../test5/images/3-1.png",
+        selected: "",
+        correct: "234",
+    },
+    {
+        question: "../test5/images/3-2.png",
+        selected: "",
+        correct: "567",
+    },
+    {
+        question: "../test5/images/3-3.png",
+        selected: "",
+        correct: "267",
+    },
+    {
+        question: "../test5/images/3-4.png",
+        selected: "",
+        correct: "246",
+    },
+    {
+        question: "../test5/images/3-5.png",
+        selected: "",
+        correct: "126",
+    },
+    {
+        question: "../test5/images/3-6.png",
+        selected: "",
+        correct: "167",
+    },
+    {
+        question: "../test5/images/3-7.png",
+        selected: "",
+        correct: "135",
+    },
+    {
+        question: "../test5/images/3-8.png",
+        selected: "",
+        correct: "467",
+    },
+    {
+        question: "../test5/images/3-9.png",
+        selected: "",
+        correct: "123",
+    },
+    {
+        question: "../test5/images/3-10.png",
+        selected: "",
+        correct: "135",
+    },
+    {
+        question: "../test5/images/3-11.png",
+        selected: "",
+        correct: "234",
+    },
+    {
+        question: "../test5/images/3-12.png",
+        selected: "",
+        correct: "246",
+    }
+]
+
+
+const questions6 = [
+    {
+        selected: "",
+        question: "../test6/images/1.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/2.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/3.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/4.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/5.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/6.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/7.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/8.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+        {
+        selected: "",
+        question: "../test6/images/9.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/10.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/11.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/12.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/13.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/14.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/15.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/16.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/17.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/18.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/19.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/20.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/21.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/22.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/23.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/24.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/25.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/26.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/27.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/28.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/29.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/30.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/31.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/32.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/33.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/34.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/35.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/36.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/37.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/38.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/39.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/40.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/41.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/42.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/43.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/44.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/45.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/46.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/47.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/48.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/49.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/50.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/51.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/52.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/53.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/54.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/55.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/56.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/57.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/58.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/59.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/60.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/61.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/62.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/63.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/64.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/65.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/66.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/67.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/68.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/69.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/70.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/71.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/72.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/73.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/74.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/75.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/76.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/77.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/78.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/79.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/80.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/81.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/82.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/83.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/84.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/85.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/86.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/87.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/88.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/89.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/90.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/91.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/92.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/93.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/94.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/95.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/96.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/97.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/98.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/99.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/100.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/101.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/102.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/103.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/104.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/105.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/106.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/107.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/108.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/109.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/110.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/111.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/112.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/113.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/114.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/115.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/116.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/117.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/118.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/119.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/120.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/121.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: true},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/122.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/123.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/124.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/125.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/126.png",
+        answers: [
+            {text: "А", correct: false},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: true},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/127.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    },
+    {
+        selected: "",
+        question: "../test6/images/128.png",
+        answers: [
+            {text: "А", correct: true},
+            {text: "Б", correct: false},
+            {text: "В", correct: false},
+            {text: "Г", correct: false},
+        ]
+    }
+
+]
+const vidpovidnist_questions6 = [
+    {
+        question: "../test6/images/1-1.png",
+        selected: "",
+        correct: "2541",
+    },
+    {
+        question: "../test6/images/1-2.png",
+        selected: "",
+        correct: "5413",
+    },
+    {
+        question: "../test6/images/1-3.png",
+        selected: "",
+        correct: "2314",
+    },
+    {
+        question: "../test6/images/1-4.png",
+        selected: "",
+        correct: "5312",
+    },
+    {
+        question: "../test6/images/1-5.png",
+        selected: "",
+        correct: "3521",
+    },
+    {
+        question: "../test6/images/1-6.png",
+        selected: "",
+        correct: "2514",
+    },
+    {
+        question: "../test6/images/1-7.png",
+        selected: "",
+        correct: "3214",
+    },
+    {
+        question: "../test6/images/1-8.png",
+        selected: "",
+        correct: "3214",
+    },
+    {
+        question: "../test6/images/1-9.png",
+        selected: "",
+        correct: "3514",
+    },
+    {
+        question: "../test6/images/1-10.png",
+        selected: "",
+        correct: "1452",
+    },
+    {
+        question: "../test6/images/1-11.png",
+        selected: "",
+        correct: "3452",
+    },
+    {
+        question: "../test6/images/1-12.png",
+        selected: "",
+        correct: "3124",
+    },
+    {
+        question: "../test6/images/1-13.png",
+        selected: "",
+        correct: "4215",
+    },
+    {
+        question: "../test6/images/1-14.png",
+        selected: "",
+        correct: "2415",
+    },
+    {
+        question: "../test6/images/1-15.png",
+        selected: "",
+        correct: "1543",
+    },
+    {
+        question: "../test6/images/1-16.png",
+        selected: "",
+        correct: "4312",
+    },
+    {
+        question: "../test6/images/1-17.png",
+        selected: "",
+        correct: "5142",
+    }
+]
+const hronology_questions6 = [
+    {
+        question: "../test6/images/2-1.png",
+        selected: "",
+        correct: "БГАВ",
+    },
+    {
+        question: "../test6/images/2-2.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "../test6/images/2-3.png",
+        selected: "",
+        correct: "ГВБА",
+    },
+    {
+        question: "../test6/images/2-4.png",
+        selected: "",
+        correct: "ВГАБ",
+    },
+    {
+        question: "../test6/images/2-5.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "../test6/images/2-6.png",
+        selected: "",
+        correct: "ГВАБ",
+    },
+    {
+        question: "../test6/images/2-7.png",
+        selected: "",
+        correct: "ГВАБ",
+    },
+    {
+        question: "../test6/images/2-8.png",
+        selected: "",
+        correct: "ГБАВ",
+    },
+    {
+        question: "../test6/images/2-9.png",
+        selected: "",
+        correct: "ГВБА",
+    },
+    {
+        question: "../test6/images/2-10.png",
+        selected: "",
+        correct: "ГАВБ",
+    },
+    {
+        question: "../test6/images/2-11.png",
+        selected: "",
+        correct: "АВБГ",
+    },
+    {
+        question: "../test6/images/2-12.png",
+        selected: "",
+        correct: "ВАГБ",
+    },
+    {
+        question: "../test6/images/2-13.png",
+        selected: "",
+        correct: "ВБАГ",
+    },
+    {
+        question: "../test6/images/2-14.png",
+        selected: "",
+        correct: "ВГАБ",
+    },
+    {
+        question: "../test6/images/2-15.png",
+        selected: "",
+        correct: "ГАБВ",
+    },
+    {
+        question: "../test6/images/2-16.png",
+        selected: "",
+        correct: "АВГБ",
+    },
+    {
+        question: "../test6/images/2-17.png",
+        selected: "",
+        correct: "ВАГБ",
+    },
+    {
+        question: "../test6/images/2-18.png",
+        selected: "",
+        correct: "БАГВ",
+    },
+    {
+        question: "../test6/images/2-19.png",
+        selected: "",
+        correct: "БГВА",
+    },
+    {
+        question: "../test6/images/2-20.png",
+        selected: "",
+        correct: "БВАГ",
+    },
+    {
+        question: "../test6/images/2-21.png",
+        selected: "",
+        correct: "БГАВ",
+    }
+]
+const mul_ans_questions6 = [
+    {
+        question: "../test6/images/3-1.png",
+        selected: "",
+        correct: "346",
+    },
+    {
+        question: "../test6/images/3-2.png",
+        selected: "",
+        correct: "146",
+    },
+    {
+        question: "../test6/images/3-3.png",
+        selected: "",
+        correct: "346",
+    },
+    {
+        question: "../test6/images/3-4.png",
+        selected: "",
+        correct: "235",
+    },
+    {
+        question: "../test6/images/3-5.png",
+        selected: "",
+        correct: "137",
+    },
+    {
+        question: "../test6/images/3-6.png",
+        selected: "",
+        correct: "247",
+    },
+    {
+        question: "../test6/images/3-7.png",
+        selected: "",
+        correct: "157",
+    },
+    {
+        question: "../test6/images/3-8.png",
+        selected: "",
+        correct: "237",
+    },
+    {
+        question: "../test6/images/3-9.png",
+        selected: "",
+        correct: "256",
+    },
+    {
+        question: "../test6/images/3-10.png",
+        selected: "",
+        correct: "127",
+    },
+    {
+        question: "../test6/images/3-11.png",
+        selected: "",
+        correct: "126",
+    },
+    {
+        question: "../test6/images/3-12.png",
+        selected: "",
+        correct: "237",
+    },
+    {
+        question: "../test6/images/3-13.png",
+        selected: "",
+        correct: "236",
+    },
+    {
+        question: "../test6/images/3-14.png",
+        selected: "",
+        correct: "356",
+    },
+    {
+        question: "../test6/images/3-15.png",
+        selected: "",
+        correct: "247",
+    },
+    {
+        question: "../test6/images/3-16.png",
+        selected: "",
+        correct: "356",
+    },
+    {
+        question: "../test6/images/3-17.png",
+        selected: "",
+        correct: "247",
     }
 ]
 
@@ -2958,7 +9178,7 @@ let RND_question = 0
 
 let clicked_variant
 
-let startingMinutes = 40
+let startingMinutes = 60
 let time = startingMinutes * 60
 let timerInterval
 startTime = time
@@ -3013,6 +9233,7 @@ function startQuiz() {
 function showQuestion() {
     resetState()
     if (currentQuestionIndex < 12) {
+        let temp_list;
         let randomQuestionIndex = Math.floor(Math.random()*questions.length)
         let currentQuestion = questions[randomQuestionIndex]
         while (alreadyAsked.includes(currentQuestion)) {
