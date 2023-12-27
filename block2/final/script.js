@@ -9233,12 +9233,30 @@ function startQuiz() {
 function showQuestion() {
     resetState()
     if (currentQuestionIndex < 12) {
-        let temp_list;
-        let randomQuestionIndex = Math.floor(Math.random()*questions.length)
-        let currentQuestion = questions[randomQuestionIndex]
+        let temp_list = [];
+        if (0 <= currentQuestionIndex < 2) {
+            temp_list = questions1;
+        }
+        else if (2 <= currentQuestionIndex < 4) {
+            temp_list = questions2;
+        }
+        else if (4 <= currentQuestionIndex < 6) {
+            temp_list = questions3;
+        }
+        else if (6 <= currentQuestionIndex < 8) {
+            temp_list = questions4;
+        }
+        else if (8 <= currentQuestionIndex < 10) {
+            temp_list = questions5;
+        }
+        else if (10 <= currentQuestionIndex < 12) {
+            temp_list = questions6;
+        }
+        let randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+        let currentQuestion = temp_list[randomQuestionIndex]
         while (alreadyAsked.includes(currentQuestion)) {
-            randomQuestionIndex = Math.floor(Math.random()*questions.length)
-            currentQuestion = questions[randomQuestionIndex]
+            randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+            currentQuestion = temp_list[randomQuestionIndex]
         }
         RND_question = randomQuestionIndex
         let questionNo = currentQuestionIndex + 1
@@ -9262,13 +9280,32 @@ function showQuestion() {
         nextButton.style.display = "block"
         answer_field.style.display = "block"
         correct_answer.style.display = "block"
-        if (currentQuestionIndex == 12) {
+        if (12 <= currentQuestionIndex && currentQuestionIndex < 18) {
+            let temp_list = [];
+            if (currentQuestionIndex == 12) {
+                temp_list = vidpovidnist_questions1;
+            }
+            else if (currentQuestionIndex == 13) {
+                temp_list = vidpovidnist_questions2;
+            }
+            else if (currentQuestionIndex == 14) {
+                temp_list = vidpovidnist_questions3;
+            }
+            else if (currentQuestionIndex == 15) {
+                temp_list = vidpovidnist_questions4;
+            }
+            else if (currentQuestionIndex == 16) {
+                temp_list = vidpovidnist_questions5;
+            }
+            else if (currentQuestionIndex == 17) {
+                temp_list = vidpovidnist_questions6;
+            }
             correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4, то впишіть 1234"
-            let randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length)
-            let currentQuestion = vidpovidnist_questions[randomQuestionIndex]
+            let randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+            let currentQuestion = temp_list[randomQuestionIndex]
             while (vidpovidnist_alreadyAsked.includes(currentQuestion)) {
-                randomQuestionIndex = Math.floor(Math.random()*vidpovidnist_questions.length)
-                currentQuestion = vidpovidnist_questions[randomQuestionIndex]
+                randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+                currentQuestion = temp_list[randomQuestionIndex]
             }
             RND_question = randomQuestionIndex
             let questionNo = currentQuestionIndex + 1
@@ -9276,13 +9313,32 @@ function showQuestion() {
 
             document.getElementById("question").src = currentQuestion.question
             answer_field.style.display = "block"
-        } else if (currentQuestionIndex == 13) {
+        } else if (18 <= currentQuestionIndex && currentQuestionIndex < 24) {
+            let temp_list = [];
+            if (currentQuestionIndex == 18) {
+                temp_list = hronology_questions1;
+            }
+            else if (currentQuestionIndex == 19) {
+                temp_list = hronology_questions2;
+            }
+            else if (currentQuestionIndex == 20) {
+                temp_list = hronology_questions3;
+            }
+            else if (currentQuestionIndex == 21) {
+                temp_list = hronology_questions4;
+            }
+            else if (currentQuestionIndex == 22) {
+                temp_list = hronology_questions5;
+            }
+            else if (currentQuestionIndex == 23) {
+                temp_list = hronology_questions6;
+            }
             correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ"
-            let randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length)
-            let currentQuestion = hronology_questions[randomQuestionIndex]
+            let randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+            let currentQuestion = temp_list[randomQuestionIndex]
             while (hronology_alreadyAsked.includes(currentQuestion)) {
-                randomQuestionIndex = Math.floor(Math.random()*hronology_questions.length)
-                currentQuestion = hronology_questions[randomQuestionIndex]
+                randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+                currentQuestion = temp_list[randomQuestionIndex]
             }
             RND_question = randomQuestionIndex
             let questionNo = currentQuestionIndex + 1
@@ -9290,13 +9346,32 @@ function showQuestion() {
 
             document.getElementById("question").src = currentQuestion.question
             answer_field.style.display = "block"
-        } else {
+        } else if (24 <= currentQuestionIndex && currentQuestionIndex < 30){
+            let temp_list = [];
+            if (currentQuestionIndex == 24) {
+                temp_list = mul_ans_questions1;
+            }
+            else if (currentQuestionIndex == 25) {
+                temp_list = mul_ans_questions2;
+            }
+            else if (currentQuestionIndex == 26) {
+                temp_list = mul_ans_questions3;
+            }
+            else if (currentQuestionIndex == 27) {
+                temp_list = mul_ans_questions4;
+            }
+            else if (currentQuestionIndex == 28) {
+                temp_list = mul_ans_questions5;
+            }
+            else if (currentQuestionIndex == 29) {
+                temp_list = mul_ans_questions6;
+            }
             correct_answer.innerHTML = "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 3, 4, 5, то вкажіть 345"
-            let randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length)
-            let currentQuestion = mul_ans_questions[randomQuestionIndex]
+            let randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+            let currentQuestion = temp_list[randomQuestionIndex]
             while (mul_ans_alreadyAsked.includes(currentQuestion)) {
-                randomQuestionIndex = Math.floor(Math.random()*mul_ans_questions.length)
-                currentQuestion = mul_ans_questions[randomQuestionIndex]
+                randomQuestionIndex = Math.floor(Math.random()*temp_list.length)
+                currentQuestion = temp_list[randomQuestionIndex]
             }
             RND_question = randomQuestionIndex
             let questionNo = currentQuestionIndex + 1
@@ -9326,7 +9401,26 @@ function resetState() {
 
 function selectAnswer(e) {
     const q_id = document.getElementById("q"+(currentQuestionIndex+1))
-    let currentQuestion = questions[RND_question]
+    let temp_list = [];
+        if (0 <= currentQuestionIndex < 2) {
+            temp_list = questions1;
+        }
+        else if (2 <= currentQuestionIndex < 4) {
+            temp_list = questions2;
+        }
+        else if (4 <= currentQuestionIndex < 6) {
+            temp_list = questions3;
+        }
+        else if (6 <= currentQuestionIndex < 8) {
+            temp_list = questions4;
+        }
+        else if (8 <= currentQuestionIndex < 10) {
+            temp_list = questions5;
+        }
+        else if (10 <= currentQuestionIndex < 12) {
+            temp_list = questions6;
+        }
+    let currentQuestion = temp_list[RND_question]
     const selectedBtn = e.target
     Array.from(answerButtons.children).forEach(button => {
         button.classList.remove("selected")
@@ -9389,8 +9483,27 @@ function handleNextButton(){
             alreadyAsked.push(this_Q)
         }
 
-        if (currentQuestionIndex == 13) {
-            currentQuestion = vidpovidnist_questions[RND_question]
+        else if (13 <= currentQuestionIndex && currentQuestionIndex < 19) {
+            let temp_list = [];
+            if (currentQuestionIndex == 13) {
+                temp_list = vidpovidnist_questions1;
+            }
+            else if (currentQuestionIndex == 14) {
+                temp_list = vidpovidnist_questions2;
+            }
+            else if (currentQuestionIndex == 15) {
+                temp_list = vidpovidnist_questions3;
+            }
+            else if (currentQuestionIndex == 16) {
+                temp_list = vidpovidnist_questions4;
+            }
+            else if (currentQuestionIndex == 17) {
+                temp_list = vidpovidnist_questions5;
+            }
+            else if (currentQuestionIndex == 18) {
+                temp_list = vidpovidnist_questions6;
+            }
+            currentQuestion = temp_list[RND_question]
             const q_id = document.getElementById("q"+currentQuestionIndex)
             currentQuestion.selected = answer_field.value
             if(currentQuestion.selected == currentQuestion.correct) {
@@ -9409,8 +9522,27 @@ function handleNextButton(){
         }
         
         
-        else if (currentQuestionIndex == 14) {
-            currentQuestion = hronology_questions[RND_question]
+        else if (19 <= currentQuestionIndex && currentQuestionIndex < 25) {
+            let temp_list = [];
+            if (currentQuestionIndex == 19) {
+                temp_list = hronology_questions1;
+            }
+            else if (currentQuestionIndex == 20) {
+                temp_list = hronology_questions2;
+            }
+            else if (currentQuestionIndex == 21) {
+                temp_list = hronology_questions3;
+            }
+            else if (currentQuestionIndex == 22) {
+                temp_list = hronology_questions4;
+            }
+            else if (currentQuestionIndex == 23) {
+                temp_list = hronology_questions5;
+            }
+            else if (currentQuestionIndex == 24) {
+                temp_list = hronology_questions6;
+            }
+            currentQuestion = temp_list[RND_question]
             const q_id = document.getElementById("q"+currentQuestionIndex)
             currentQuestion.selected = answer_field.value
             if(currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct) {
@@ -9429,8 +9561,27 @@ function handleNextButton(){
         } 
         
         
-        else if (currentQuestionIndex == 15) {
-            currentQuestion = mul_ans_questions[RND_question]
+        else if (25 <= currentQuestionIndex && currentQuestionIndex < 31) {
+            let temp_list = [];
+            if (currentQuestionIndex == 25) {
+                temp_list = mul_ans_questions1;
+            }
+            else if (currentQuestionIndex == 26) {
+                temp_list = mul_ans_questions2;
+            }
+            else if (currentQuestionIndex == 27) {
+                temp_list = mul_ans_questions3;
+            }
+            else if (currentQuestionIndex == 28) {
+                temp_list = mul_ans_questions4;
+            }
+            else if (currentQuestionIndex == 29) {
+                temp_list = mul_ans_questions5;
+            }
+            else if (currentQuestionIndex == 30) {
+                temp_list = mul_ans_questions6;
+            }
+            currentQuestion = temp_list[RND_question]
             const q_id = document.getElementById("q"+currentQuestionIndex)
             currentQuestion.selected = answer_field.value
             if(currentQuestion.selected == currentQuestion.correct) {
@@ -9485,7 +9636,7 @@ function showCorrectAnswer(id) {
         }
         button.disabled = true
         })
-    } else if (id == 12) {
+    } else if (12 <= id && id < 18) {
         answer_field.style.display = "block"
         answer_field.disabled = true
         if (vidpovidnist_alreadyAsked[0].selected == vidpovidnist_alreadyAsked[0].correct) {
@@ -9496,7 +9647,7 @@ function showCorrectAnswer(id) {
             correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[0].correct
         }
         answer_field.value = vidpovidnist_selectedAnswers[0]
-    } else if (id == 13) {
+    } else if (18 <= id && id < 24) {
         answer_field.style.display = "block"
         answer_field.disabled = true
         if (hronology_alreadyAsked[0].selected.toLocaleUpperCase() == hronology_alreadyAsked[0].correct) {
@@ -9507,7 +9658,7 @@ function showCorrectAnswer(id) {
             correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[0].correct
         }
         answer_field.value = hronology_selectedAnswers[0]
-    } else if (id == 14) {
+    } else if (24 <= id && id < 30) {
         answer_field.style.display = "block"
         answer_field.disabled = true
         if (mul_ans_alreadyAsked[0].selected == mul_ans_alreadyAsked[0].correct) {
@@ -9525,65 +9676,17 @@ function showCorrectAnswer(id) {
     document.getElementById("q_info").innerHTML = ""+q_info_num
 }
 
-q1.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[0].question
-    showCorrectAnswer(0)
-})
-q2.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[1].question
-    showCorrectAnswer(1)
-})
-q3.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[2].question
-    showCorrectAnswer(2)
-})
-q4.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[3].question
-    showCorrectAnswer(3)
-})
-q5.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[4].question
-    showCorrectAnswer(4)
-})
-q6.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[5].question
-    showCorrectAnswer(5)
-})
-q7.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[6].question
-    showCorrectAnswer(6)
-})
-q8.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[7].question
-    showCorrectAnswer(7)
-})
-q9.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[8].question
-    showCorrectAnswer(8)
-})
-q10.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[9].question
-    showCorrectAnswer(9)
-})
-q11.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[10].question
-    showCorrectAnswer(10)
-})
-q12.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[11].question
-    showCorrectAnswer(11)
-})
-q13.addEventListener("click", ()=> {
-    document.getElementById("question").src = vidpovidnist_alreadyAsked[0].question
-    showCorrectAnswer(12)
-})
-q14.addEventListener("click", ()=> {
-    document.getElementById("question").src = hronology_alreadyAsked[0].question
-    showCorrectAnswer(13)
-})
-q15.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[0].question
-    showCorrectAnswer(14)
+Array.from(document.getElementById("block_answers").children).forEach(item => {
+    item.addEventListener("click", ()=> {
+        var id = item.innerHTML -1;
+        temp_list = [];
+        if (id < 12) {temp_list = alreadyAsked}
+        else if (12 <= id && id < 18) {temp_list = vidpovidnist_alreadyAsked}
+        else if (18 <= id && id < 24) {temp_list = hronology_alreadyAsked}
+        else if (24 <= id && id < 30) {temp_list = mul_ans_alreadyAsked}
+        document.getElementById("question").src = temp_list[id].question
+        showCorrectAnswer(id)
+    })
 })
 
 startQuiz()

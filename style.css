@@ -104,7 +104,10 @@ body {
     background-color: #fb9a9a;
 }
 .b2 {
-    background-color: #b887f0;
+    background-color: #e0c7fc;
+}
+.b2 p {
+    color: black;
 }
 .b3 {
     background-color: rgb(245, 245, 245);
