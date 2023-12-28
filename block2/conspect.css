@@ -1,0 +1,37 @@
+* {
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #e6f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 205, 205);
+    border-radius: 3px;
+}
+
+.download-button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+}
