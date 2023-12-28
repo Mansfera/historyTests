@@ -9597,6 +9597,8 @@ function handleNextButton(){
                 q_id.classList.add("incorrect")
             }
             mul_ans_alreadyAsked.push(currentQuestion)
+        }
+        if (currentQuestionIndex == 30) {
             nextButton. innerHTML = "Завершити тест"
         }
 
