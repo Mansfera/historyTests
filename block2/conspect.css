@@ -5,33 +5,32 @@
 }
 
 body {
-    background: #e6f4f4;
+    background: #cef8f8;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .options {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    justify-content: space-around;
+    display: grid;
+    place-items: center;
 }
 
 .container {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(188, 205, 205);
     border-radius: 3px;
+    width: 60%;
 }
 
-.download-button {
+.button {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     margin: 5px;
     width: 200px;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
