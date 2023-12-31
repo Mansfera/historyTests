@@ -55,6 +55,8 @@ let questions = [];
 let vidpovidnist_questions = [];
 let hronology_questions = [];
 let mul_ans_questions = [];
+let questionCount = 0;
+let max_score = 0;
 
 // Create an array of promises
 let promises = [
@@ -75,6 +77,29 @@ let promises = [
 // Use Promise.all to wait for all promises to resolve
 Promise.all(promises).then(function () {
     // All fetch operations are completed, now call startQuiz
+    questionCount = questions.length+vidpovidnist_questions.length+hronology_questions.length+mul_ans_questions.length;
+    max_score = questions.length+(vidpovidnist_questions.length+hronology_questions.length+mul_ans_questions.length)*3
+    for (var i = 1; i <= questionCount; i++) {
+        var btn=document.createElement("button");
+        btn.className += "q_id"
+        btn.id = "q"+i;
+        btn.innerHTML = i;
+        block_answers.appendChild(btn);
+    }
+    Array.from(document.getElementById("block_answers").children).forEach(item => {
+        item.addEventListener("click", ()=> {
+            var id = item.innerHTML -1;
+            temp_list = [];
+            var qid = 0;
+            if (id < questions.length) {temp_list = alreadyAsked; qid = id}
+            else if (questions.length <= id && id < vidpovidnist_questions.length) {temp_list = vidpovidnist_alreadyAsked; qid = id - questions.length}
+            else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {temp_list = hronology_alreadyAsked; qid = id -questions.length-vidpovidnist_questions.length}
+            else if (hronology_questions.length <= id && id < mul_ans_questions.length) {temp_list = mul_ans_alreadyAsked; qid = id -questions.length-vidpovidnist_questions.length-hronology_questions.length}
+            document.getElementById("question").src = temp_list[qid].question
+            showCorrectAnswer(id, qid)
+        })
+    })
+    
     startQuiz();
 }).catch(function (error) {
     // Handle errors here
@@ -90,17 +115,12 @@ let selectedAnswers = []
 let vidpovidnist_selectedAnswers = []
 let hronology_selectedAnswers = []
 let mul_selectedAnswers = []
-questionCount = questions.length+vidpovidnist_questions.length+hronology_questions.length+mul_ans_questions.length;
 let currentQuestionIndex = 0
 let score = 0
 var test_completed = false
 var checked_answer = false
 let RND_question = 0
-
-max_score = questions.length+(vidpovidnist_questions.length+hronology_questions.length+mul_ans_questions.length)*3
-
 let clicked_variant
-
 let startingMinutes = 60
 let time = startingMinutes * 60
 let timerInterval
@@ -129,14 +149,6 @@ function updateCountdown() {
     var time_str = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
     var dateTime = date+' '+time_str
     document.getElementById("date").innerHTML = dateTime
-}
-
-for (var i = 1; i <= questionCount; i++) {
-    var btn=document.createElement("button");
-    btn.className += "q_id"
-    btn.id = "q"+i;
-    btn.innerHTML = i;
-    block_answers.appendChild(btn);
 }
 function startQuiz() {
     test_completed = false
@@ -254,41 +266,39 @@ function resetState() {
 }
 
 function selectAnswer(e) {
-    let currentQuestion = questions[RND_question]
-    const selectedBtn = e.target
-    if (selectedBtn.disabled == false){
-        Array.from(answerButtons.children).forEach(button => {
-            button.classList.remove("selected")
-            button.classList.remove("incorrect")
-            button.classList.remove("correct")
-        })
-        if (alreadyAsked[currentQuestion] != null) {
-            if (alreadyAsked[currentQuestionIndex].question == currentQuestion.question) {
-                alreadyAsked.remove[currentQuestionIndex]
-            }
+    const q_id = document.getElementById("q" + (currentQuestionIndex + 1));
+    let currentQuestion = questions[RND_question];
+    const selectedBtn = e.target;
+    Array.from(answerButtons.children).forEach((button) => {
+        button.classList.remove("selected");
+        button.classList.remove("incorrect");
+        button.classList.remove("correct");
+    });
+    q_id.classList.remove("incorrect");
+    q_id.classList.remove("correct");
+    if (alreadyAsked[currentQuestion] != null) {
+        if (
+            alreadyAsked[currentQuestionIndex].question == currentQuestion.question
+        ) {
+            alreadyAsked.remove[currentQuestionIndex];
         }
-        const isCorrect = selectedBtn.dataset.correct === "true"
-        if(isCorrect) {
-            selectedBtn.classList.add("selected")
-            selectedBtn.classList.add("correct")
-            clicked_variant = selectedBtn
-            score++
-        } else {
-            selectedBtn.classList.add("selected")
-            selectedBtn.classList.add("incorrect")
-            clicked_variant = selectedBtn
-            Array.from(answerButtons.children).forEach(button => {
-                button.classList.add("selected_all")
-                if(button.dataset.correct === "true") {
-                    button.classList.add("correct")
-                }
-            })
-        }
-        currentQuestion.selected = selectedBtn.innerHTML
-        this_Q = currentQuestion
-        nextButton.innerHTML = "Перевірити"
-        nextButton.style.display = "block"
     }
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect) {
+        selectedBtn.classList.add("selected");
+        selectedBtn.classList.add("correct");
+        q_id.classList.add("correct");
+        clicked_variant = selectedBtn;
+        score++;
+    } else {
+        selectedBtn.classList.add("selected");
+        selectedBtn.classList.add("incorrect");
+        q_id.classList.add("incorrect");
+        clicked_variant = selectedBtn;
+    }
+    currentQuestion.selected = selectedBtn.innerHTML;
+    this_Q = currentQuestion;
+    nextButton.style.display = "block";
 }
 
 function showScore(){
@@ -308,79 +318,75 @@ function showScore(){
 }
 
 function handleNextButton(){ 
+    currentQuestionIndex++;
     if (!test_completed){
         let currentQuestion
         if (currentQuestionIndex <= questions.length) {
-            {
-                selectedAnswers.push(clicked_variant)
-                alreadyAsked.push(this_Q)
-                Array.from(answerButtons.children).forEach(button => {
-                    button.classList.remove("selected_all")
-                    button.classList.remove("selected")
-                    button.disabled = true
-            })
-        }
+            selectedAnswers.push(clicked_variant);
+            alreadyAsked.push(this_Q);
         }
 
-        if (currentQuestionIndex > questions.length && currentQuestionIndex <= questions.length+vidpovidnist_questions.length) {
-            currentQuestion = vidpovidnist_questions[RND_question]
-            currentQuestion.selected = answer_field.value
-            if(currentQuestion.selected == currentQuestion.correct) {
-                answer_field.classList.add("correct")
-                score = score +3
-                selectedAnswers.push(answer_field)
-                vidpovidnist_selectedAnswers.push(answer_field.value)
+        else if (currentQuestionIndex > questions.length && currentQuestionIndex <= questions.length+vidpovidnist_questions.length) {
+            currentQuestion = vidpovidnist_questions[RND_question];
+            const q_id = document.getElementById("q" + currentQuestionIndex);
+            currentQuestion.selected = answer_field.value;
+            if (currentQuestion.selected == currentQuestion.correct) {
+                answer_field.classList.add("correct");
+                score = score + 3;
+                q_id.classList.add("correct");
+                selectedAnswers.push(answer_field);
+                vidpovidnist_selectedAnswers.push(answer_field.value);
             } else {
-                answer_field.classList.add("incorrect")
-                selectedAnswers.push(answer_field)
-                vidpovidnist_selectedAnswers.push(answer_field.value)
-                correct_answer.style.display = "block"
-                correct_answer.innerHTML = "Правильна відповідь: "+currentQuestion.correct
+                answer_field.classList.add("incorrect");
+                selectedAnswers.push(answer_field);
+                vidpovidnist_selectedAnswers.push(answer_field.value);
+                q_id.classList.add("incorrect");
             }
-            vidpovidnist_alreadyAsked.push(currentQuestion)
+            vidpovidnist_alreadyAsked.push(currentQuestion);
         }
         
         
         else if (currentQuestionIndex > questions.length+vidpovidnist_questions.length && currentQuestionIndex <= questions.length+vidpovidnist_questions.length+hronology_questions.length) {
-            currentQuestion = hronology_questions[RND_question]
-            currentQuestion.selected = answer_field.value
-            if(currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct) {
-                answer_field.classList.add("correct")
-                score = score +3
-                selectedAnswers.push(answer_field)
-                hronology_selectedAnswers.push(answer_field.value)
+            currentQuestion = hronology_questions[RND_question];
+            const q_id = document.getElementById("q" + currentQuestionIndex);
+            currentQuestion.selected = answer_field.value;
+            if (
+                currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct
+            ) {
+                answer_field.classList.add("correct");
+                score = score + 3;
+                q_id.classList.add("correct");
+                selectedAnswers.push(answer_field);
+                hronology_selectedAnswers.push(answer_field.value);
             } else {
-                answer_field.classList.add("incorrect")
-                selectedAnswers.push(answer_field)
-                hronology_selectedAnswers.push(answer_field.value)
-                correct_answer.style.display = "block"
-                correct_answer.innerHTML = "Правильна відповідь: "+currentQuestion.correct
+                answer_field.classList.add("incorrect");
+                selectedAnswers.push(answer_field);
+                hronology_selectedAnswers.push(answer_field.value);
+                q_id.classList.add("incorrect");
             }
-            hronology_alreadyAsked.push(currentQuestion)
+            hronology_alreadyAsked.push(currentQuestion);
         } 
         
         
         else if (currentQuestionIndex > questions.length+vidpovidnist_questions.length+hronology_questions.length  && currentQuestionIndex <= questionCount) {
-            currentQuestion = mul_ans_questions[RND_question]
-            currentQuestion.selected = answer_field.value
-            if(currentQuestion.selected == currentQuestion.correct) {
-                answer_field.classList.add("correct")
-                score = score +3
-                selectedAnswers.push(answer_field)
-                mul_selectedAnswers.push(answer_field.value)
+            currentQuestion = mul_ans_questions[RND_question];
+            const q_id = document.getElementById("q" + currentQuestionIndex);
+            currentQuestion.selected = answer_field.value;
+            if (currentQuestion.selected == currentQuestion.correct) {
+                answer_field.classList.add("correct");
+                score = score + 3;
+                q_id.classList.add("correct");
+                selectedAnswers.push(answer_field);
+                mul_selectedAnswers.push(answer_field.value);
             } else {
-                answer_field.classList.add("incorrect")
-                selectedAnswers.push(answer_field)
-                mul_selectedAnswers.push(answer_field.value)
-                correct_answer.style.display = "block"
-                correct_answer.innerHTML = "Правильна відповідь: "+currentQuestion.correct
+                answer_field.classList.add("incorrect");
+                selectedAnswers.push(answer_field);
+                mul_selectedAnswers.push(answer_field.value);
+                q_id.classList.add("incorrect");
             }
-            mul_ans_alreadyAsked.push(currentQuestion)
+            mul_ans_alreadyAsked.push(currentQuestion);
         }
 
-        if (checked_answer) {
-            currentQuestionIndex++
-        }
 
         if (currentQuestionIndex == questionCount-1) {
             nextButton.innerHTML = "Завершити тест"
@@ -388,14 +394,8 @@ function handleNextButton(){
 
 
         if(currentQuestionIndex < questionCount) {
-            if (checked_answer) {
-                checked_answer = false
-                nextButton.style.display = "none"
-                showQuestion()
-            } else {
-                checked_answer = true
-                nextButton.innerHTML = "Наступне запитання"
-            }
+            nextButton.style.display = "none"
+            showQuestion()
         } else {
             nextButton.style.display = "none"
             setTimeout(() => { showScore() }, 1500);
@@ -470,20 +470,6 @@ function showCorrectAnswer(id, qid) {
     const q_info_num = cut_q_info_str.match(/\d+/g)
     document.getElementById("q_info").innerHTML = ""+q_info_num
 }
-Array.from(document.getElementById("block_answers").children).forEach(item => {
-    item.addEventListener("click", ()=> {
-        var id = item.innerHTML -1;
-        temp_list = [];
-        var qid = 0;
-        if (id < questions.length) {temp_list = alreadyAsked; qid = id}
-        else if (questions.length <= id && id < vidpovidnist_questions.length) {temp_list = vidpovidnist_alreadyAsked; qid = id - questions.length}
-        else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {temp_list = hronology_alreadyAsked; qid = id -questions.length-vidpovidnist_questions.length}
-        else if (hronology_questions.length <= id && id < mul_ans_questions.length) {temp_list = mul_ans_alreadyAsked; qid = id -questions.length-vidpovidnist_questions.length-hronology_questions.length}
-        document.getElementById("question").src = temp_list[qid].question
-        showCorrectAnswer(id, qid)
-    })
-})
-
 function setCurrentQuestion(index) {
     currentQuestionIndex = index;
     showQuestion();
