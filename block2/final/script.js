@@ -4,61 +4,7 @@ const nextButton = document.getElementById("next-btn")
 const block_answers = document.getElementById("block_answers")
 const answer_field = document.getElementById("text_input")
 const correct_answer = document.getElementById("correct_answer")
-const q1 = document.getElementById("q1")
-const q2 = document.getElementById("q2")
-const q3 = document.getElementById("q3")
-const q4 = document.getElementById("q4")
-const q5 = document.getElementById("q5")
-const q6 = document.getElementById("q6")
-const q7 = document.getElementById("q7")
-const q8 = document.getElementById("q8")
-const q9 = document.getElementById("q9")
-const q10 = document.getElementById("q10")
-const q11 = document.getElementById("q11")
-const q12 = document.getElementById("q12")
-const q13 = document.getElementById("q13")
-const q14 = document.getElementById("q14")
-const q15 = document.getElementById("q15")
-const q16 = document.getElementById("q16")
-const q17 = document.getElementById("q17")
-const q18 = document.getElementById("q18")
-const q19 = document.getElementById("q19")
-const q20 = document.getElementById("q20")
-const q21 = document.getElementById("q21")
-const q22 = document.getElementById("q22")
-const q23 = document.getElementById("q23")
-const q24 = document.getElementById("q24")
-const q25 = document.getElementById("q25")
-const q26 = document.getElementById("q26")
-const q27 = document.getElementById("q27")
-const q28 = document.getElementById("q28")
-const q29 = document.getElementById("q29")
-const q30 = document.getElementById("q30")
 
-
-/* 
-ЩОБ ДОБАВИТИ КАРТИНКУ ПЕРЕЙМЕНУЙТЕ ЇЇ І ЗАМІСТЬ images//1.png ВКАЖІТЬ images//ЯК ВИ ЇЇ НАЗВАЛИ
-
-ПИСАТИ У ФОРМАТІ
-
-
-
-    ,    //<---- НЕ ЗАБУДЬТЕ ПРО КОМУ 
-    {
-        selected: "",
-        question: "../test1/images//1.png",
-        answers: [
-            {text: "Текст варіанту 1", correct: false},
-            {text: "Текст варіанту 2", correct: true}, //<---- false = не правильне, true = правильне
-            {text: "Текст варіанту 3", correct: false},
-            {text: "Текст варіанту 4" , correct: false}, 
-        ]
-    }
-
-
-
-КІЛЬКІСТЬ ВІДПОВІДЕЙ    НЕ     ОБОВ'ЯЗКОВО МАЄ БУТИ 4, просто скопіюйте останній рядок {text: "Текст варіанту" , correct: false}, і натисніть Enter та вставте його
-*/
 
 
 const questions1 = [
@@ -9207,7 +9153,13 @@ function updateCountdown() {
     var dateTime = date+' '+time_str
     document.getElementById("date").innerHTML = dateTime
 }
-
+for (var i = 1; i <= questionCount; i++) {
+        var btn=document.createElement("button");
+        btn.className += "q_id"
+        btn.id = "q"+i;
+        btn.innerHTML = i;
+        block_answers.appendChild(btn);
+}
 function startQuiz() {
     test_completed = false
     time = startingMinutes * 60
@@ -9454,19 +9406,13 @@ function selectAnswer(e) {
 
 function showScore(){
     resetState()
-    if (score < 5) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_bad.jpg"
-    } else if (score < 10) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/bad.jpg"
-    } else if (score < 14) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/average.jpg"
-    } else if (score < 16) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/good.jpg"
-    } else if (score >= 16) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg"
+    if (score < (18+18*3)/2) {
+        document.getElementById("question").src = "../grades/hmelnytskiy.png"
+    } else {
+        document.getElementById("question").src = "../grades/skovoroda.png"
     }
     clearInterval(timerInterval)
-    h2_title.innerHTML =`Ви набрали ${score} з ${score} балу!`
+    h2_title.innerHTML =`Ви набрали ${score} з ${18+18*3} балу!`
     nextButton. innerHTML = "Пройти знову"
     nextButton.style.display = "block"
     test_completed = true
@@ -9602,7 +9548,7 @@ function handleNextButton(){
             nextButton. innerHTML = "Завершити тест"
         }
 
-        if(currentQuestionIndex < questionCount) {
+        if(currentQuestionIndex < questionCount+1) {
             showQuestion()
         } else {
             showScore()
@@ -9677,7 +9623,6 @@ function showCorrectAnswer(id) {
     const q_info_num = cut_q_info_str.match(/\d+/g)
     document.getElementById("q_info").innerHTML = ""+q_info_num
 }
-
 Array.from(document.getElementById("block_answers").children).forEach(item => {
     item.addEventListener("click", ()=> {
         var id = item.innerHTML -1;
@@ -9692,3 +9637,8 @@ Array.from(document.getElementById("block_answers").children).forEach(item => {
 })
 
 startQuiz()
+
+function setCurrentQuestion(index) {
+    currentQuestionIndex = index;
+    showQuestion();
+}

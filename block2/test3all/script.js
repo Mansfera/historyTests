@@ -4,46 +4,6 @@ const nextButton = document.getElementById("next-btn")
 const block_answers = document.getElementById("block_answers")
 const answer_field = document.getElementById("text_input")
 const correct_answer = document.getElementById("correct_answer")
-const q1 = document.getElementById("q1")
-const q2 = document.getElementById("q2")
-const q3 = document.getElementById("q3")
-const q4 = document.getElementById("q4")
-const q5 = document.getElementById("q5")
-const q6 = document.getElementById("q6")
-const q7 = document.getElementById("q7")
-const q8 = document.getElementById("q8")
-const q9 = document.getElementById("q9")
-const q10 = document.getElementById("q10")
-const q11 = document.getElementById("q11")
-const q12 = document.getElementById("q12")
-const q13 = document.getElementById("q13")
-const q14 = document.getElementById("q14")
-const q15 = document.getElementById("q15")
-
-
-/* 
-ЩОБ ДОБАВИТИ КАРТИНКУ ПЕРЕЙМЕНУЙТЕ ЇЇ І ЗАМІСТЬ images//1.png ВКАЖІТЬ images//ЯК ВИ ЇЇ НАЗВАЛИ
-
-ПИСАТИ У ФОРМАТІ
-
-
-
-    ,    //<---- НЕ ЗАБУДЬТЕ ПРО КОМУ 
-    {
-        selected: "",
-        question: "images//1.png",
-        answers: [
-            {text: "Текст варіанту 1", correct: false},
-            {text: "Текст варіанту 2", correct: false}, //<---- false = не правильне, true = правильне
-            {text: "Текст варіанту 3", correct: false},
-            {text: "Текст варіанту 4", correct: false}, 
-        ]
-    }
-
-
-
-КІЛЬКІСТЬ ВІДПОВІДЕЙ    НЕ     ОБОВ'ЯЗКОВО МАЄ БУТИ 4, просто скопіюйте останній рядок {text: "Текст варіанту", correct: false}, і натисніть Enter та вставте його
-*/
 
 
 const questions = [
@@ -1716,6 +1676,13 @@ function updateCountdown() {
     document.getElementById("date").innerHTML = dateTime
 }
 
+for (var i = 1; i <= questionCount; i++) {
+    var btn=document.createElement("button");
+    btn.className += "q_id"
+    btn.id = "q"+i;
+    btn.innerHTML = i;
+    block_answers.appendChild(btn);
+}
 function startQuiz() {
     test_completed = false
     time = startingMinutes * 60
@@ -1870,16 +1837,10 @@ function selectAnswer(e) {
 
 function showScore(){
     resetState()
-    if (score < max_score*0.2) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_bad.jpg"
-    } else if (score < max_score*0.4) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/bad.jpg"
-    } else if (score < max_score*0.6) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/average.jpg"
-    } else if (score < max_score*0.8) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/good.jpg"
-    } else if (score >= max_score*0.8) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg"
+    if (score < max_score/2) {
+        document.getElementById("question").src = "../grades/hmelnytskiy.png"
+    } else {
+        document.getElementById("question").src = "../grades/skovoroda.png"
     }
     clearInterval(timerInterval)
     h2_title.innerHTML =`Ви набрали ${score} з ${max_score} балу!`
@@ -1997,65 +1958,77 @@ nextButton.addEventListener("click", ()=>{
     handleNextButton()
 })
 
-// function showCorrectAnswer(id) {
-//     resetState()
-//     nextButton.style.display = "block"
-//     if (id < 12) {
-//         alreadyAsked[id].answers.forEach(answer => {
-//         const button = document.createElement("button")
-//         button.innerHTML = answer.text
-//         button.classList.add("btn")
-//         answerButtons.appendChild(button)
-//         if (answer.correct) {
-//             button.dataset.correct = answer.correct
-//         }
-//         const isCorrect = button.dataset.correct === "true"
-//         if(alreadyAsked[id].selected.toLocaleUpperCase() === button.innerHTML) {
-//             button.classList.add("incorrect")
-//         } 
-//         if(isCorrect) {
-//             button.classList.add("correct")
-//         }
-//         button.disabled = true
-//         })
-//     } else if (id == 12) {
-//         answer_field.style.display = "block"
-//         answer_field.disabled = true
-//         if (vidpovidnist_alreadyAsked[0].selected == vidpovidnist_alreadyAsked[0].correct) {
-//             answer_field.classList.add("correct")
-//         } else {
-//             answer_field.classList.add("incorrect")
-//             correct_answer.style.display = "block"
-//             correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[0].correct
-//         }
-//         answer_field.value = vidpovidnist_selectedAnswers[0]
-//     } else if (id == 13) {
-//         answer_field.style.display = "block"
-//         answer_field.disabled = true
-//         if (hronology_alreadyAsked[0].selected.toLocaleUpperCase() == hronology_alreadyAsked[0].correct) {
-//             answer_field.classList.add("correct")
-//         } else {
-//             answer_field.classList.add("incorrect")
-//             correct_answer.style.display = "block"
-//             correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[0].correct
-//         }
-//         answer_field.value = hronology_selectedAnswers[0]
-//     } else if (id == 14) {
-//         answer_field.style.display = "block"
-//         answer_field.disabled = true
-//         if (mul_ans_alreadyAsked[0].selected == mul_ans_alreadyAsked[0].correct) {
-//             answer_field.classList.add("correct")
-//         } else {
-//             answer_field.classList.add("incorrect")
-//             correct_answer.style.display = "block"
-//             correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[0].correct
-//         }
-//         answer_field.value = mul_selectedAnswers[0]
-//     }
-//     const q_info_str = document.getElementById("question").src
-//     const cut_q_info_str = q_info_str.slice(27, -4)
-//     const q_info_num = cut_q_info_str.match(/\d+/g)
-//     document.getElementById("q_info").innerHTML = ""+q_info_num
-// }
+function showCorrectAnswer(id) {
+    resetState()
+    nextButton.style.display = "block"
+    if (id < questions.length) {
+        alreadyAsked[id].answers.forEach(answer => {
+        const button = document.createElement("button")
+        button.innerHTML = answer.text
+        button.classList.add("btn")
+        answerButtons.appendChild(button)
+        if (answer.correct) {
+            button.dataset.correct = answer.correct
+        }
+        const isCorrect = button.dataset.correct === "true"
+        if(alreadyAsked[id].selected.toLocaleUpperCase() === button.innerHTML) {
+            button.classList.add("incorrect")
+        } 
+        if(isCorrect) {
+            button.classList.add("correct")
+        }
+        button.disabled = true
+        })
+    } else if (questions.length <= id && id < vidpovidnist_questions.length) {
+        answer_field.style.display = "block"
+        answer_field.disabled = true
+        if (vidpovidnist_alreadyAsked[id].selected == vidpovidnist_alreadyAsked[id].correct) {
+            answer_field.classList.add("correct")
+        } else {
+            answer_field.classList.add("incorrect")
+            correct_answer.style.display = "block"
+            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[id].correct
+        }
+        answer_field.value = vidpovidnist_selectedAnswers[id]
+    } else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {
+        answer_field.style.display = "block"
+        answer_field.disabled = true
+        if (hronology_alreadyAsked[id].selected.toLocaleUpperCase() == hronology_alreadyAsked[id].correct) {
+            answer_field.classList.add("correct")
+        } else {
+            answer_field.classList.add("incorrect")
+            correct_answer.style.display = "block"
+            correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[id].correct
+        }
+        answer_field.value = hronology_selectedAnswers[id]
+    } else if (hronology_questions.length <= id && id < mul_ans_questions.length) {
+        answer_field.style.display = "block"
+        answer_field.disabled = true
+        if (mul_ans_alreadyAsked[id].selected == mul_ans_alreadyAsked[id].correct) {
+            answer_field.classList.add("correct")
+        } else {
+            answer_field.classList.add("incorrect")
+            correct_answer.style.display = "block"
+            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[id].correct
+        }
+        answer_field.value = mul_selectedAnswers[id]
+    }
+    const q_info_str = document.getElementById("question").src
+    const cut_q_info_str = q_info_str.slice(27, -4)
+    const q_info_num = cut_q_info_str.match(/\d+/g)
+    document.getElementById("q_info").innerHTML = ""+q_info_num
+}
+Array.from(document.getElementById("block_answers").children).forEach(item => {
+    item.addEventListener("click", ()=> {
+        var id = item.innerHTML -1;
+        temp_list = [];
+        if (id < questions.length) {temp_list = alreadyAsked}
+        else if (questions.length <= id && id < vidpovidnist_questions.length) {temp_list = vidpovidnist_alreadyAsked}
+        else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {temp_list = hronology_alreadyAsked}
+        else if (hronology_questions.length <= id && id < mul_ans_questions.length) {temp_list = mul_ans_alreadyAsked}
+        document.getElementById("question").src = temp_list[id].question
+        showCorrectAnswer(id)
+    })
+})
 
 startQuiz()

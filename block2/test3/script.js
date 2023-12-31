@@ -4,46 +4,7 @@ const nextButton = document.getElementById("next-btn")
 const block_answers = document.getElementById("block_answers")
 const answer_field = document.getElementById("text_input")
 const correct_answer = document.getElementById("correct_answer")
-const q1 = document.getElementById("q1")
-const q2 = document.getElementById("q2")
-const q3 = document.getElementById("q3")
-const q4 = document.getElementById("q4")
-const q5 = document.getElementById("q5")
-const q6 = document.getElementById("q6")
-const q7 = document.getElementById("q7")
-const q8 = document.getElementById("q8")
-const q9 = document.getElementById("q9")
-const q10 = document.getElementById("q10")
-const q11 = document.getElementById("q11")
-const q12 = document.getElementById("q12")
-const q13 = document.getElementById("q13")
-const q14 = document.getElementById("q14")
-const q15 = document.getElementById("q15")
 
-
-/* 
-ЩОБ ДОБАВИТИ КАРТИНКУ ПЕРЕЙМЕНУЙТЕ ЇЇ І ЗАМІСТЬ images//1.png ВКАЖІТЬ images//ЯК ВИ ЇЇ НАЗВАЛИ
-
-ПИСАТИ У ФОРМАТІ
-
-
-
-    ,    //<---- НЕ ЗАБУДЬТЕ ПРО КОМУ 
-    {
-        selected: "",
-        question: "images//1.png",
-        answers: [
-            {text: "Текст варіанту 1", correct: false},
-            {text: "Текст варіанту 2", correct: false}, //<---- false = не правильне, true = правильне
-            {text: "Текст варіанту 3", correct: false},
-            {text: "Текст варіанту 4", correct: false}, 
-        ]
-    }
-
-
-
-КІЛЬКІСТЬ ВІДПОВІДЕЙ    НЕ     ОБОВ'ЯЗКОВО МАЄ БУТИ 4, просто скопіюйте останній рядок {text: "Текст варіанту", correct: false}, і натисніть Enter та вставте його
-*/
 
 
 const questions = [
@@ -1711,6 +1672,13 @@ function updateCountdown() {
     document.getElementById("date").innerHTML = dateTime
 }
 
+for (var i = 1; i <= questionCount; i++) {
+    var btn=document.createElement("button");
+    btn.className += "q_id"
+    btn.id = "q"+i;
+    btn.innerHTML = i;
+    block_answers.appendChild(btn);
+}
 function startQuiz() {
     test_completed = false
     time = startingMinutes * 60
@@ -1862,16 +1830,10 @@ function selectAnswer(e) {
 
 function showScore(){
     resetState()
-    if (score < 5) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_bad.jpg"
-    } else if (score < 10) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/bad.jpg"
-    } else if (score < 14) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/average.jpg"
-    } else if (score < 16) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/good.jpg"
-    } else if (score >= 16) {
-        document.getElementById("question").src = "/siteHistoryTests/grades/very_good.jpg"
+    if (score < 10) {
+        document.getElementById("question").src = "../grades/hmelnytskiy.png"
+    } else {
+        document.getElementById("question").src = "../grades/skovoroda.png"
     }
     clearInterval(timerInterval)
     h2_title.innerHTML =`Ви набрали ${score} з 21 балу!`
@@ -2027,65 +1989,17 @@ function showCorrectAnswer(id) {
     document.getElementById("q_info").innerHTML = ""+q_info_num
 }
 
-q1.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[0].question
-    showCorrectAnswer(0)
-})
-q2.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[1].question
-    showCorrectAnswer(1)
-})
-q3.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[2].question
-    showCorrectAnswer(2)
-})
-q4.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[3].question
-    showCorrectAnswer(3)
-})
-q5.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[4].question
-    showCorrectAnswer(4)
-})
-q6.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[5].question
-    showCorrectAnswer(5)
-})
-q7.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[6].question
-    showCorrectAnswer(6)
-})
-q8.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[7].question
-    showCorrectAnswer(7)
-})
-q9.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[8].question
-    showCorrectAnswer(8)
-})
-q10.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[9].question
-    showCorrectAnswer(9)
-})
-q11.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[10].question
-    showCorrectAnswer(10)
-})
-q12.addEventListener("click", ()=> {
-    document.getElementById("question").src = alreadyAsked[11].question
-    showCorrectAnswer(11)
-})
-q13.addEventListener("click", ()=> {
-    document.getElementById("question").src = vidpovidnist_alreadyAsked[0].question
-    showCorrectAnswer(12)
-})
-q14.addEventListener("click", ()=> {
-    document.getElementById("question").src = hronology_alreadyAsked[0].question
-    showCorrectAnswer(13)
-})
-q15.addEventListener("click", ()=> {
-    document.getElementById("question").src = mul_ans_alreadyAsked[0].question
-    showCorrectAnswer(14)
+Array.from(document.getElementById("block_answers").children).forEach(item => {
+    item.addEventListener("click", ()=> {
+        var id = item.innerHTML -1;
+        temp_list = [];
+        if (id < 12) {temp_list = alreadyAsked}
+        else if (id == 12) {temp_list = vidpovidnist_alreadyAsked}
+        else if (id == 13) {temp_list = hronology_alreadyAsked}
+        else if (id == 14) {temp_list = mul_ans_alreadyAsked}
+        document.getElementById("question").src = temp_list[id].question
+        showCorrectAnswer(id)
+    })
 })
 
 startQuiz()
