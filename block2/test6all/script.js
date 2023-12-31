@@ -873,8 +873,8 @@ const questions = [
         answers: [
             {text: "А", correct: false},
             {text: "Б", correct: false},
-            {text: "В", correct: false},
-            {text: "Г", correct: true},
+            {text: "В", correct: true},
+            {text: "Г", correct: false},
         ]
     },
     {
