@@ -58,7 +58,6 @@ let mul_ans_questions = [];
 let questionCount = 0;
 let max_score = 0;
 
-// Create an array of promises
 let promises = [
     fetchJsonData("../test" + test_id + "/questions.json").then(function (data) {
         questions = data;
@@ -74,9 +73,7 @@ let promises = [
     })
 ];
 
-// Use Promise.all to wait for all promises to resolve
 Promise.all(promises).then(function () {
-    // All fetch operations are completed, now call startQuiz
     questionCount = questions.length+vidpovidnist_questions.length+hronology_questions.length+mul_ans_questions.length;
     max_score = questions.length+(vidpovidnist_questions.length+hronology_questions.length+mul_ans_questions.length)*3
     for (var i = 1; i <= questionCount; i++) {
