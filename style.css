@@ -104,10 +104,7 @@ body {
     background-color: #fb9a9a;
 }
 .b2 {
-    background-color: #e0c7fc;
-}
-.b2 p {
-    color: black;
+    background-color: #c196f2;
 }
 .b3 {
     background-color: rgb(245, 245, 245);
@@ -121,8 +118,8 @@ body {
 .b5 {
     background-color: rgb(147, 207, 64);
 }
-/* .blocked {
+.blocked {
     cursor: not-allowed;
     color: dimgray;
     background-color: dimgray;
-} */
+}
