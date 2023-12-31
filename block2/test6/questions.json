@@ -1,0 +1,2818 @@
+[
+    {
+        "selected": "",
+        "question": "/block2/test6/images/1.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/2.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/3.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/4.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/5.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/6.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/7.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/8.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/9.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/10.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/11.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/12.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/13.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/14.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/15.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/16.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/17.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/18.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/19.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/20.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/21.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/22.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/23.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/24.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/25.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/26.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/27.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/28.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/29.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/30.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/31.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/32.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/33.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/34.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/35.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/36.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/37.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/38.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/39.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/40.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/41.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/42.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/43.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/44.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/45.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/46.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/47.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/48.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/49.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/50.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/51.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/52.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/53.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/54.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/55.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/56.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/57.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/58.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/59.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/60.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/61.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/62.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/63.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/64.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/65.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/66.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/67.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/68.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/69.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/70.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/71.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/72.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/73.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/74.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/75.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/76.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/77.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/78.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/79.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/80.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/81.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/82.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/83.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/84.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/85.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/86.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/87.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/88.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/89.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/90.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/91.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/92.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/93.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/94.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/95.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/96.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/97.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/98.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/99.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/100.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/101.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/102.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/103.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/104.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/105.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/106.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/107.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/108.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/109.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/110.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/111.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/112.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/113.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/114.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/115.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/116.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/117.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/118.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/119.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/120.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": true
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/121.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": true
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/122.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/123.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/124.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/125.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/126.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": false
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/127.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "selected": "",
+        "question": "/block2/test6/images/128.png",
+        "answers": [
+            {
+                "text": "А",
+                "correct": true
+            },
+            {
+                "text": "Б",
+                "correct": false
+            },
+            {
+                "text": "В",
+                "correct": false
+            },
+            {
+                "text": "Г",
+                "correct": false
+            }
+        ]
+    }
+]
