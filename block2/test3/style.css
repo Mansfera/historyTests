@@ -8,7 +8,6 @@
 body {
     background: #e6f4f4;
 }
-
 .exit_btn {
     margin: 20px 20px;
     border: none;
@@ -150,7 +149,7 @@ body {
     display: flexbox;
     margin: auto;
     margin-top: 30px;
-    width: 50%;
+    width: 40%;
 }
 .q_id {
     font-size: large;

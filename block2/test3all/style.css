@@ -149,7 +149,7 @@ body {
     display: flexbox;
     margin: auto;
     margin-top: 30px;
-    width: 50%;
+    width: 40%;
 }
 .q_id {
     font-size: large;
@@ -172,11 +172,8 @@ body {
 .correct {
     background: #9aeabc;
 }
-.selected_all {
-    background: #ffffff;
-}
 .selected {
-    background: #aaaaaa;
+    background: #a1a1a1;
 }
 .q_info {
     color: rgb(186, 221, 233);

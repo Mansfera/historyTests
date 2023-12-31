@@ -9626,12 +9626,13 @@ function showCorrectAnswer(id) {
 Array.from(document.getElementById("block_answers").children).forEach(item => {
     item.addEventListener("click", ()=> {
         var id = item.innerHTML -1;
+        var qid = 0;
         temp_list = [];
-        if (id < 18) {temp_list = alreadyAsked}
-        else if (18 <= id && id < 24) {temp_list = vidpovidnist_alreadyAsked}
-        else if (24 <= id && id < 30) {temp_list = hronology_alreadyAsked}
-        else if (30 <= id && id < 36) {temp_list = mul_ans_alreadyAsked}
-        document.getElementById("question").src = temp_list[id].question
+        if (id < 18) {temp_list = alreadyAsked; qid = id}
+        else if (18 <= id && id < 24) {temp_list = vidpovidnist_alreadyAsked; qid = id-18}
+        else if (24 <= id && id < 30) {temp_list = hronology_alreadyAsked; qid = id-24}
+        else if (30 <= id && id < 36) {temp_list = mul_ans_alreadyAsked; qid = id-30}
+        document.getElementById("question").src = temp_list[qid].question
         showCorrectAnswer(id)
     })
 })

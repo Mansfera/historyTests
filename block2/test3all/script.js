@@ -1693,6 +1693,7 @@ function startQuiz() {
     answer_field.style.display = "none"
     answer_field.disabled = false
     correct_answer.style.display = "none"
+    block_answers.style.display = "none"
     alreadyAsked = []
     vidpovidnist_alreadyAsked = []
     hronology_alreadyAsked = []
@@ -1930,10 +1931,6 @@ function handleNextButton(){
             nextButton.innerHTML = "Завершити тест"
         }
 
-        console.log()
-        console.log(currentQuestionIndex)
-        console.log(questions.length)
-        console.log(questions.length+vidpovidnist_questions.length)
 
         if(currentQuestionIndex < questionCount) {
             if (checked_answer) {
@@ -1958,7 +1955,7 @@ nextButton.addEventListener("click", ()=>{
     handleNextButton()
 })
 
-function showCorrectAnswer(id) {
+function showCorrectAnswer(id, qid) {
     resetState()
     nextButton.style.display = "block"
     if (id < questions.length) {
@@ -1982,36 +1979,36 @@ function showCorrectAnswer(id) {
     } else if (questions.length <= id && id < vidpovidnist_questions.length) {
         answer_field.style.display = "block"
         answer_field.disabled = true
-        if (vidpovidnist_alreadyAsked[id].selected == vidpovidnist_alreadyAsked[id].correct) {
+        if (vidpovidnist_alreadyAsked[qid].selected == vidpovidnist_alreadyAsked[qid].correct) {
             answer_field.classList.add("correct")
         } else {
             answer_field.classList.add("incorrect")
             correct_answer.style.display = "block"
-            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[id].correct
+            correct_answer.innerHTML = "Правильна відповідь: "+vidpovidnist_alreadyAsked[qid].correct
         }
         answer_field.value = vidpovidnist_selectedAnswers[id]
     } else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {
         answer_field.style.display = "block"
         answer_field.disabled = true
-        if (hronology_alreadyAsked[id].selected.toLocaleUpperCase() == hronology_alreadyAsked[id].correct) {
+        if (hronology_alreadyAsked[qid].selected.toLocaleUpperCase() == hronology_alreadyAsked[qid].correct) {
             answer_field.classList.add("correct")
         } else {
             answer_field.classList.add("incorrect")
             correct_answer.style.display = "block"
-            correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[id].correct
+            correct_answer.innerHTML = "Правильна відповідь: "+hronology_alreadyAsked[qid].correct
         }
         answer_field.value = hronology_selectedAnswers[id]
     } else if (hronology_questions.length <= id && id < mul_ans_questions.length) {
         answer_field.style.display = "block"
         answer_field.disabled = true
-        if (mul_ans_alreadyAsked[id].selected == mul_ans_alreadyAsked[id].correct) {
+        if (mul_ans_alreadyAsked[qid].selected == mul_ans_alreadyAsked[qid].correct) {
             answer_field.classList.add("correct")
         } else {
             answer_field.classList.add("incorrect")
             correct_answer.style.display = "block"
-            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[id].correct
+            correct_answer.innerHTML = "Правильна відповідь: "+mul_ans_alreadyAsked[qid].correct
         }
-        answer_field.value = mul_selectedAnswers[id]
+        answer_field.value = mul_selectedAnswers[qid]
     }
     const q_info_str = document.getElementById("question").src
     const cut_q_info_str = q_info_str.slice(27, -4)
@@ -2022,12 +2019,13 @@ Array.from(document.getElementById("block_answers").children).forEach(item => {
     item.addEventListener("click", ()=> {
         var id = item.innerHTML -1;
         temp_list = [];
-        if (id < questions.length) {temp_list = alreadyAsked}
-        else if (questions.length <= id && id < vidpovidnist_questions.length) {temp_list = vidpovidnist_alreadyAsked}
-        else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {temp_list = hronology_alreadyAsked}
-        else if (hronology_questions.length <= id && id < mul_ans_questions.length) {temp_list = mul_ans_alreadyAsked}
-        document.getElementById("question").src = temp_list[id].question
-        showCorrectAnswer(id)
+        var qid = 0;
+        if (id < questions.length) {temp_list = alreadyAsked; qid = id}
+        else if (questions.length <= id && id < vidpovidnist_questions.length) {temp_list = vidpovidnist_alreadyAsked; qid = id - questions.length}
+        else if (vidpovidnist_questions.length <= id && id < hronology_questions.length) {temp_list = hronology_alreadyAsked; qid = id -questions.length-vidpovidnist_questions.length}
+        else if (hronology_questions.length <= id && id < mul_ans_questions.length) {temp_list = mul_ans_alreadyAsked; qid = id -questions.length-vidpovidnist_questions.length-hronology_questions.length}
+        document.getElementById("question").src = temp_list[qid].question
+        showCorrectAnswer(id, qid)
     })
 })
 

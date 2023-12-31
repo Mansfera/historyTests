@@ -3705,11 +3705,12 @@ Array.from(document.getElementById("block_answers").children).forEach(item => {
     item.addEventListener("click", ()=> {
         var id = item.innerHTML -1;
         temp_list = [];
-        if (id < 12) {temp_list = alreadyAsked}
+        var qid = 0;
+        if (id < 12) {temp_list = alreadyAsked; qid = id}
         else if (id == 12) {temp_list = vidpovidnist_alreadyAsked}
         else if (id == 13) {temp_list = hronology_alreadyAsked}
         else if (id == 14) {temp_list = mul_ans_alreadyAsked}
-        document.getElementById("question").src = temp_list[id].question
+        document.getElementById("question").src = temp_list[qid].question
         showCorrectAnswer(id)
     })
 })
