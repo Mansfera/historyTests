@@ -7,8 +7,8 @@ const correct_answer = document.getElementById("correct_answer");
 
 var queryString = window.location.search;
 var params = new URLSearchParams(queryString);
-var test_id = params.get("id");
-var test_name = "";
+var test_id = params.get('id');
+var block_id = params.get('block');
 
 function fetchJsonData(filePath) {
     return new Promise(function (resolve, reject) {
@@ -27,24 +27,32 @@ function fetchJsonData(filePath) {
         xhr.send();
     });
 }
+
+var test = 0;
 switch (test_id) {
-    case "1":
-        test_name = "Українські землі в другій половині XVI ст.";
-        break;
-    case "2":
-        test_name = "Українські землі. Перша половина XVII ст.";
-        break;
-    case "3":
-        test_name = "Національно-визвольна війна Українського народу середини XVII ст.";
-        break;
-    case "4":
-        test_name = "Козацька Україна наприкінці 50 – 80-х років XVII ст.";
-        break;
-    case "5":
-        test_name = "Українські землі наприкінці XVII – в першій половині XVIII ст.";
-        break;
     case "6":
+        test_name = "Українські землі в другій половині XVI ст.";
+        test = test_id - 5;
+        break;
+    case "7":
+        test_name = "Українські землі. Перша половина XVII ст.";
+        test = test_id - 5;
+        break;
+    case "8":
+        test_name = "Національно-визвольна війна Українського народу середини XVII ст.";
+        test = test_id - 5;
+        break;
+    case "9":
+        test_name = "Козацька Україна наприкінці 50 – 80-х років XVII ст.";
+        test = test_id - 5;
+        break;
+    case "10":
+        test_name = "Українські землі наприкінці XVII – в першій половині XVIII ст.";
+        test = test_id - 5;
+        break;
+    case "11":
         test_name = "Українські землі в другій половині XVIII ст.";
+        test = test_id - 5;
         break;
     default:
         test_name = "Назва тесту"
@@ -55,26 +63,22 @@ let questions = [];
 let vidpovidnist_questions = [];
 let hronology_questions = [];
 let mul_ans_questions = [];
+let questionCount = 0;
+let max_score = 0;
 
 let promises = [
-    fetchJsonData("../test" + test_id + "/questions.json").then(function (data) {
+    fetchJsonData("../block" + block_id + "/test" + test + "/questions.json").then(function (data) {
         questions = data;
     }),
-    fetchJsonData("../test" + test_id + "/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions = data;
-        }
-    ),
-    fetchJsonData("../test" + test_id + "/hronology_questions.json").then(
-        function (data) {
-            hronology_questions = data;
-        }
-    ),
-    fetchJsonData("../test" + test_id + "/mul_ans_questions.json").then(function (
-        data
-    ) {
-        mul_ans_questions = data;
+    fetchJsonData("../block" + block_id + "/test" + test + "/vidpovidnist_questions.json").then(function (data) {
+        vidpovidnist_questions = data;
     }),
+    fetchJsonData("../block" + block_id + "/test" + test + "/hronology_questions.json").then(function (data) {
+        hronology_questions = data;
+    }),
+    fetchJsonData("../block" + block_id + "/test" + test + "/mul_ans_questions.json").then(function (data) {
+        mul_ans_questions = data;
+    })
 ];
 
 Promise.all(promises)
