@@ -80,6 +80,12 @@ body {
     background-color: rgb(199, 199, 199);
     transition: 1s;
 }
+.option.b3 {
+    background-color: rgb(200, 200, 200);
+}
+.option.b3:hover {
+    background-color: rgb(179, 179, 179);
+}
 .option p {
     height: auto;
     color: black;

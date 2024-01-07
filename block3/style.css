@@ -71,7 +71,7 @@ body {
 .option {
     width: 90%;
     height: 35px;
-    background-color: snow;
+    background-color: rgb(200, 200, 200);
     border-radius: 7px;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ body {
 }
 .option:hover {
     cursor: pointer;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(179, 179, 179);
     transition: 1s;
 }
 .option p {
