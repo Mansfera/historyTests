@@ -1,7 +1,7 @@
 [
     {
         "selected": "",
-        "question": "/block2/test1/images/1.png",
+        "question": "../block2/test1/images/1.png",
         "answers": [
             {
                 "text": "А",
@@ -23,7 +23,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/2.png",
+        "question": "../block2/test1/images/2.png",
         "answers": [
             {
                 "text": "А",
@@ -45,7 +45,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/3.png",
+        "question": "../block2/test1/images/3.png",
         "answers": [
             {
                 "text": "А",
@@ -67,7 +67,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/4.png",
+        "question": "../block2/test1/images/4.png",
         "answers": [
             {
                 "text": "А",
@@ -89,7 +89,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/5.png",
+        "question": "../block2/test1/images/5.png",
         "answers": [
             {
                 "text": "А",
@@ -111,7 +111,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/6.png",
+        "question": "../block2/test1/images/6.png",
         "answers": [
             {
                 "text": "А",
@@ -133,7 +133,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/7.png",
+        "question": "../block2/test1/images/7.png",
         "answers": [
             {
                 "text": "А",
@@ -155,7 +155,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/8.png",
+        "question": "../block2/test1/images/8.png",
         "answers": [
             {
                 "text": "А",
@@ -176,9 +176,8 @@
         ]
     },
     {
-        "selected": 0,
         "selected": "",
-        "question": "/block2/test1/images/9.png",
+        "question": "../block2/test1/images/9.png",
         "answers": [
             {
                 "text": "А",
@@ -200,7 +199,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/10.png",
+        "question": "../block2/test1/images/10.png",
         "answers": [
             {
                 "text": "А",
@@ -222,7 +221,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/11.png",
+        "question": "../block2/test1/images/11.png",
         "answers": [
             {
                 "text": "А",
@@ -244,7 +243,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/12.png",
+        "question": "../block2/test1/images/12.png",
         "answers": [
             {
                 "text": "А",
@@ -266,7 +265,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/13.png",
+        "question": "../block2/test1/images/13.png",
         "answers": [
             {
                 "text": "А",
@@ -288,7 +287,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/14.png",
+        "question": "../block2/test1/images/14.png",
         "answers": [
             {
                 "text": "А",
@@ -310,7 +309,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/15.png",
+        "question": "../block2/test1/images/15.png",
         "answers": [
             {
                 "text": "А",
@@ -332,7 +331,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/16.png",
+        "question": "../block2/test1/images/16.png",
         "answers": [
             {
                 "text": "А",
@@ -354,7 +353,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/17.png",
+        "question": "../block2/test1/images/17.png",
         "answers": [
             {
                 "text": "А",
@@ -376,7 +375,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/18.png",
+        "question": "../block2/test1/images/18.png",
         "answers": [
             {
                 "text": "А",
@@ -398,7 +397,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/19.png",
+        "question": "../block2/test1/images/19.png",
         "answers": [
             {
                 "text": "А",
@@ -420,7 +419,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/20.png",
+        "question": "../block2/test1/images/20.png",
         "answers": [
             {
                 "text": "А",
@@ -442,7 +441,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/21.png",
+        "question": "../block2/test1/images/21.png",
         "answers": [
             {
                 "text": "А",
@@ -464,7 +463,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/22.png",
+        "question": "../block2/test1/images/22.png",
         "answers": [
             {
                 "text": "А",
@@ -486,7 +485,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/23.png",
+        "question": "../block2/test1/images/23.png",
         "answers": [
             {
                 "text": "А",
@@ -508,7 +507,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/24.png",
+        "question": "../block2/test1/images/24.png",
         "answers": [
             {
                 "text": "А",
@@ -530,7 +529,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/25.png",
+        "question": "../block2/test1/images/25.png",
         "answers": [
             {
                 "text": "А",
@@ -552,7 +551,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/26.png",
+        "question": "../block2/test1/images/26.png",
         "answers": [
             {
                 "text": "А",
@@ -574,7 +573,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/27.png",
+        "question": "../block2/test1/images/27.png",
         "answers": [
             {
                 "text": "А",
@@ -596,7 +595,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/28.png",
+        "question": "../block2/test1/images/28.png",
         "answers": [
             {
                 "text": "А",
@@ -618,7 +617,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/29.png",
+        "question": "../block2/test1/images/29.png",
         "answers": [
             {
                 "text": "А",
@@ -640,7 +639,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/30.png",
+        "question": "../block2/test1/images/30.png",
         "answers": [
             {
                 "text": "А",
@@ -662,7 +661,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/31.png",
+        "question": "../block2/test1/images/31.png",
         "answers": [
             {
                 "text": "А",
@@ -684,7 +683,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/32.png",
+        "question": "../block2/test1/images/32.png",
         "answers": [
             {
                 "text": "А",
@@ -706,7 +705,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/33.png",
+        "question": "../block2/test1/images/33.png",
         "answers": [
             {
                 "text": "А",
@@ -728,7 +727,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/34.png",
+        "question": "../block2/test1/images/34.png",
         "answers": [
             {
                 "text": "А",
@@ -750,7 +749,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/35.png",
+        "question": "../block2/test1/images/35.png",
         "answers": [
             {
                 "text": "А",
@@ -772,7 +771,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/36.png",
+        "question": "../block2/test1/images/36.png",
         "answers": [
             {
                 "text": "А",
@@ -794,7 +793,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/37.png",
+        "question": "../block2/test1/images/37.png",
         "answers": [
             {
                 "text": "А",
@@ -816,7 +815,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/38.png",
+        "question": "../block2/test1/images/38.png",
         "answers": [
             {
                 "text": "А",
@@ -838,7 +837,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/39.png",
+        "question": "../block2/test1/images/39.png",
         "answers": [
             {
                 "text": "А",
@@ -860,7 +859,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/40.png",
+        "question": "../block2/test1/images/40.png",
         "answers": [
             {
                 "text": "А",
@@ -882,7 +881,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/41.png",
+        "question": "../block2/test1/images/41.png",
         "answers": [
             {
                 "text": "А",
@@ -904,7 +903,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/42.png",
+        "question": "../block2/test1/images/42.png",
         "answers": [
             {
                 "text": "А",
@@ -926,7 +925,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/43.png",
+        "question": "../block2/test1/images/43.png",
         "answers": [
             {
                 "text": "А",
@@ -948,7 +947,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/44.png",
+        "question": "../block2/test1/images/44.png",
         "answers": [
             {
                 "text": "А",
@@ -970,7 +969,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/45.png",
+        "question": "../block2/test1/images/45.png",
         "answers": [
             {
                 "text": "А",
@@ -992,7 +991,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/46.png",
+        "question": "../block2/test1/images/46.png",
         "answers": [
             {
                 "text": "А",
@@ -1014,7 +1013,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/47.png",
+        "question": "../block2/test1/images/47.png",
         "answers": [
             {
                 "text": "А",
@@ -1036,7 +1035,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/48.png",
+        "question": "../block2/test1/images/48.png",
         "answers": [
             {
                 "text": "А",
@@ -1058,7 +1057,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/49.png",
+        "question": "../block2/test1/images/49.png",
         "answers": [
             {
                 "text": "А",
@@ -1080,7 +1079,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/50.png",
+        "question": "../block2/test1/images/50.png",
         "answers": [
             {
                 "text": "А",
@@ -1102,7 +1101,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/51.png",
+        "question": "../block2/test1/images/51.png",
         "answers": [
             {
                 "text": "А",
@@ -1124,7 +1123,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/52.png",
+        "question": "../block2/test1/images/52.png",
         "answers": [
             {
                 "text": "А",
@@ -1146,7 +1145,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/53.png",
+        "question": "../block2/test1/images/53.png",
         "answers": [
             {
                 "text": "А",
@@ -1168,7 +1167,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/54.png",
+        "question": "../block2/test1/images/54.png",
         "answers": [
             {
                 "text": "А",
@@ -1190,7 +1189,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/55.png",
+        "question": "../block2/test1/images/55.png",
         "answers": [
             {
                 "text": "А",
@@ -1212,7 +1211,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/56.png",
+        "question": "../block2/test1/images/56.png",
         "answers": [
             {
                 "text": "А",
@@ -1234,7 +1233,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/57.png",
+        "question": "../block2/test1/images/57.png",
         "answers": [
             {
                 "text": "А",
@@ -1256,7 +1255,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/58.png",
+        "question": "../block2/test1/images/58.png",
         "answers": [
             {
                 "text": "А",
@@ -1278,7 +1277,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/59.png",
+        "question": "../block2/test1/images/59.png",
         "answers": [
             {
                 "text": "А",
@@ -1300,7 +1299,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/60.png",
+        "question": "../block2/test1/images/60.png",
         "answers": [
             {
                 "text": "А",
@@ -1322,7 +1321,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/61.png",
+        "question": "../block2/test1/images/61.png",
         "answers": [
             {
                 "text": "А",
@@ -1344,7 +1343,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/62.png",
+        "question": "../block2/test1/images/62.png",
         "answers": [
             {
                 "text": "А",
@@ -1366,7 +1365,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/63.png",
+        "question": "../block2/test1/images/63.png",
         "answers": [
             {
                 "text": "А",
@@ -1388,7 +1387,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/64.png",
+        "question": "../block2/test1/images/64.png",
         "answers": [
             {
                 "text": "А",
@@ -1410,7 +1409,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/65.png",
+        "question": "../block2/test1/images/65.png",
         "answers": [
             {
                 "text": "А",
@@ -1432,7 +1431,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/66.png",
+        "question": "../block2/test1/images/66.png",
         "answers": [
             {
                 "text": "А",
@@ -1454,7 +1453,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/67.png",
+        "question": "../block2/test1/images/67.png",
         "answers": [
             {
                 "text": "А",
@@ -1476,7 +1475,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/68.png",
+        "question": "../block2/test1/images/68.png",
         "answers": [
             {
                 "text": "А",
@@ -1498,7 +1497,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/69.png",
+        "question": "../block2/test1/images/69.png",
         "answers": [
             {
                 "text": "А",
@@ -1520,7 +1519,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/70.png",
+        "question": "../block2/test1/images/70.png",
         "answers": [
             {
                 "text": "А",
@@ -1542,7 +1541,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/71.png",
+        "question": "../block2/test1/images/71.png",
         "answers": [
             {
                 "text": "А",
@@ -1564,7 +1563,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/72.png",
+        "question": "../block2/test1/images/72.png",
         "answers": [
             {
                 "text": "А",
@@ -1586,7 +1585,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/73.png",
+        "question": "../block2/test1/images/73.png",
         "answers": [
             {
                 "text": "А",
@@ -1608,7 +1607,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/74.png",
+        "question": "../block2/test1/images/74.png",
         "answers": [
             {
                 "text": "А",
@@ -1630,7 +1629,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/75.png",
+        "question": "../block2/test1/images/75.png",
         "answers": [
             {
                 "text": "А",
@@ -1652,7 +1651,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/76.png",
+        "question": "../block2/test1/images/76.png",
         "answers": [
             {
                 "text": "А",
@@ -1674,7 +1673,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/77.png",
+        "question": "../block2/test1/images/77.png",
         "answers": [
             {
                 "text": "А",
@@ -1696,7 +1695,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/78.png",
+        "question": "../block2/test1/images/78.png",
         "answers": [
             {
                 "text": "А",
@@ -1718,7 +1717,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/79.png",
+        "question": "../block2/test1/images/79.png",
         "answers": [
             {
                 "text": "А",
@@ -1740,7 +1739,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/80.png",
+        "question": "../block2/test1/images/80.png",
         "answers": [
             {
                 "text": "А",
@@ -1762,7 +1761,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/81.png",
+        "question": "../block2/test1/images/81.png",
         "answers": [
             {
                 "text": "А",
@@ -1784,7 +1783,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/82.png",
+        "question": "../block2/test1/images/82.png",
         "answers": [
             {
                 "text": "А",
@@ -1806,7 +1805,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/83.png",
+        "question": "../block2/test1/images/83.png",
         "answers": [
             {
                 "text": "А",
@@ -1828,7 +1827,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/84.png",
+        "question": "../block2/test1/images/84.png",
         "answers": [
             {
                 "text": "А",
@@ -1850,7 +1849,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/85.png",
+        "question": "../block2/test1/images/85.png",
         "answers": [
             {
                 "text": "А",
@@ -1872,7 +1871,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/86.png",
+        "question": "../block2/test1/images/86.png",
         "answers": [
             {
                 "text": "А",
@@ -1894,7 +1893,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/87.png",
+        "question": "../block2/test1/images/87.png",
         "answers": [
             {
                 "text": "А",
@@ -1916,7 +1915,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/88.png",
+        "question": "../block2/test1/images/88.png",
         "answers": [
             {
                 "text": "А",
@@ -1938,7 +1937,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/89.png",
+        "question": "../block2/test1/images/89.png",
         "answers": [
             {
                 "text": "А",
@@ -1960,7 +1959,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/90.png",
+        "question": "../block2/test1/images/90.png",
         "answers": [
             {
                 "text": "А",
@@ -1982,7 +1981,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/91.png",
+        "question": "../block2/test1/images/91.png",
         "answers": [
             {
                 "text": "А",
@@ -2004,7 +2003,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/92.png",
+        "question": "../block2/test1/images/92.png",
         "answers": [
             {
                 "text": "А",
@@ -2026,7 +2025,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/93.png",
+        "question": "../block2/test1/images/93.png",
         "answers": [
             {
                 "text": "А",
@@ -2048,7 +2047,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/94.png",
+        "question": "../block2/test1/images/94.png",
         "answers": [
             {
                 "text": "А",
@@ -2070,7 +2069,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/95.png",
+        "question": "../block2/test1/images/95.png",
         "answers": [
             {
                 "text": "А",
@@ -2092,7 +2091,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/96.png",
+        "question": "../block2/test1/images/96.png",
         "answers": [
             {
                 "text": "А",
@@ -2114,7 +2113,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/97.png",
+        "question": "../block2/test1/images/97.png",
         "answers": [
             {
                 "text": "А",
@@ -2136,7 +2135,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/98.png",
+        "question": "../block2/test1/images/98.png",
         "answers": [
             {
                 "text": "А",
@@ -2158,7 +2157,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/99.png",
+        "question": "../block2/test1/images/99.png",
         "answers": [
             {
                 "text": "А",
@@ -2180,7 +2179,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/100.png",
+        "question": "../block2/test1/images/100.png",
         "answers": [
             {
                 "text": "А",
@@ -2202,7 +2201,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/101.png",
+        "question": "../block2/test1/images/101.png",
         "answers": [
             {
                 "text": "А",
@@ -2224,7 +2223,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/102.png",
+        "question": "../block2/test1/images/102.png",
         "answers": [
             {
                 "text": "А",
@@ -2246,7 +2245,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/103.png",
+        "question": "../block2/test1/images/103.png",
         "answers": [
             {
                 "text": "А",
@@ -2268,7 +2267,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/104.png",
+        "question": "../block2/test1/images/104.png",
         "answers": [
             {
                 "text": "А",
@@ -2290,7 +2289,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/105.png",
+        "question": "../block2/test1/images/105.png",
         "answers": [
             {
                 "text": "А",
@@ -2312,7 +2311,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/106.png",
+        "question": "../block2/test1/images/106.png",
         "answers": [
             {
                 "text": "А",
@@ -2334,7 +2333,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/107.png",
+        "question": "../block2/test1/images/107.png",
         "answers": [
             {
                 "text": "А",
@@ -2356,7 +2355,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/108.png",
+        "question": "../block2/test1/images/108.png",
         "answers": [
             {
                 "text": "А",
@@ -2378,7 +2377,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/109.png",
+        "question": "../block2/test1/images/109.png",
         "answers": [
             {
                 "text": "А",
@@ -2400,7 +2399,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/110.png",
+        "question": "../block2/test1/images/110.png",
         "answers": [
             {
                 "text": "А",
@@ -2422,7 +2421,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/111.png",
+        "question": "../block2/test1/images/111.png",
         "answers": [
             {
                 "text": "А",
@@ -2444,7 +2443,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/112.png",
+        "question": "../block2/test1/images/112.png",
         "answers": [
             {
                 "text": "А",
@@ -2466,7 +2465,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/113.png",
+        "question": "../block2/test1/images/113.png",
         "answers": [
             {
                 "text": "А",
@@ -2488,7 +2487,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/114.png",
+        "question": "../block2/test1/images/114.png",
         "answers": [
             {
                 "text": "А",
@@ -2510,7 +2509,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/115.png",
+        "question": "../block2/test1/images/115.png",
         "answers": [
             {
                 "text": "А",
@@ -2532,7 +2531,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/116.png",
+        "question": "../block2/test1/images/116.png",
         "answers": [
             {
                 "text": "А",
@@ -2554,7 +2553,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/117.png",
+        "question": "../block2/test1/images/117.png",
         "answers": [
             {
                 "text": "А",
@@ -2576,7 +2575,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/118.png",
+        "question": "../block2/test1/images/118.png",
         "answers": [
             {
                 "text": "А",
@@ -2598,7 +2597,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/119.png",
+        "question": "../block2/test1/images/119.png",
         "answers": [
             {
                 "text": "А",
@@ -2620,7 +2619,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/120.png",
+        "question": "../block2/test1/images/120.png",
         "answers": [
             {
                 "text": "А",
@@ -2642,7 +2641,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/121.png",
+        "question": "../block2/test1/images/121.png",
         "answers": [
             {
                 "text": "А",
@@ -2664,7 +2663,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/122.png",
+        "question": "../block2/test1/images/122.png",
         "answers": [
             {
                 "text": "А",
@@ -2686,7 +2685,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/123.png",
+        "question": "../block2/test1/images/123.png",
         "answers": [
             {
                 "text": "А",
@@ -2708,7 +2707,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/124.png",
+        "question": "../block2/test1/images/124.png",
         "answers": [
             {
                 "text": "А",
@@ -2730,7 +2729,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/125.png",
+        "question": "../block2/test1/images/125.png",
         "answers": [
             {
                 "text": "А",
@@ -2752,7 +2751,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/126.png",
+        "question": "../block2/test1/images/126.png",
         "answers": [
             {
                 "text": "А",
@@ -2774,7 +2773,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/127.png",
+        "question": "../block2/test1/images/127.png",
         "answers": [
             {
                 "text": "А",
@@ -2796,7 +2795,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/128.png",
+        "question": "../block2/test1/images/128.png",
         "answers": [
             {
                 "text": "А",
@@ -2818,7 +2817,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/129.png",
+        "question": "../block2/test1/images/129.png",
         "answers": [
             {
                 "text": "А",
@@ -2840,7 +2839,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/130.png",
+        "question": "../block2/test1/images/130.png",
         "answers": [
             {
                 "text": "А",
@@ -2862,7 +2861,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/131.png",
+        "question": "../block2/test1/images/131.png",
         "answers": [
             {
                 "text": "А",
@@ -2884,7 +2883,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/132.png",
+        "question": "../block2/test1/images/132.png",
         "answers": [
             {
                 "text": "А",
@@ -2906,7 +2905,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/133.png",
+        "question": "../block2/test1/images/133.png",
         "answers": [
             {
                 "text": "А",
@@ -2928,7 +2927,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/134.png",
+        "question": "../block2/test1/images/134.png",
         "answers": [
             {
                 "text": "А",
@@ -2950,7 +2949,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/135.png",
+        "question": "../block2/test1/images/135.png",
         "answers": [
             {
                 "text": "А",
@@ -2972,7 +2971,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/136.png",
+        "question": "../block2/test1/images/136.png",
         "answers": [
             {
                 "text": "А",
@@ -2994,7 +2993,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/137.png",
+        "question": "../block2/test1/images/137.png",
         "answers": [
             {
                 "text": "А",
@@ -3016,7 +3015,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/138.png",
+        "question": "../block2/test1/images/138.png",
         "answers": [
             {
                 "text": "А",
@@ -3038,7 +3037,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/139.png",
+        "question": "../block2/test1/images/139.png",
         "answers": [
             {
                 "text": "А",
@@ -3060,7 +3059,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/140.png",
+        "question": "../block2/test1/images/140.png",
         "answers": [
             {
                 "text": "А",
@@ -3082,7 +3081,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/141.png",
+        "question": "../block2/test1/images/141.png",
         "answers": [
             {
                 "text": "А",
@@ -3104,7 +3103,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/142.png",
+        "question": "../block2/test1/images/142.png",
         "answers": [
             {
                 "text": "А",
@@ -3126,7 +3125,7 @@
     },
     {
         "selected": "",
-        "question": "/block2/test1/images/143.png",
+        "question": "../block2/test1/images/143.png",
         "answers": [
             {
                 "text": "А",

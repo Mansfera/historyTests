@@ -1,81 +1,81 @@
 [
     {
-        "question": "/block2/test4/images/2-1.png",
+        "question": "../block2/test4/images/2-1.png",
         "selected": "",
         "correct": "АБВГ"
     },
     {
-        "question": "/block2/test4/images/2-2.png",
+        "question": "../block2/test4/images/2-2.png",
         "selected": "",
         "correct": "ВГБА"
     },
     {
-        "question": "/block2/test4/images/2-3.png",
+        "question": "../block2/test4/images/2-3.png",
         "selected": "",
         "correct": "ВГАБ"
     },
     {
-        "question": "/block2/test4/images/2-4.png",
+        "question": "../block2/test4/images/2-4.png",
         "selected": "",
         "correct": "БГВА"
     },
     {
-        "question": "/block2/test4/images/2-5.png",
+        "question": "../block2/test4/images/2-5.png",
         "selected": "",
         "correct": "ГБАВ"
     },
     {
-        "question": "/block2/test4/images/2-6.png",
+        "question": "../block2/test4/images/2-6.png",
         "selected": "",
         "correct": "ВАГБ"
     },
     {
-        "question": "/block2/test4/images/2-7.png",
+        "question": "../block2/test4/images/2-7.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "/block2/test4/images/2-8.png",
+        "question": "../block2/test4/images/2-8.png",
         "selected": "",
         "correct": "ВБГА"
     },
     {
-        "question": "/block2/test4/images/2-9.png",
+        "question": "../block2/test4/images/2-9.png",
         "selected": "",
         "correct": "ВБАГ"
     },
     {
-        "question": "/block2/test4/images/2-10.png",
+        "question": "../block2/test4/images/2-10.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "/block2/test4/images/2-11.png",
+        "question": "../block2/test4/images/2-11.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "/block2/test4/images/2-12.png",
+        "question": "../block2/test4/images/2-12.png",
         "selected": "",
         "correct": "ВГБА"
     },
     {
-        "question": "/block2/test4/images/2-13.png",
+        "question": "../block2/test4/images/2-13.png",
         "selected": "",
         "correct": "ВАБГ"
     },
     {
-        "question": "/block2/test4/images/2-14.png",
+        "question": "../block2/test4/images/2-14.png",
         "selected": "",
         "correct": "ГАВБ"
     },
     {
-        "question": "/block2/test4/images/2-15.png",
+        "question": "../block2/test4/images/2-15.png",
         "selected": "",
         "correct": "ВАБГ"
     },
     {
-        "question": "/block2/test4/images/2-16.png",
+        "question": "../block2/test4/images/2-16.png",
         "selected": "",
         "correct": "ВБГА"
     }
