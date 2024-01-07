@@ -500,9 +500,9 @@ function selectAnswer(e) {
 function showScore(){
     resetState()
     if (score < (18+18*3)/2) {
-        document.getElementById("question").src = "../grades/hmelnytskiy.png"
+        document.getElementById("question").src = "../grades/bad.png"
     } else {
-        document.getElementById("question").src = "../grades/skovoroda.png"
+        document.getElementById("question").src = "../grades/good.png"
     }
     clearInterval(timerInterval)
     h2_title.innerHTML =`Ви набрали ${score} з ${18+18*3} балу!`

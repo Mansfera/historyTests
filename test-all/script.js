@@ -54,6 +54,10 @@ switch (test_id) {
         test_name = "Українські землі в другій половині XVIII ст.";
         test = test_id - 5;
         break;
+    case "12":
+        test_name = "Українські землі у складі російської імперії наприкінці XVIII – в першій половині XIX ст.";
+        test = test_id - 11;
+        break;
     default:
         test_name = "Назва тесту"
 }
@@ -309,9 +313,9 @@ function selectAnswer(e) {
 function showScore(){
     resetState()
     if (score < max_score/2) {
-        document.getElementById("question").src = "../grades/hmelnytskiy.png"
+        document.getElementById("question").src = "../block" + block_id + "/grades/bad.png";
     } else {
-        document.getElementById("question").src = "../grades/skovoroda.png"
+        document.getElementById("question").src = "../block" + block_id + "/grades/good.png";
     }
     clearInterval(timerInterval)
     h2_title.innerHTML =`Ви набрали ${score} з ${max_score} балу!`

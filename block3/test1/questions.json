@@ -13,11 +13,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -53,11 +53,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -75,7 +75,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -83,7 +83,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -93,11 +93,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -115,11 +115,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -159,7 +159,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -167,7 +167,7 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -176,7 +176,6 @@
         ]
     },
     {
-        "selected": 0,
         "selected": "",
         "question": "/block3/test1/images/9.png",
         "answers": [
@@ -190,11 +189,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -204,7 +203,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -216,7 +215,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -226,7 +225,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -234,7 +233,7 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -252,7 +251,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -260,7 +259,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -314,11 +313,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -336,11 +335,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -362,11 +361,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -380,7 +379,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -392,7 +391,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -428,7 +427,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -436,7 +435,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -450,7 +449,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -458,7 +457,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -468,7 +467,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -476,7 +475,7 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -494,7 +493,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -502,7 +501,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -516,11 +515,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -534,7 +533,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -546,7 +545,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -560,7 +559,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -568,7 +567,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -578,7 +577,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -590,7 +589,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -600,11 +599,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -630,11 +629,11 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -644,11 +643,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -674,11 +673,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -688,7 +687,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -700,7 +699,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -714,11 +713,11 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -732,11 +731,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -754,11 +753,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -780,11 +779,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -798,11 +797,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -820,11 +819,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -842,7 +841,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -850,7 +849,7 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -868,7 +867,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -876,7 +875,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -890,7 +889,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -898,7 +897,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -916,11 +915,11 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -934,11 +933,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -960,11 +959,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1004,11 +1003,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1018,11 +1017,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -1030,7 +1029,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -1070,11 +1069,11 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -1106,11 +1105,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -1132,11 +1131,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -1242,11 +1241,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -1308,11 +1307,11 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -1330,11 +1329,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -1370,11 +1369,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -1400,11 +1399,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1418,11 +1417,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -1458,11 +1457,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -1524,7 +1523,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -1536,7 +1535,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -1568,11 +1567,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -1590,7 +1589,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -1602,7 +1601,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1620,11 +1619,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1634,7 +1633,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -1646,7 +1645,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1682,11 +1681,11 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -1722,7 +1721,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -1730,7 +1729,7 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -1774,11 +1773,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1788,11 +1787,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -1814,11 +1813,11 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -1840,11 +1839,11 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -1854,11 +1853,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -1876,7 +1875,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -1888,7 +1887,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -1964,7 +1963,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -1972,7 +1971,7 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -1986,7 +1985,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -1994,7 +1993,7 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2008,7 +2007,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -2016,7 +2015,7 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -2030,7 +2029,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2042,7 +2041,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2060,11 +2059,11 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2118,7 +2117,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Б",
@@ -2130,7 +2129,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2144,11 +2143,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -2166,11 +2165,11 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2188,7 +2187,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -2196,7 +2195,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2232,11 +2231,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -2250,7 +2249,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2262,7 +2261,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2272,7 +2271,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2280,7 +2279,7 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2294,7 +2293,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2302,7 +2301,7 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2316,7 +2315,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2328,7 +2327,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2342,7 +2341,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -2350,7 +2349,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2386,7 +2385,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -2394,7 +2393,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2404,7 +2403,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2416,7 +2415,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2430,11 +2429,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -2452,7 +2451,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -2460,7 +2459,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2474,11 +2473,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -2562,7 +2561,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -2570,7 +2569,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2584,7 +2583,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -2592,7 +2591,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2602,11 +2601,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -2624,11 +2623,11 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -2668,7 +2667,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2676,7 +2675,7 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2698,11 +2697,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2716,11 +2715,11 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
@@ -2738,11 +2737,11 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2764,11 +2763,11 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2782,7 +2781,7 @@
             },
             {
                 "text": "Б",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "В",
@@ -2790,7 +2789,7 @@
             },
             {
                 "text": "Г",
-                "correct": true
+                "correct": false
             }
         ]
     },
@@ -2808,11 +2807,11 @@
             },
             {
                 "text": "В",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2822,7 +2821,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2830,7 +2829,7 @@
             },
             {
                 "text": "В",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Г",
@@ -2866,7 +2865,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2878,7 +2877,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2888,7 +2887,7 @@
         "answers": [
             {
                 "text": "А",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "Б",
@@ -2900,7 +2899,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2958,7 +2957,7 @@
             },
             {
                 "text": "Б",
-                "correct": true
+                "correct": false
             },
             {
                 "text": "В",
@@ -2966,7 +2965,7 @@
             },
             {
                 "text": "Г",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -2984,161 +2983,7 @@
             },
             {
                 "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
                 "correct": true
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/137.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": false
-            },
-            {
-                "text": "Б",
-                "correct": false
-            },
-            {
-                "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/138.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": true
-            },
-            {
-                "text": "Б",
-                "correct": false
-            },
-            {
-                "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/139.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": true
-            },
-            {
-                "text": "Б",
-                "correct": false
-            },
-            {
-                "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/140.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": false
-            },
-            {
-                "text": "Б",
-                "correct": true
-            },
-            {
-                "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/141.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": false
-            },
-            {
-                "text": "Б",
-                "correct": true
-            },
-            {
-                "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/142.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": false
-            },
-            {
-                "text": "Б",
-                "correct": false
-            },
-            {
-                "text": "В",
-                "correct": false
-            },
-            {
-                "text": "Г",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "selected": "",
-        "question": "/block3/test1/images/143.png",
-        "answers": [
-            {
-                "text": "А",
-                "correct": true
-            },
-            {
-                "text": "Б",
-                "correct": false
-            },
-            {
-                "text": "В",
-                "correct": false
             },
             {
                 "text": "Г",
