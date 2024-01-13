@@ -1,7 +1,7 @@
 * {
     user-select: none;
-    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 body {
     background: #1d2f42;
@@ -42,35 +42,35 @@ body {
     mix-blend-mode: lighten;
 }
 .tests {
-    margin-top: 50px;
-    width: 70%;
+    margin-top: 44px;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .test {
     margin: 4px;
-    width: calc(33.33% - 10px);
+    width: calc(50% - 10px);
+    max-width: 375px;
     height: 240px;
     background-color: rgb(245, 245, 245);
     border-radius: 11px;
-
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 .test p {
-    width: 75%;
-    height: 30%;
+    width: 85%;
+    height: 40%;
     color: rgb(0, 0, 0);
     font-size: 110%;
-    overflow: hidden;
 }
 .option {
     width: 90%;
     height: 35px;
+    margin-top: 10px;
     background-color: rgb(200, 200, 200);
     border-radius: 7px;
     display: flex;
@@ -88,12 +88,13 @@ body {
     color: black;
 }
 .test-final {
-    width: 40%;
-    height: 140px;
+    width: calc(50% - 10px);
+    height: 100px;
     background-color: #ee6437;
     transition: 1s;
-    display: flex;
-    align-items: center;
+    display: grid;
+    align-content: center;
+    place-items: center;
 }
 .test-final:hover {
     cursor: pointer;
@@ -101,5 +102,7 @@ body {
     transition: 1s;
 }
 .test-final p {
-    font-size: xx-large;
+    overflow: visible;
+    font-size: 24px;
+    width: 100%;
 }
