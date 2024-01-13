@@ -28,35 +28,27 @@ function fetchJsonData(filePath) {
     });
 }
 
-var test = 0;
 switch (test_id) {
     case "6":
         test_name = "Українські землі в другій половині XVI ст.";
-        test = test_id - 5;
         break;
     case "7":
         test_name = "Українські землі. Перша половина XVII ст.";
-        test = test_id - 5;
         break;
     case "8":
         test_name = "Національно-визвольна війна Українського народу середини XVII ст.";
-        test = test_id - 5;
         break;
     case "9":
         test_name = "Козацька Україна наприкінці 50 – 80-х років XVII ст.";
-        test = test_id - 5;
         break;
     case "10":
         test_name = "Українські землі наприкінці XVII – в першій половині XVIII ст.";
-        test = test_id - 5;
         break;
     case "11":
         test_name = "Українські землі в другій половині XVIII ст.";
-        test = test_id - 5;
         break;
     case "12":
         test_name = "Українські землі у складі російської імперії наприкінці XVIII – в першій половині XIX ст.";
-        test = test_id - 11;
         break;
     default:
         test_name = "Назва тесту"
@@ -71,16 +63,16 @@ let questionCount = 0;
 let max_score = 0;
 
 let promises = [
-    fetchJsonData("../block" + block_id + "/test" + test + "/questions.json").then(function (data) {
+    fetchJsonData("../block" + block_id + "/test" + test_id + "/questions.json").then(function (data) {
         questions = data;
     }),
-    fetchJsonData("../block" + block_id + "/test" + test + "/vidpovidnist_questions.json").then(function (data) {
+    fetchJsonData("../block" + block_id + "/test" + test_id + "/vidpovidnist_questions.json").then(function (data) {
         vidpovidnist_questions = data;
     }),
-    fetchJsonData("../block" + block_id + "/test" + test + "/hronology_questions.json").then(function (data) {
+    fetchJsonData("../block" + block_id + "/test" + test_id + "/hronology_questions.json").then(function (data) {
         hronology_questions = data;
     }),
-    fetchJsonData("../block" + block_id + "/test" + test + "/mul_ans_questions.json").then(function (data) {
+    fetchJsonData("../block" + block_id + "/test" + test_id + "/mul_ans_questions.json").then(function (data) {
         mul_ans_questions = data;
     })
 ];
