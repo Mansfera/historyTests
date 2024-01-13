@@ -1,46 +1,20 @@
 * {
     user-select: none;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 600;
+}
+meta[name="apple-mobile-web-app-status-bar-style"] {
+    content: default;
 }
 body {
-    background: #e6f4f4;
+    background: #1d2f42;
     display: flex;
     justify-content: center;
 }
-.exit_btn {
-    margin: 20px 20px;
-    border: none;
-    padding: 10px 44px;
-    font-size: 16px;
-    position: relative;
-    border-radius: 40px;
-    background: #fb9a9a;
-}
-.exit_btn::before {
-    border-radius: 40px;
-    width: 25%;
-    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    content: '';
-    content-visibility: hidden;
-    width: 40px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.exit_btn:hover::before {
-    background: #f35b5b ;
-    width: 100%;
-    font-size: 16px;
-    text-align: center;
-}
-.exit_btn_text{
-    color: white;
-    mix-blend-mode: lighten;
-}
 .tests {
-    width: 70%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -48,26 +22,37 @@ body {
 }
 .test {
     margin: 4px;
-    width: calc(33.33% - 10px);
-    height: 300px;
+    width: calc(40% - 120px);
+    min-width: 500px;
+    height: 420px;
     background-color: #7ad1ce;
     border-radius: 11px;
-
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 .test p {
     width: 75%;
     height: auto;
     color: #FFFF;
-    font-size: 110%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options {
+    height: 40%;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .option {
-    width: 90%;
-    height: 35px;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
     background-color: snow;
     border-radius: 7px;
     display: flex;
@@ -89,6 +74,8 @@ body {
 .option p {
     height: auto;
     color: black;
+    font-size: 24px;
+    font-weight: 400;
 }
 .test-final {
     width: 40%;
@@ -102,9 +89,6 @@ body {
     cursor: pointer;
     background-color: #ba4d29;
     transition: 1s;
-}
-.test-final p {
-    font-size: xx-large;
 }
 .b1 {
     background-color: #fb9a9a;
