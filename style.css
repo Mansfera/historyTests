@@ -23,7 +23,8 @@ body {
 .test {
     margin: 4px;
     width: calc(40% - 120px);
-    min-width: 500px;
+    max-width: 500px;
+    min-width: 420px;
     height: 420px;
     background-color: #7ad1ce;
     border-radius: 11px;
