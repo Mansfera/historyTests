@@ -69,6 +69,7 @@ body {
     margin: 5px auto 0;
     border-radius: 10px;
     padding: 30px;
+    overflow: hidden;
 }
 .app h2 {
     font-weight: 25px; color: #365d9d;
@@ -88,7 +89,16 @@ body {
 
 .image {
     width: 100%;
-    max-height: 40%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    /* width: 100%; */
+    max-width: 670px;
+    /* height: 100%; */
+    max-height: 370px;
 }
 
 .answer_buttons {
