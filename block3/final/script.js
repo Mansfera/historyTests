@@ -369,7 +369,7 @@ function showQuestion() {
         let questionNo = currentQuestionIndex + 1
         h2_title.innerHTML = "Питання №"+questionNo
 
-        document.getElementById("question").src = currentQuestion.question
+        document.getElementById("question").src = "../"+currentQuestion.question
 
         currentQuestion.answers.forEach(answer => {
             const button = document.createElement("button")
@@ -424,7 +424,7 @@ function showQuestion() {
             let questionNo = currentQuestionIndex + 1
             h2_title.innerHTML = "Питання №"+questionNo
 
-            document.getElementById("question").src = currentQuestion.question
+            document.getElementById("question").src = "../"+currentQuestion.question
             answer_field.style.display = "block"
         } else if (32 <= currentQuestionIndex && currentQuestionIndex < 40) {
             let temp_list = [];
@@ -463,7 +463,7 @@ function showQuestion() {
             let questionNo = currentQuestionIndex + 1
             h2_title.innerHTML = "Питання №"+questionNo
 
-            document.getElementById("question").src = currentQuestion.question
+            document.getElementById("question").src = "../"+currentQuestion.question
             answer_field.style.display = "block"
         } else if (40 <= currentQuestionIndex && currentQuestionIndex < 48){
             let temp_list = [];
@@ -502,7 +502,7 @@ function showQuestion() {
             let questionNo = currentQuestionIndex + 1
             h2_title.innerHTML = "Питання №"+questionNo
 
-            document.getElementById("question").src = currentQuestion.question
+            document.getElementById("question").src = "../"+currentQuestion.question
             answer_field.style.display = "block"
         }
     }
@@ -828,7 +828,7 @@ Array.from(document.getElementById("block_answers").children).forEach(item => {
         else if (24 <= id && id < 32) {temp_list = vidpovidnist_alreadyAsked; qid = id-24}
         else if (32 <= id && id < 40) {temp_list = hronology_alreadyAsked; qid = id-32}
         else if (40 <= id && id < 48) {temp_list = mul_ans_alreadyAsked; qid = id-40}
-        document.getElementById("question").src = temp_list[qid].question
+        document.getElementById("question").src = "../"+temp_list[qid].question
         showCorrectAnswer(id)
     })
 })
