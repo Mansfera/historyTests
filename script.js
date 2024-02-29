@@ -51,6 +51,9 @@ if (decrypted_token < Date.now()) {
       while (block.firstChild) {
         block.removeChild(block.firstChild);
       }
+      var oImg = document.createElement("img");
+      oImg.setAttribute('src', './lock.png');
+      block.appendChild(oImg);
     }
   }
 
@@ -61,5 +64,8 @@ if (decrypted_token < Date.now()) {
     while (block.firstChild) {
       block.removeChild(block.firstChild);
     }
+    var oImg = document.createElement("img");
+      oImg.setAttribute('src', './lock.png');
+      block.appendChild(oImg);
   }
 }

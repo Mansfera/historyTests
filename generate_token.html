@@ -70,6 +70,11 @@
             final_Url += "allowedPart=" + encrypted.toString() + "&";
             document.getElementById("result").value = final_Url;
             copyToClipboard();
+            setTimeout(reloadWindow, 15*1000)
+        }
+
+        function reloadWindow() {
+            window.location.reload();
         }
 
         function copyToClipboard() {
