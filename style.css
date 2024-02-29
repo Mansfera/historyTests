@@ -135,3 +135,13 @@ body {
     color: dimgray;
     background-color: dimgray;
 }
+
+.green {
+    background-color: lightgreen;
+}
+.yellow {
+    background-color: rgb(251, 251, 192);
+}
+.red {
+    background-color: lightcoral;
+}
