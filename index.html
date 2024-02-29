@@ -15,12 +15,13 @@
     <title>Тест з історії</title>
 </head>
 <body>
+    <div class="client" id="client"></div>
     <div class="tests">
-        <div class="test b1">
+        <div class="test b1 blocked" id="b1">
             <div class="block-text title">Блок 1</div>
             <div class="block-text">‌ </div>
         </div>
-        <div class="test b2">
+        <div class="test b2 blocked" id="b2">
             <div class="block-text title">Блок 2</div>
             <div class="block-text">‌ </div>
             <div class="block-text">Українські землі</div>
@@ -37,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="test b3">
+        <div class="test b3 blocked" id="b3">
             <div class="block-text title b3t">Блок 3</div>
             <div class="block-text">‌ </div>
             <div class="block-text b3t">Українські землі</div>
@@ -54,18 +55,20 @@
                 </div>
             </div>
         </div>
-        <div class="test b4">
+        <div class="test b4 blocked" id="b4">
             <div class="block-text title">Блок 4</div>
             <div class="block-text">‌ </div>
         </div>
-        <div class="test b5">
+        <div class="test b5 blocked" id="b5">
             <div class="block-text title">Блок 5</div>
             <div class="block-text">‌ </div>
         </div>
-        <div class="test NMT">
+        <div class="test NMT blocked" id="NMT">
             <div class="block-text title NMT-title">НМТ</div>
             <div class="block-text">‌ </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

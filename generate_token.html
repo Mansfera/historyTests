@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date to Timestamp Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Генератор посилань</h2>
+
+    <label for="blockPicker">Оберіть блоки до яких буде надано доступ:</label>
+    <input type="text" id="blockPicker" placeholder="12345">
+    <label for="datePicker">Оберіть дату після якої буде забрано доступ:</label>
+    <input type="date" id="datePicker">
+
+    <br><br>
+
+    <button onclick="generate()">Згенерувати</button>
+
+    <br><br>
+
+    <label for="result">Посилання:</label>
+    <input type="text" id="result" readonly>
+
+    <br><br>
+
+    <button onclick="copyToClipboard()">Копіювати</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script>
+        function encryptString(inputString, secretKey) {
+            var data = CryptoJS.enc.Utf8.parse(inputString);
+            var encrypted = CryptoJS.AES.encrypt(data, secretKey);
+            var encryptedString = encodeURIComponent(encrypted.toString());
+            return encryptedString;
+        }
+
+        // var final_Url = "https://mansfera.github.io/historyTests?"
+        var final_Url = "http://127.0.0.1:3000/?"
+        function convertToTimestamp() {
+            var selectedDate = document.getElementById("datePicker").value;
+            var timestamp = new Date(selectedDate).getTime() / 1000;
+            var encrypted = encryptString(timestamp+"", "lag@history");
+            final_Url += "access_token=" + encrypted.toString() + "&";
+        }
+
+        function generate() {
+            convertToTimestamp();
+            var blocks = document.getElementById("blockPicker").value;
+            var encrypted = encryptString(blocks+"", "lag@history");
+            final_Url += "allowedPart=" + encrypted.toString() + "&";
+            document.getElementById("result").value = final_Url;
+        }
+
+        function copyToClipboard() {
+            var result = document.getElementById("result");
+            result.select();
+            document.execCommand("copy");
+            alert("Посилання скопійовано!");
+        }
+    </script>
+
+</body>
+</html>

@@ -14,6 +14,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.client {
+    color: snow;
+}
 .tests {
     width: 100vw;
     height: 100%;
@@ -130,4 +133,5 @@ body {
     cursor: not-allowed;
     color: dimgray;
     background-color: dimgray;
+    display: none;
 }
