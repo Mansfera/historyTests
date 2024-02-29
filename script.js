@@ -16,7 +16,7 @@ if ((params = null)) {
 }
 
 function updateTime() {
-  var time = decrypted_token - Date.now();
+  var time = decrypted_token - Date.now() / 1000;
   let days = Math.floor(time / 60 / 60 / 24);
   let hours = Math.floor(time / 60 / 60);
   hours = hours < 10 ? "0" + hours : hours;
