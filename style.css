@@ -123,6 +123,9 @@ body {
 .b5 {
     background-color: rgb(197, 206, 184);
 }
+.NMT-title {
+    font-size: 50px;
+}
 .blocked {
     cursor: not-allowed;
     color: dimgray;
