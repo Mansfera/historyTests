@@ -53,14 +53,14 @@
         function convertToTimestamp() {
             var selectedDate = document.getElementById("datePicker").value;
             var timestamp = new Date(selectedDate).getTime() / 1000;
-            var encrypted = encryptString(timestamp+"", "lag@history");
-            final_Url += "access_token=" + encrypted.toString()+"000" + "&";
+            var encrypted = encryptString(timestamp+"000", "lag@history");
+            final_Url += "access_token=" + encrypted.toString() + "&";
         }
 
         function generate() {
             convertToTimestamp();
             var blocks = document.getElementById("blockPicker").value;
-            var encrypted = encryptString(blocks+"", "lag@history");
+            var encrypted = encryptString(blocks.replace(" ", "")+"", "lag@history");
             final_Url += "allowedPart=" + encrypted.toString() + "&";
             document.getElementById("result").value = final_Url;
         }
