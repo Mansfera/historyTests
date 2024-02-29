@@ -54,7 +54,7 @@
             var selectedDate = document.getElementById("datePicker").value;
             var timestamp = new Date(selectedDate).getTime() / 1000;
             var encrypted = encryptString(timestamp+"", "lag@history");
-            final_Url += "access_token=" + encrypted.toString() + "&";
+            final_Url += "access_token=" + encrypted.toString()+"000" + "&";
         }
 
         function generate() {
