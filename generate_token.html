@@ -49,11 +49,11 @@
         }
 
         var final_Url = "https://mansfera.github.io/historyTests?"
-        // var final_Url = "http://127.0.0.1:3000/?"
+        var final_Url = "http://127.0.0.1:3000/?"
         function convertToTimestamp() {
             var selectedDate = document.getElementById("datePicker").value;
             var timestamp = new Date(selectedDate).getTime();
-            var encrypted = encryptString(timestamp+"000", "lag@history");
+            var encrypted = encryptString(timestamp, "lag@history");
             final_Url += "access_token=" + encrypted.toString() + "&";
         }
 
