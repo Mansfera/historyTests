@@ -11,10 +11,9 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
 }
 body {
     background: #1d2f42;
-    display: flex;
-    justify-content: center;
 }
-.client {
+#remainingTime {
+    font-size: 8px;
     color: snow;
 }
 .tests {
@@ -133,5 +132,4 @@ body {
     cursor: not-allowed;
     color: dimgray;
     background-color: dimgray;
-    display: none;
 }

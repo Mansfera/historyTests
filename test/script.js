@@ -128,7 +128,7 @@ let timerInterval;
 startTime = time;
 const countdownEl = document.getElementById("timer");
 function updateCountdown() {
-    const minutes = Math.floor(time / 60);
+    let minutes = Math.floor(time / 60);
     let seconds = time % 60;
     seconds = seconds < 10 ? "0" + seconds : seconds;
     countdownEl.innerHTML = `Часу залишилося: ${minutes}:${seconds}`;

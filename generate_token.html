@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date to Timestamp Converter</title>
+    <title>Link generator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,6 +42,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
     <script>
+        var queryString = window.location.search;
+        var params = new URLSearchParams(queryString);
+        var testing_mode = params.get('test');
         function encryptString(inputString, secretKey) {
             var data = CryptoJS.enc.Utf8.parse(inputString);
             var encrypted = CryptoJS.AES.encrypt(data, secretKey);
@@ -50,7 +53,9 @@
         }
 
         var final_Url = "https://mansfera.github.io/historyTests?"
-        // var final_Url = "http://127.0.0.1:3000/?"
+        if (testing_mode = "on") {
+            final_Url = "http://127.0.0.1:3000/?"
+        }
         function convertToTimestamp() {
             var selectedDate = document.getElementById("datePicker").value;
             var timestamp = new Date(selectedDate).getTime();
