@@ -2,8 +2,9 @@
     user-select: none;
     box-sizing: border-box;
     font-family: Arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
 }
 meta[name="apple-mobile-web-app-status-bar-style"] {
     content: default;
@@ -35,6 +36,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.title {
+    font-weight: 600;
 }
 .block-text {
     width: 75%;
