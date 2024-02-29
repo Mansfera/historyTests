@@ -3,6 +3,8 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const block_answers = document.getElementById("block_answers");
 const answer_field = document.getElementById("text_input");
+const letter_answers = document.getElementById("letter_answers");
+const numeric_answers = document.getElementById("numeric_answers");
 const correct_answer = document.getElementById("correct_answer");
 
 var queryString = window.location.search;
@@ -214,8 +216,7 @@ function showQuestion() {
         answer_field.style.display = "block";
         correct_answer.style.display = "block";
         if (currentQuestionIndex == 12) {
-            correct_answer.innerHTML =
-                "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти А-1 Б-2 В-3 Г-4, то впишіть 1234";
+            // letter_answers.style.display = "block";
             let randomQuestionIndex = Math.floor(
                 Math.random() * vidpovidnist_questions.length
             );
@@ -231,10 +232,8 @@ function showQuestion() {
             h2_title.innerHTML = "Питання №" + questionNo;
 
             document.getElementById("question").src = currentQuestion.question;
-            answer_field.style.display = "block";
         } else if (currentQuestionIndex == 13) {
-            correct_answer.innerHTML =
-                "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 1-А 2-Б 3-В 4-Г, то вкажіть АБВГ";
+            // numeric_answers.style.display = "block";
             let randomQuestionIndex = Math.floor(
                 Math.random() * hronology_questions.length
             );
@@ -250,10 +249,10 @@ function showQuestion() {
             h2_title.innerHTML = "Питання №" + questionNo;
 
             document.getElementById("question").src = currentQuestion.question;
-            answer_field.style.display = "block";
         } else {
-            correct_answer.innerHTML =
-                "У відповідях вказуйте лише числа.\n Наприклад: якщо ви хочете відповісти 3, 4, 5, то вкажіть 345";
+            // numeric_answers.style.display = "block";
+            // document.getElementById("select_numbers4").style.display = "none"
+            answer_field.style.display = "block";
             let randomQuestionIndex = Math.floor(
                 Math.random() * mul_ans_questions.length
             );
@@ -269,7 +268,6 @@ function showQuestion() {
             h2_title.innerHTML = "Питання №" + questionNo;
 
             document.getElementById("question").src = currentQuestion.question;
-            answer_field.style.display = "block";
         }
     }
     const q_info_str = document.getElementById("question").src;
