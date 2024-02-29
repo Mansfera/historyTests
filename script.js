@@ -9,7 +9,7 @@ var decrypted_blocks = CryptoJS.AES.decrypt(allowedPart, "lag@history").toString
 if (params == null) {
     window.location = "./expired_token.html"
 }
-if (decrypted_token > Date.now() / 1000) {
+if (decrypted_token > Date.now()) {
     window.location = "./expired_token.html?"+params
 } else {
     for (var i = 1; i < 6; i++){

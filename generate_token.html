@@ -52,7 +52,7 @@
         // var final_Url = "http://127.0.0.1:3000/?"
         function convertToTimestamp() {
             var selectedDate = document.getElementById("datePicker").value;
-            var timestamp = new Date(selectedDate).getTime() / 1000;
+            var timestamp = new Date(selectedDate).getTime();
             var encrypted = encryptString(timestamp+"000", "lag@history");
             final_Url += "access_token=" + encrypted.toString() + "&";
         }
