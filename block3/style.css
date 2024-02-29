@@ -88,22 +88,3 @@ body {
     height: auto;
     color: black;
 }
-.test-final {
-    width: calc(50% - 10px);
-    height: 100px;
-    background-color: #ee6437;
-    transition: 1s;
-    display: grid;
-    align-content: center;
-    place-items: center;
-}
-.test-final:hover {
-    cursor: pointer;
-    background-color: #ba4d29;
-    transition: 1s;
-}
-.test-final p {
-    overflow: visible;
-    font-size: 24px;
-    width: 100%;
-}
