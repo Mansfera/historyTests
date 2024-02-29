@@ -27,7 +27,7 @@ body {
     width: calc(40% - 120px);
     max-width: 500px;
     min-width: 420px;
-    min-height: 370px;
+    min-height: 350px;
     height: 40vh;
     max-height: 400px;
     background-color: #7ad1ce;
