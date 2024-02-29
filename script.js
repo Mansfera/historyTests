@@ -50,3 +50,5 @@ if (decrypted_token < Date.now()) {
     }
   }
 }
+
+setInterval(updateTime, 1000)
