@@ -16,17 +16,30 @@ if ((params = null)) {
 }
 
 function updateTime() {
-  var time = decrypted_token - Date.now() / 1000;
+  var time = Math.floor((decrypted_token - Date.now()) / 1000);
   let days = Math.floor(time / 60 / 60 / 24);
-  let hours = Math.floor(time / 60 / 60);
+  let hours = Math.floor(time / 60 / 60) - days * 24;
   hours = hours < 10 ? "0" + hours : hours;
-  let minutes = Math.floor(time / 60);
+  let minutes = Math.floor(time / 60) - hours * 60 - days * 24 * 60;
   minutes = minutes < 10 ? "0" + minutes : minutes;
   let seconds = time % 60;
   seconds = seconds < 10 ? "0" + seconds : seconds;
+
+  let warning = ""
+  if (time < 900) {
+    warning = " ⚠️"
+  }
+
   document.getElementById("remainingTime").innerHTML =
-    "Часу залишилося: " + days + ":" + hours + ":" + minutes + ":" + seconds;
+    "Часу залишилося: " + days + ":" + hours + ":" + minutes + ":" + seconds + warning;
+
+  if (time < 0) {
+    window.location = "./expired_token.html?" + params;
+  }
 }
+setInterval(updateTime, 1000);
+
+
 if (decrypted_token < Date.now()) {
   window.location = "./expired_token.html?" + params;
 } else {
@@ -50,5 +63,3 @@ if (decrypted_token < Date.now()) {
     }
   }
 }
-
-setInterval(updateTime, 1000)
