@@ -40,7 +40,7 @@ function openFullTest(block, id) {
 }
 function openFinalTest(block) {
   window.location =
-    "/historyTests/block"+block+"/final/index.html?access_token=" +
+    "/historyTests/final/index.html?access_token=" +
     access_token.replace("+", "%2B").replace("=", "%3D") +
     "&allowedPart=" +
     allowedPart.replace("+", "%2B").replace("=", "%3D") +
