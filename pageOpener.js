@@ -6,12 +6,14 @@ var allowedPart = params.get("allowedPart");
 //check for access
 if (access_token == null) {
   window.location = "/historyTests/expired_token.html";
+  console.log("No access token detected!");
 }
 
 var decrypted_token = Number(
   CryptoJS.AES.decrypt(access_token, "lag@history").toString(CryptoJS.enc.Utf8)
 );
 if (decrypted_token < Date.now()) {
+  console.log("Access token expired!");
   window.location = "/historyTests/expired_token.html?" + params;
 }
 //end check
