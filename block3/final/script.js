@@ -265,7 +265,7 @@ let selectedAnswers = []
 let vidpovidnist_selectedAnswers = []
 let hronology_selectedAnswers = []
 let mul_selectedAnswers = []
-questionCount = 36
+
 let currentQuestionIndex = 0
 let score = 0
 var test_completed = false

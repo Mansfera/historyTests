@@ -27,44 +27,58 @@ function fetchJsonData(filePath) {
     });
 }
 
+let questions1 = []
+let vidpovidnist_questions1 = []
+let hronology_questions1 = []
+let mul_ans_questions1 = []
+
+
+let questions2 = []
+let vidpovidnist_questions2 = []
+let hronology_questions2 = []
+let mul_ans_questions2 = []
+
+
+let questions3 = []
+let vidpovidnist_questions3 = []
+let hronology_questions3 = []
+let mul_ans_questions3 = []
+
+
+let questions4 = []
+let vidpovidnist_questions4 = []
+let hronology_questions4 = []
+let mul_ans_questions4 = []
+
+
+let questions5 = []
+let vidpovidnist_questions5 = []
+let hronology_questions5 = []
+let mul_ans_questions5 = []
+
+
+let questions6 = []
+let vidpovidnist_questions6 = []
+let hronology_questions6 = []
+let mul_ans_questions6 = []
+
+
+let questions7 = []
+let vidpovidnist_questions7 = []
+let hronology_questions7 = []
+let mul_ans_questions7 = []
+
+
+let questions8 = []
+let vidpovidnist_questions8 = []
+let hronology_questions8 = []
+let mul_ans_questions8 = []
+
+let promises = []
+
 switch (blockId) {
     case "2": {
-        let questions1 = []
-        let vidpovidnist_questions1 = []
-        let hronology_questions1 = []
-        let mul_ans_questions1 = []
-
-
-        let questions2 = []
-        let vidpovidnist_questions2 = []
-        let hronology_questions2 = []
-        let mul_ans_questions2 = []
-
-
-        let questions3 = []
-        let vidpovidnist_questions3 = []
-        let hronology_questions3 = []
-        let mul_ans_questions3 = []
-
-
-        let questions4 = []
-        let vidpovidnist_questions4 = []
-        let hronology_questions4 = []
-        let mul_ans_questions4 = []
-
-
-        let questions5 = []
-        let vidpovidnist_questions5 = []
-        let hronology_questions5 = []
-        let mul_ans_questions5 = []
-
-
-        let questions6 = []
-        let vidpovidnist_questions6 = []
-        let hronology_questions6 = []
-        let mul_ans_questions6 = []
-
-        let promises = [
+        promises = [
             fetchJsonData("../test6/questions.json").then(
                 function (data) {
                     questions1 = data;
@@ -196,63 +210,9 @@ switch (blockId) {
                 }
             ),
         ];
-        Promise.all(promises)
-        .then(function () {
-            startQuiz();
-        })
-        .catch(function (error) {
-            console.error(error);
-        });
     }
     case "3": {
-        let questions1 = []
-        let vidpovidnist_questions1 = []
-        let hronology_questions1 = []
-        let mul_ans_questions1 = []
-
-
-        let questions2 = []
-        let vidpovidnist_questions2 = []
-        let hronology_questions2 = []
-        let mul_ans_questions2 = []
-
-
-        let questions3 = []
-        let vidpovidnist_questions3 = []
-        let hronology_questions3 = []
-        let mul_ans_questions3 = []
-
-
-        let questions4 = []
-        let vidpovidnist_questions4 = []
-        let hronology_questions4 = []
-        let mul_ans_questions4 = []
-
-
-        let questions5 = []
-        let vidpovidnist_questions5 = []
-        let hronology_questions5 = []
-        let mul_ans_questions5 = []
-
-
-        let questions6 = []
-        let vidpovidnist_questions6 = []
-        let hronology_questions6 = []
-        let mul_ans_questions6 = []
-
-
-        let questions7 = []
-        let vidpovidnist_questions7 = []
-        let hronology_questions7 = []
-        let mul_ans_questions7 = []
-
-
-        let questions8 = []
-        let vidpovidnist_questions8 = []
-        let hronology_questions8 = []
-        let mul_ans_questions8 = []
-
-        let promises = [
+        promises = [
             fetchJsonData("../test12/questions.json").then(
                 function (data) {
                     questions1 = data;
@@ -429,15 +389,17 @@ switch (blockId) {
             )
         ];
 
-        Promise.all(promises)
+        
+    }
+}
+
+Promise.all(promises)
             .then(function () {
                 startQuiz();
             })
             .catch(function (error) {
                 console.error(error);
             });
-    }
-}
 
 let alreadyAsked = []
 let vidpovidnist_alreadyAsked = []
@@ -447,7 +409,6 @@ let selectedAnswers = []
 let vidpovidnist_selectedAnswers = []
 let hronology_selectedAnswers = []
 let mul_selectedAnswers = []
-questionCount = 36
 let currentQuestionIndex = 0
 let score = 0
 var test_completed = false
