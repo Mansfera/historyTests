@@ -1,66 +1,66 @@
 [
     {
-        "question": "../block3/test15/images/2-1.png",
+        "question": "/historyTests/block3/test15/images/2-1.png",
         "selected": "",
         "correct": "ГАБВ"
     },
     {
-        "question": "../block3/test15/images/2-2.png",
+        "question": "/historyTests/block3/test15/images/2-2.png",
         "selected": "",
         "correct": "БАГВ"
     },
     {
-        "question": "../block3/test15/images/2-3.png",
+        "question": "/historyTests/block3/test15/images/2-3.png",
         "selected": "",
         "correct": "БГВА"
     },
     {
-        "question": "../block3/test15/images/2-4.png",
+        "question": "/historyTests/block3/test15/images/2-4.png",
         "selected": "",
         "correct": "АГБВ"
     },
     {
-        "question": "../block3/test15/images/2-5.png",
+        "question": "/historyTests/block3/test15/images/2-5.png",
         "selected": "",
         "correct": "ВБГА"
     },
     {
-        "question": "../block3/test15/images/2-6.png",
+        "question": "/historyTests/block3/test15/images/2-6.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "../block3/test15/images/2-7.png",
+        "question": "/historyTests/block3/test15/images/2-7.png",
         "selected": "",
         "correct": "БАВГ"
     },
     {
-        "question": "../block3/test15/images/2-8.png",
+        "question": "/historyTests/block3/test15/images/2-8.png",
         "selected": "",
         "correct": "БГАВ"
     },
     {
-        "question": "../block3/test15/images/2-9.png",
+        "question": "/historyTests/block3/test15/images/2-9.png",
         "selected": "",
         "correct": "АГВБ"
     },
     {
-        "question": "../block3/test15/images/2-10.png",
+        "question": "/historyTests/block3/test15/images/2-10.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "../block3/test15/images/2-11.png",
+        "question": "/historyTests/block3/test15/images/2-11.png",
         "selected": "",
         "correct": "ВАГБ"
     },
     {
-        "question": "../block3/test15/images/2-12.png",
+        "question": "/historyTests/block3/test15/images/2-12.png",
         "selected": "",
         "correct": "ВАГБ"
     },
     {
-        "question": "../block3/test15/images/2-13.png",
+        "question": "/historyTests/block3/test15/images/2-13.png",
         "selected": "",
         "correct": "ГБАВ"
     }

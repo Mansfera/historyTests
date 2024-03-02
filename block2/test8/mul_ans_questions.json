@@ -1,51 +1,51 @@
 [
     {
-        "question": "../block2/test8/images/3-1.png",
+        "question": "/historyTests/block2/test8/images/3-1.png",
         "selected": "",
         "correct": "147"
     },
     {
-        "question": "../block2/test8/images/3-2.png",
+        "question": "/historyTests/block2/test8/images/3-2.png",
         "selected": "",
         "correct": "256"
     },
     {
-        "question": "../block2/test8/images/3-3.png",
+        "question": "/historyTests/block2/test8/images/3-3.png",
         "selected": "",
         "correct": "235"
     },
     {
-        "question": "../block2/test8/images/3-4.png",
+        "question": "/historyTests/block2/test8/images/3-4.png",
         "selected": "",
         "correct": "356"
     },
     {
-        "question": "../block2/test8/images/3-5.png",
+        "question": "/historyTests/block2/test8/images/3-5.png",
         "selected": "",
         "correct": "145"
     },
     {
-        "question": "../block2/test8/images/3-6.png",
+        "question": "/historyTests/block2/test8/images/3-6.png",
         "selected": "",
         "correct": "156"
     },
     {
-        "question": "../block2/test8/images/3-7.png",
+        "question": "/historyTests/block2/test8/images/3-7.png",
         "selected": "",
         "correct": "124"
     },
     {
-        "question": "../block2/test8/images/3-8.png",
+        "question": "/historyTests/block2/test8/images/3-8.png",
         "selected": "",
         "correct": "156"
     },
     {
-        "question": "../block2/test8/images/3-9.png",
+        "question": "/historyTests/block2/test8/images/3-9.png",
         "selected": "",
         "correct": "346"
     },
     {
-        "question": "../block2/test8/images/3-10.png",
+        "question": "/historyTests/block2/test8/images/3-10.png",
         "selected": "",
         "correct": "246"
     }

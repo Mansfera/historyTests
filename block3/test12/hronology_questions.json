@@ -1,36 +1,36 @@
 [
     {
-        "question": "../block3/test12/images/2-1.png",
+        "question": "/historyTests/block3/test12/images/2-1.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "../block3/test12/images/2-2.png",
+        "question": "/historyTests/block3/test12/images/2-2.png",
         "selected": "",
         "correct": "АВГБ"
     },
     {
-        "question": "../block3/test12/images/2-3.png",
+        "question": "/historyTests/block3/test12/images/2-3.png",
         "selected": "",
         "correct": "ВБАГ"
     },
     {
-        "question": "../block3/test12/images/2-4.png",
+        "question": "/historyTests/block3/test12/images/2-4.png",
         "selected": "",
         "correct": "АВГБ"
     },
     {
-        "question": "../block3/test12/images/2-5.png",
+        "question": "/historyTests/block3/test12/images/2-5.png",
         "selected": "",
         "correct": "БВАГ"
     },
     {
-        "question": "../block3/test12/images/2-6.png",
+        "question": "/historyTests/block3/test12/images/2-6.png",
         "selected": "",
         "correct": "ГБАВ"
     },
     {
-        "question": "../block3/test12/images/2-7.png",
+        "question": "/historyTests/block3/test12/images/2-7.png",
         "selected": "",
         "correct": "АВГБ"
     }
