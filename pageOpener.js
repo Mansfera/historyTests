@@ -5,16 +5,16 @@ var allowedPart = params.get("allowedPart");
 
 //check for access
 if (access_token == null) {
-  // window.location = "/historyTests/expired_token.html";
   console.log("No access token detected!");
+  window.location = "/historyTests/expired_token.html";
 }
 
 var decrypted_token = Number(
   CryptoJS.AES.decrypt(access_token, "lag@history").toString(CryptoJS.enc.Utf8)
 );
-if (decrypted_token < Date.now()) {
+if (decrypted_token < Date.now() && params.get("expired") == null) {
   console.log("Access token expired!");
-  // window.location = "/historyTests/expired_token.html?" + params;
+  window.location = "/historyTests/expired_token.html?expired=a&" + params;
 }
 //end check
 
