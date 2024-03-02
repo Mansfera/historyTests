@@ -97,7 +97,7 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
     text-align: center;
 }
 .exit_btn_text{
-    color: white;
+    color: snow;
     mix-blend-mode: lighten;
 }
 .timer {
@@ -111,9 +111,9 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
     justify-content: center;
 }
 .timer-text {
-    color: white;
+    color: snow;
 }
 .date {
     text-align: center;
-    color: #51bbf4;
+    color: snow;
 }
