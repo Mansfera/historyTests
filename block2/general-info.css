@@ -1,21 +1,10 @@
-* {
-    user-select: none;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    height: 100vh;
-    background: #cef8f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .options {
-    display: grid;
-    place-items: center;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .container {

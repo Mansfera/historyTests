@@ -11,10 +11,6 @@ var decrypted_blocks = CryptoJS.AES.decrypt(
   "lag@history"
 ).toString(CryptoJS.enc.Utf8);
 
-if ((params = null)) {
-  window.location = "./expired_token.html";
-}
-
 function updateTime() {
   var time = Math.floor((decrypted_token - Date.now()) / 1000);
   let days = Math.floor(time / 60 / 60 / 24);

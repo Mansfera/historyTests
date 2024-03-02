@@ -1,0 +1,116 @@
+* {
+    user-select: none;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+meta[name="apple-mobile-web-app-status-bar-style"] {
+    content: default;
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+        scale: 7;
+    }
+
+    50% {
+        scale: 10;
+    }
+
+    to {
+        rotate: 360deg;
+        scale: 7;
+    }
+}
+.effects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+#background {
+    height: 34vmax;
+    translate: -50% -50%;
+    background: linear-gradient(to right, rgb(223, 255, 127), rgb(112, 202, 216), rgb(216, 139, 255));
+    animation: rotate 20s infinite;
+    opacity: 0.8;
+}
+
+#blur {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(12vmax);
+}
+
+.main-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-bar {
+    margin-top: 0.5vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar__first-row {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exit_btn {
+    border: none;
+    padding: 10px 44px;
+    font-size: 16px;
+    border-radius: 40px;
+    background: #fb9a9a;
+}
+.exit_btn::before {
+    border-radius: 40px;
+    width: 25%;
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.exit_btn:hover::before {
+    background: #f35b5b ;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+.exit_btn_text{
+    color: white;
+    mix-blend-mode: lighten;
+}
+.timer {
+    border: none;
+    background: #98be63;
+    width: 260px;
+    height: 44px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer-text {
+    color: white;
+}
+.date {
+    text-align: center;
+    color: #51bbf4;
+}

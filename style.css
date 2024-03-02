@@ -1,23 +1,17 @@
-* {
-    user-select: none;
-    box-sizing: border-box;
-    font-family: Arial;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-}
-meta[name="apple-mobile-web-app-status-bar-style"] {
-    content: default;
-}
-body {
-    background: #1d2f42;
-}
 #remainingTime {
     font-size: 14px;
     color: snow;
 }
-.tests {
+.tests-wrapper {
     width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tests {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -31,7 +25,7 @@ body {
     min-height: 350px;
     height: 35vh;
     max-height: 400px;
-    background-color: #7ad1ce;
+    background-color: snow;
     border-radius: 11px;
     display: flex;
     flex-direction: column;
@@ -39,7 +33,7 @@ body {
     align-items: center;
 }
 .test img {
-    height: 70%;
+    height: 40%;
 }
 .title {
     font-weight: 600;
@@ -47,15 +41,12 @@ body {
 .block-text {
     width: 75%;
     height: auto;
-    color: #FFFF;
+    color: #000000;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-.b3t {
-    color: #000000;
 }
 .options {
     height: 40%;
@@ -69,7 +60,7 @@ body {
     width: 350px;
     height: 50px;
     margin-top: 10px;
-    background-color: snow;
+    background-color: rgb(135, 135, 135);
     border-radius: 7px;
     display: flex;
     justify-content: center;
@@ -78,23 +69,13 @@ body {
 }
 .option:hover {
     cursor: pointer;
-    background-color: rgb(199, 199, 199);
-    transition: 1s;
-}
-.option.b3 {
-    background-color: rgb(135, 135, 135);
-}
-.option.b3:hover {
     background-color: rgb(179, 179, 179);
 }
 .option-text {
     height: auto;
-    color: black;
+    color: snow;
     font-size: 24px;
     font-weight: 400;
-}
-.b3o {
-    color: snow;
 }
 .test-final {
     width: 40%;
@@ -109,24 +90,6 @@ body {
     background-color: #ba4d29;
     transition: 1s;
 }
-.b1 {
-    background-color: #fb9a9a;
-}
-.b2 {
-    background-color: #c196f2;
-}
-.b3 {
-    background-color: rgb(245, 245, 245);
-}
-.b3 p {
-    color: rgb(255, 255, 255);
-}
-.b4 {
-    background-color: #1c1e2a;
-}
-.b5 {
-    background-color: rgb(197, 206, 184);
-}
 .NMT-title {
     font-size: 50px;
 }
@@ -134,14 +97,4 @@ body {
     cursor: not-allowed;
     color: dimgray;
     background-color: dimgray;
-}
-
-.green {
-    background-color: lightgreen;
-}
-.yellow {
-    background-color: rgb(251, 251, 192);
-}
-.red {
-    background-color: lightcoral;
 }

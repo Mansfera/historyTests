@@ -1,106 +1,117 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="Mansfera's history tests">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, initial-scale=.7" media="(max-width: 600px)">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="UTF-8" />
+    <meta name="Mansfera's history tests" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=.7" media="(max-width: 600px)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="Тест з історії для самоперевірки та підготовки до ЗНО/НМТ! © Mansfera"/>
-    <link rel="icon" type="image/x-icon" href="../site-icon.ico">
-    <link rel="stylesheet" href="style.css">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Тест з історії для самоперевірки та підготовки до ЗНО/НМТ! © Mansfera" />
+    <link rel="icon" type="image/x-icon" href="../site-icon.ico" />
+    <link rel="stylesheet" href="/blockStyle.css" />
+    <link rel="stylesheet" href="/globalStyle.css" />
     <title>Тест з історії</title>
 </head>
 <body>
-    <div class="top_bar">
-        <button class="exit_btn" onclick="location.href='../index.html';">
-            <span class="exit_btn_text">↑ Назад до блоків</span>
-        </button>
+    <div class="effects">
+        <div id="background"></div>
+        <div id="blur"></div>
     </div>
-    
-    <div class="tests">
-        <div class="test">
-            <div>Українські землі у складі російської імперії</div>
-            <div>наприкінці XVIII – в першій половині XIX ст.</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=12'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=12'">
-                <div>Повний тест</div>
-            </div>
+    <div class="main-wrapper">
+        <div class="top-bar">
+            <button class="exit_btn" onclick="exitToMenu()">
+                <span class="exit_btn_text">↑ До блоків</span>
+            </button>
         </div>
-        <div class="test">
-            <div>Українські землі у складі Австрійської імперії</div>
-            <div>наприкінці XVIII – в першій половині XIX ст.</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=13'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=13'">
-                <div>Повний тест</div>
-            </div>
-        </div>
-        <div class="test">
-            <div>Культура України</div>
-            <div>наприкінці XVIII – в першій половині XIX ст.</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=14'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=14'">
-                <div>Повний тест</div>
-            </div>
-        </div>
-        <div class="test">
-            <div>Українські землі в складі російської імперії</div>
-            <div>в другій половині ХІХ ст.</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=15'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=15'">
-                <div>Повний тест</div>
-            </div>
-        </div>
-        <div class="test">
-            <div>Українські землі в складі Австрійської імперії</div>
-            <div>в другій половині ХІХ ст.</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=16'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=16'">
-                <div>Повний тест</div>
-            </div>
-        </div>
-        <div class="test">
-            <div>Культура України</div>
-            <div>в другій половині ХІХ ст. – на початку XX ст.</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=17'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=17'">
-                <div>Повний тест</div>
-            </div>
-        </div>
-        <div class="test">
-            <div>Українські землі у складі російської імперії</div>
-            <div>в 1900-1914-х роках</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=18'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=18'">
-                <div>Повний тест</div>
-            </div>
-        </div>
-        <div class="test">
-            <div>Українські землі у складі Австро-Угорщини</div>
-            <div>в 1900-1914-х роках</div>
-            <div class="option" onclick="location.href='../test/index.html?block=3&id=19'">
-                <div>Стислий тест</div>
-            </div>
-            <div class="option" onclick="location.href='../test-all/index.html?block=3&id=19'">
-                <div>Повний тест</div>
+
+        <div class="tests-wrapper">
+            <div class="tests">
+                <div class="test">
+                    <div class="test-info">Українські землі у складі російської імперії</div>
+                    <div class="test-info">наприкінці XVIII – у першій половині XIX ст.</div>
+                    <div class="option" onclick="openTest(3,12)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,12)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Українські землі у складі Австрійської імперії</div>
+                    <div class="test-info">наприкінці XVIII – у першій половині XIX ст.</div>
+                    <div class="option" onclick="openTest(3,13)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,13)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Культура України</div>
+                    <div class="test-info">наприкінці XVIII – у першій половині XIX ст.</div>
+                    <div class="option" onclick="openTest(3,14)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,14)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Українські землі у складі російської імперії</div>
+                    <div class="test-info">в другій половині ХІХ ст.</div>
+                    <div class="option" onclick="openTest(3,15)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,15)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Українські землі у складі Австрійської імперії</div>
+                    <div class="test-info">в другій половині ХІХ ст.</div>
+                    <div class="option" onclick="openTest(3,16)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,16)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Культура України</div>
+                    <div class="test-info">в другій половині ХІХ ст. – на початку XX ст.</div>
+                    <div class="option" onclick="openTest(3,17)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,17)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Українські землі у складі російської імперії</div>
+                    <div class="test-info">в 1900-1914-х роках</div>
+                    <div class="option" onclick="openTest(3,18)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,18)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-info">Українські землі у складі Австро-Угорщини</div>
+                    <div class="test-info">в 1900-1914-х роках</div>
+                    <div class="option" onclick="openTest(3,19)">
+                        <div>Стислий тест</div>
+                    </div>
+                    <div class="option" onclick="openFullTest(3,19)">
+                        <div>Повний тест</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script src="/pageOpener.js"></script>
+
 </html>
