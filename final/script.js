@@ -1,4 +1,4 @@
-const h2_title = document.getElementById("h2")
+const questionNumber = document.getElementById("questionNumber");
 const answerButtons = document.getElementById("answer-buttons")
 const nextButton = document.getElementById("next-btn")
 const block_answers = document.getElementById("block_answers")

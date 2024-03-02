@@ -1,4 +1,4 @@
-const h2_title = document.getElementById("h2");
+const questionNumber = document.getElementById("questionNumber");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const block_answers = document.getElementById("block_answers");
@@ -84,7 +84,7 @@ switch (test_id) {
   default:
     test_name = "Назва тесту";
 }
-document.getElementById("h1").innerHTML = test_name;
+document.getElementById("testTitle").innerHTML = test_name;
 
 let questions = [];
 let vidpovidnist_questions = [];
@@ -212,7 +212,7 @@ function showQuestion() {
     }
     RND_question = randomQuestionIndex;
     let questionNo = currentQuestionIndex + 1;
-    h2_title.innerHTML = "Питання №" + questionNo;
+    questionNumber.innerHTML = "Питання №" + questionNo;
 
     document.getElementById("question").src = currentQuestion.question;
 
@@ -245,7 +245,7 @@ function showQuestion() {
       }
       RND_question = randomQuestionIndex;
       let questionNo = currentQuestionIndex + 1;
-      h2_title.innerHTML = "Питання №" + questionNo;
+      questionNumber.innerHTML = "Питання №" + questionNo;
 
       document.getElementById("question").src = currentQuestion.question;
     } else if (currentQuestionIndex == 13) {
@@ -262,7 +262,7 @@ function showQuestion() {
       }
       RND_question = randomQuestionIndex;
       let questionNo = currentQuestionIndex + 1;
-      h2_title.innerHTML = "Питання №" + questionNo;
+      questionNumber.innerHTML = "Питання №" + questionNo;
 
       document.getElementById("question").src = currentQuestion.question;
     } else {
@@ -281,7 +281,7 @@ function showQuestion() {
       }
       RND_question = randomQuestionIndex;
       let questionNo = currentQuestionIndex + 1;
-      h2_title.innerHTML = "Питання №" + questionNo;
+      questionNumber.innerHTML = "Питання №" + questionNo;
 
       document.getElementById("question").src = currentQuestion.question;
     }
@@ -350,7 +350,7 @@ function showScore() {
       "../block" + block_id + "/grades/good.png";
   }
   clearInterval(timerInterval);
-  h2_title.innerHTML = `Ви набрали ${score} з 21 балу!`;
+  questionNumber.innerHTML = `Ви набрали ${score} з 21 балу!`;
   nextButton.innerHTML = "Пройти знову";
   nextButton.style.display = "block";
   test_completed = true;

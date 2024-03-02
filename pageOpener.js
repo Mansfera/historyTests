@@ -43,7 +43,9 @@ function openFinalTest(block) {
     "/block"+block+"/final/index.html?access_token=" +
     access_token.replace("+", "%2B").replace("=", "%3D") +
     "&allowedPart=" +
-    allowedPart.replace("+", "%2B").replace("=", "%3D");
+    allowedPart.replace("+", "%2B").replace("=", "%3D") +
+    "&block=" +
+    block;
 }
 function exitToMenu() {
   window.location =

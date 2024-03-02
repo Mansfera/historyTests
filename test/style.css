@@ -7,13 +7,13 @@
     padding: 30px;
     overflow: hidden;
 }
-.app h2 {
+.test-title {
     font-weight: 25px; color: #365d9d;
     font-weight: 600;
     border-bottom: 4px solid #dbf0f9;
     padding-bottom: 30px;
 }
-.app h4 {
+.question-number {
     margin-top: 20px;
     float: right;
 }
