@@ -5,42 +5,9 @@ const block_answers = document.getElementById("block_answers")
 const answer_field = document.getElementById("text_input")
 const correct_answer = document.getElementById("correct_answer")
 
-
-
-let questions1 = []
-let vidpovidnist_questions1 = []
-let hronology_questions1 = []
-let mul_ans_questions1 = []
-
-
-let questions2 = []
-let vidpovidnist_questions2 = []
-let hronology_questions2 = []
-let mul_ans_questions2 = []
-
-
-let questions3 = []
-let vidpovidnist_questions3 = []
-let hronology_questions3 = []
-let mul_ans_questions3 = []
-
-
-let questions4 = []
-let vidpovidnist_questions4 = []
-let hronology_questions4 = []
-let mul_ans_questions4 = []
-
-
-let questions5 = []
-let vidpovidnist_questions5 = []
-let hronology_questions5 = []
-let mul_ans_questions5 = []
-
-
-let questions6 = []
-let vidpovidnist_questions6 = []
-let hronology_questions6 = []
-let mul_ans_questions6 = []
+var queryString = window.location.search;
+var params = new URLSearchParams(queryString);
+var blockId = params.get("block");
 
 function fetchJsonData(filePath) {
     return new Promise(function (resolve, reject) {
@@ -60,138 +27,178 @@ function fetchJsonData(filePath) {
     });
 }
 
-let promises = [
-    fetchJsonData("../test6/questions.json").then(
-        function (data) {
-            questions1 = data;
-        }
-    ),
-    fetchJsonData("../test6/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions1 = data;
-        }
-    ),
-    fetchJsonData("../test6/hronology_questions.json").then(
-        function (data) {
-            hronology_questions1 = data;
-        }
-    ),
-    fetchJsonData("../test6/mul_ans_questions.json").then(
-        function (data) {
-            mul_ans_questions1 = data;
-        }
-    ),
+switch (blockId) {
+    case "2": {
+        let questions1 = []
+        let vidpovidnist_questions1 = []
+        let hronology_questions1 = []
+        let mul_ans_questions1 = []
 
-    
-    fetchJsonData("../test7/questions.json").then(
-        function (data) {
-            questions2 = data;
-        }
-    ),
-    fetchJsonData("../test7/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions2 = data;
-        }
-    ),
-    fetchJsonData("../test7/hronology_questions.json").then(
-        function (data) {
-            hronology_questions2 = data;
-        }
-    ),
-    fetchJsonData("../test7/mul_ans_questions.json").then(
-        function (data) {
-            mul_ans_questions2 = data;
-        }
-    ),
 
-    
-    fetchJsonData("../test8/questions.json").then(
-        function (data) {
-            questions3 = data;
-        }
-    ),
-    fetchJsonData("../test8/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions3 = data;
-        }
-    ),
-    fetchJsonData("../test8/hronology_questions.json").then(
-        function (data) {
-            hronology_questions3 = data;
-        }
-    ),
-    fetchJsonData("../test8/mul_ans_questions.json").then(
-        function (data) {
-            mul_ans_questions3 = data;
-        }
-    ),
+        let questions2 = []
+        let vidpovidnist_questions2 = []
+        let hronology_questions2 = []
+        let mul_ans_questions2 = []
 
-    
-    fetchJsonData("../test9/questions.json").then(
-        function (data) {
-            questions4 = data;
-        }
-    ),
-    fetchJsonData("../test9/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions4 = data;
-        }
-    ),
-    fetchJsonData("../test9/hronology_questions.json").then(
-        function (data) {
-            hronology_questions4 = data;
-        }
-    ),
-    fetchJsonData("../test9/mul_ans_questions.json").then(
-        function (data) {
-            mul_ans_questions4 = data;
-        }
-    ),
 
-    
-    fetchJsonData("../test10/questions.json").then(
-        function (data) {
-            questions5 = data;
-        }
-    ),
-    fetchJsonData("../test10/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions5 = data;
-        }
-    ),
-    fetchJsonData("../test10/hronology_questions.json").then(
-        function (data) {
-            hronology_questions5 = data;
-        }
-    ),
-    fetchJsonData("../test10/mul_ans_questions.json").then(
-        function (data) {
-            mul_ans_questions5 = data;
-        }
-    ),
+        let questions3 = []
+        let vidpovidnist_questions3 = []
+        let hronology_questions3 = []
+        let mul_ans_questions3 = []
 
-    
-    fetchJsonData("../test11/questions.json").then(
-        function (data) {
-            questions6 = data;
-        }
-    ),
-    fetchJsonData("../test11/vidpovidnist_questions.json").then(
-        function (data) {
-            vidpovidnist_questions6 = data;
-        }
-    ),
-    fetchJsonData("../test11/hronology_questions.json").then(
-        function (data) {
-            hronology_questions6 = data;
-        }
-    ),
-    fetchJsonData("../test11/mul_ans_questions.json").then(
-        function (data) {
-            mul_ans_questions6 = data;
-        }
-    ),
-];
+
+        let questions4 = []
+        let vidpovidnist_questions4 = []
+        let hronology_questions4 = []
+        let mul_ans_questions4 = []
+
+
+        let questions5 = []
+        let vidpovidnist_questions5 = []
+        let hronology_questions5 = []
+        let mul_ans_questions5 = []
+
+
+        let questions6 = []
+        let vidpovidnist_questions6 = []
+        let hronology_questions6 = []
+        let mul_ans_questions6 = []
+
+        let promises = [
+            fetchJsonData("../test6/questions.json").then(
+                function (data) {
+                    questions1 = data;
+                }
+            ),
+            fetchJsonData("../test6/vidpovidnist_questions.json").then(
+                function (data) {
+                    vidpovidnist_questions1 = data;
+                }
+            ),
+            fetchJsonData("../test6/hronology_questions.json").then(
+                function (data) {
+                    hronology_questions1 = data;
+                }
+            ),
+            fetchJsonData("../test6/mul_ans_questions.json").then(
+                function (data) {
+                    mul_ans_questions1 = data;
+                }
+            ),
+
+            
+            fetchJsonData("../test7/questions.json").then(
+                function (data) {
+                    questions2 = data;
+                }
+            ),
+            fetchJsonData("../test7/vidpovidnist_questions.json").then(
+                function (data) {
+                    vidpovidnist_questions2 = data;
+                }
+            ),
+            fetchJsonData("../test7/hronology_questions.json").then(
+                function (data) {
+                    hronology_questions2 = data;
+                }
+            ),
+            fetchJsonData("../test7/mul_ans_questions.json").then(
+                function (data) {
+                    mul_ans_questions2 = data;
+                }
+            ),
+
+            
+            fetchJsonData("../test8/questions.json").then(
+                function (data) {
+                    questions3 = data;
+                }
+            ),
+            fetchJsonData("../test8/vidpovidnist_questions.json").then(
+                function (data) {
+                    vidpovidnist_questions3 = data;
+                }
+            ),
+            fetchJsonData("../test8/hronology_questions.json").then(
+                function (data) {
+                    hronology_questions3 = data;
+                }
+            ),
+            fetchJsonData("../test8/mul_ans_questions.json").then(
+                function (data) {
+                    mul_ans_questions3 = data;
+                }
+            ),
+
+            
+            fetchJsonData("../test9/questions.json").then(
+                function (data) {
+                    questions4 = data;
+                }
+            ),
+            fetchJsonData("../test9/vidpovidnist_questions.json").then(
+                function (data) {
+                    vidpovidnist_questions4 = data;
+                }
+            ),
+            fetchJsonData("../test9/hronology_questions.json").then(
+                function (data) {
+                    hronology_questions4 = data;
+                }
+            ),
+            fetchJsonData("../test9/mul_ans_questions.json").then(
+                function (data) {
+                    mul_ans_questions4 = data;
+                }
+            ),
+
+            
+            fetchJsonData("../test10/questions.json").then(
+                function (data) {
+                    questions5 = data;
+                }
+            ),
+            fetchJsonData("../test10/vidpovidnist_questions.json").then(
+                function (data) {
+                    vidpovidnist_questions5 = data;
+                }
+            ),
+            fetchJsonData("../test10/hronology_questions.json").then(
+                function (data) {
+                    hronology_questions5 = data;
+                }
+            ),
+            fetchJsonData("../test10/mul_ans_questions.json").then(
+                function (data) {
+                    mul_ans_questions5 = data;
+                }
+            ),
+
+            
+            fetchJsonData("../test11/questions.json").then(
+                function (data) {
+                    questions6 = data;
+                }
+            ),
+            fetchJsonData("../test11/vidpovidnist_questions.json").then(
+                function (data) {
+                    vidpovidnist_questions6 = data;
+                }
+            ),
+            fetchJsonData("../test11/hronology_questions.json").then(
+                function (data) {
+                    hronology_questions6 = data;
+                }
+            ),
+            fetchJsonData("../test11/mul_ans_questions.json").then(
+                function (data) {
+                    mul_ans_questions6 = data;
+                }
+            ),
+        ];
+    }
+}
+
 
 Promise.all(promises)
     .then(function () {
