@@ -452,8 +452,7 @@ function showQuestion() {
           let questionNo = currentQuestionIndex + 1;
           questionNumber.innerHTML = "Питання №" + questionNo;
 
-          document.getElementById("question").src =
-            "../.." + currentQuestion.question;
+          document.getElementById("question").src = currentQuestion.question;
           answer_field.style.display = "block";
         } else if (24 <= currentQuestionIndex && currentQuestionIndex < 30) {
           let temp_list = [];
@@ -484,8 +483,7 @@ function showQuestion() {
           let questionNo = currentQuestionIndex + 1;
           questionNumber.innerHTML = "Питання №" + questionNo;
 
-          document.getElementById("question").src =
-            "../.." + currentQuestion.question;
+          document.getElementById("question").src = currentQuestion.question;
           answer_field.style.display = "block";
         } else if (30 <= currentQuestionIndex && currentQuestionIndex < 36) {
           let temp_list = [];
@@ -516,8 +514,7 @@ function showQuestion() {
           let questionNo = currentQuestionIndex + 1;
           questionNumber.innerHTML = "Питання №" + questionNo;
 
-          document.getElementById("question").src =
-            "../.." + currentQuestion.question;
+          document.getElementById("question").src = currentQuestion.question;
           answer_field.style.display = "block";
         }
       }
@@ -553,8 +550,7 @@ function showQuestion() {
         let questionNo = currentQuestionIndex + 1;
         questionNumber.innerHTML = "Питання №" + questionNo;
 
-        document.getElementById("question").src =
-          "../.." + currentQuestion.question;
+        document.getElementById("question").src = currentQuestion.question;
 
         currentQuestion.answers.forEach((answer) => {
           const button = document.createElement("button");
@@ -604,8 +600,7 @@ function showQuestion() {
           let questionNo = currentQuestionIndex + 1;
           questionNumber.innerHTML = "Питання №" + questionNo;
 
-          document.getElementById("question").src =
-            "../.." + currentQuestion.question;
+          document.getElementById("question").src = currentQuestion.question;
           answer_field.style.display = "block";
         } else if (32 <= currentQuestionIndex && currentQuestionIndex < 40) {
           let temp_list = [];
@@ -640,8 +635,7 @@ function showQuestion() {
           let questionNo = currentQuestionIndex + 1;
           questionNumber.innerHTML = "Питання №" + questionNo;
 
-          document.getElementById("question").src =
-            "../.." + currentQuestion.question;
+          document.getElementById("question").src = currentQuestion.question;
           answer_field.style.display = "block";
         } else if (40 <= currentQuestionIndex && currentQuestionIndex < 48) {
           let temp_list = [];
@@ -676,8 +670,7 @@ function showQuestion() {
           let questionNo = currentQuestionIndex + 1;
           questionNumber.innerHTML = "Питання №" + questionNo;
 
-          document.getElementById("question").src =
-            "../.." + currentQuestion.question;
+          document.getElementById("question").src = currentQuestion.question;
           answer_field.style.display = "block";
         }
       }
@@ -1219,8 +1212,7 @@ switch (blockId) {
             temp_list = mul_ans_alreadyAsked;
             qid = id - 30;
           }
-          document.getElementById("question").src =
-            "../.." + temp_list[qid].question;
+          document.getElementById("question").src = temp_list[qid].question;
           showCorrectAnswer(id);
         });
       }
@@ -1247,8 +1239,7 @@ switch (blockId) {
             temp_list = mul_ans_alreadyAsked;
             qid = id - 40;
           }
-          document.getElementById("question").src =
-            "../.." + temp_list[qid].question;
+          document.getElementById("question").src = temp_list[qid].question;
           showCorrectAnswer(id);
         });
       }
