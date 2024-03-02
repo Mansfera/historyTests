@@ -164,6 +164,7 @@ switch (blockId) {
         mul_ans_questions6 = data;
       }),
     ];
+    break;
   }
   case "3": {
     questionCount = 48;
@@ -288,6 +289,7 @@ switch (blockId) {
         mul_ans_questions8 = data;
       }),
     ];
+    break;
   }
 }
 
@@ -520,6 +522,7 @@ function showQuestion() {
           answer_field.style.display = "block";
         }
       }
+      break;
     }
     case "3": {
       if (currentQuestionIndex < 24) {
@@ -679,6 +682,7 @@ function showQuestion() {
           answer_field.style.display = "block";
         }
       }
+      break;
     }
   }
 
@@ -718,6 +722,7 @@ function selectAnswer(e) {
       } else if (15 <= currentQuestionIndex < 18) {
         temp_list = questions6;
       }
+      break;
     }
     case "3": {
       if (0 <= currentQuestionIndex < 3) {
@@ -737,6 +742,7 @@ function selectAnswer(e) {
       } else if (21 <= currentQuestionIndex < 24) {
         temp_list = questions8;
       }
+      break;
     }
   }
 
@@ -908,6 +914,7 @@ function handleNextButton() {
       } else {
         startQuiz();
       }
+      break;
     }
     case "3": {
       if (!test_completed) {
@@ -1036,6 +1043,7 @@ function handleNextButton() {
       } else {
         startQuiz();
       }
+      break;
     }
   }
 }
@@ -1114,6 +1122,7 @@ function showCorrectAnswer(id) {
         }
         answer_field.value = mul_selectedAnswers[0];
       }
+      break;
     }
     case "3": {
       if (id < 24) {
@@ -1181,6 +1190,7 @@ function showCorrectAnswer(id) {
         }
         answer_field.value = mul_selectedAnswers[0];
       }
+      break;
     }
   }
 
@@ -1216,6 +1226,7 @@ switch (blockId) {
         });
       }
     );
+    break;
   }
   case "3": {
     Array.from(document.getElementById("block_answers").children).forEach(
@@ -1243,6 +1254,7 @@ switch (blockId) {
         });
       }
     );
+    break;
   }
 }
 
