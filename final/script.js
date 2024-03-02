@@ -68,9 +68,11 @@ let hronology_questions8 = [];
 let mul_ans_questions8 = [];
 
 let promises = [];
+let questionCount = 0;
 
 switch (blockId) {
   case "2": {
+    questionCount = 36;
     promises = [
       fetchJsonData("../test6/questions.json").then(function (data) {
         questions1 = data;
@@ -164,6 +166,7 @@ switch (blockId) {
     ];
   }
   case "3": {
+    questionCount = 48;
     promises = [
       fetchJsonData("../test12/questions.json").then(function (data) {
         questions1 = data;
