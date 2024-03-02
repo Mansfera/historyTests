@@ -404,7 +404,7 @@ function showQuestion() {
         }
         RND_question = randomQuestionIndex;
         let questionNo = currentQuestionIndex + 1;
-        h2_title.innerHTML = "Питання №" + questionNo;
+        questionNumber.innerHTML = "Питання №" + questionNo;
 
         document.getElementById("question").src =
           "../" + currentQuestion.question;
@@ -451,7 +451,7 @@ function showQuestion() {
           }
           RND_question = randomQuestionIndex;
           let questionNo = currentQuestionIndex + 1;
-          h2_title.innerHTML = "Питання №" + questionNo;
+          questionNumber.innerHTML = "Питання №" + questionNo;
 
           document.getElementById("question").src =
             "../" + currentQuestion.question;
@@ -483,7 +483,7 @@ function showQuestion() {
           }
           RND_question = randomQuestionIndex;
           let questionNo = currentQuestionIndex + 1;
-          h2_title.innerHTML = "Питання №" + questionNo;
+          questionNumber.innerHTML = "Питання №" + questionNo;
 
           document.getElementById("question").src =
             "../" + currentQuestion.question;
@@ -515,7 +515,7 @@ function showQuestion() {
           }
           RND_question = randomQuestionIndex;
           let questionNo = currentQuestionIndex + 1;
-          h2_title.innerHTML = "Питання №" + questionNo;
+          questionNumber.innerHTML = "Питання №" + questionNo;
 
           document.getElementById("question").src =
             "../" + currentQuestion.question;
@@ -552,7 +552,7 @@ function showQuestion() {
         }
         RND_question = randomQuestionIndex;
         let questionNo = currentQuestionIndex + 1;
-        h2_title.innerHTML = "Питання №" + questionNo;
+        questionNumber.innerHTML = "Питання №" + questionNo;
 
         document.getElementById("question").src =
           "../" + currentQuestion.question;
@@ -603,7 +603,7 @@ function showQuestion() {
           }
           RND_question = randomQuestionIndex;
           let questionNo = currentQuestionIndex + 1;
-          h2_title.innerHTML = "Питання №" + questionNo;
+          questionNumber.innerHTML = "Питання №" + questionNo;
 
           document.getElementById("question").src =
             "../" + currentQuestion.question;
@@ -639,7 +639,7 @@ function showQuestion() {
           }
           RND_question = randomQuestionIndex;
           let questionNo = currentQuestionIndex + 1;
-          h2_title.innerHTML = "Питання №" + questionNo;
+          questionNumber.innerHTML = "Питання №" + questionNo;
 
           document.getElementById("question").src =
             "../" + currentQuestion.question;
@@ -675,7 +675,7 @@ function showQuestion() {
           }
           RND_question = randomQuestionIndex;
           let questionNo = currentQuestionIndex + 1;
-          h2_title.innerHTML = "Питання №" + questionNo;
+          questionNumber.innerHTML = "Питання №" + questionNo;
 
           document.getElementById("question").src =
             "../" + currentQuestion.question;
@@ -788,7 +788,7 @@ function showScore() {
     document.getElementById("question").src = "../grades/skovoroda.png";
   }
   clearInterval(timerInterval);
-  h2_title.innerHTML = `Ви набрали ${score} з ${18 + 18 * 3} балу!`;
+  questionNumber.innerHTML = `Ви набрали ${score} з ${18 + 18 * 3} балу!`;
   nextButton.innerHTML = "Пройти знову";
   nextButton.style.display = "block";
   test_completed = true;
