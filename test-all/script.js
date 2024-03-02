@@ -84,16 +84,16 @@ let questionCount = 0;
 let max_score = 0;
 
 let promises = [
-    fetchJsonData("../block" + block_id + "/test" + test_id + "/questions.json").then(function (data) {
+    fetchJsonData("/historyTests/block" + block_id + "/test" + test_id + "/questions.json").then(function (data) {
         questions = data;
     }),
-    fetchJsonData("../block" + block_id + "/test" + test_id + "/vidpovidnist_questions.json").then(function (data) {
+    fetchJsonData("/historyTests/block" + block_id + "/test" + test_id + "/vidpovidnist_questions.json").then(function (data) {
         vidpovidnist_questions = data;
     }),
-    fetchJsonData("../block" + block_id + "/test" + test_id + "/hronology_questions.json").then(function (data) {
+    fetchJsonData("/historyTests/block" + block_id + "/test" + test_id + "/hronology_questions.json").then(function (data) {
         hronology_questions = data;
     }),
-    fetchJsonData("../block" + block_id + "/test" + test_id + "/mul_ans_questions.json").then(function (data) {
+    fetchJsonData("/historyTests/block" + block_id + "/test" + test_id + "/mul_ans_questions.json").then(function (data) {
         mul_ans_questions = data;
     })
 ];
@@ -326,9 +326,9 @@ function selectAnswer(e) {
 function showScore(){
     resetState()
     if (score < max_score/2) {
-        document.getElementById("question").src = "../block" + block_id + "/grades/bad.png";
+        document.getElementById("question").src = "/historyTests/block" + block_id + "/grades/bad.png";
     } else {
-        document.getElementById("question").src = "../block" + block_id + "/grades/good.png";
+        document.getElementById("question").src = "/historyTests/block" + block_id + "/grades/good.png";
     }
     clearInterval(timerInterval)
     questionNumber.innerHTML =`Ви набрали ${score} з ${max_score} балу!`

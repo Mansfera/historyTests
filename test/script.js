@@ -95,22 +95,22 @@ let max_score = 0;
 
 let promises = [
   fetchJsonData(
-    "../block" + block_id + "/test" + test_id + "/questions.json"
+    "/historyTests/block" + block_id + "/test" + test_id + "/questions.json"
   ).then(function (data) {
     questions = data;
   }),
   fetchJsonData(
-    "../block" + block_id + "/test" + test_id + "/vidpovidnist_questions.json"
+    "/historyTests/block" + block_id + "/test" + test_id + "/vidpovidnist_questions.json"
   ).then(function (data) {
     vidpovidnist_questions = data;
   }),
   fetchJsonData(
-    "../block" + block_id + "/test" + test_id + "/hronology_questions.json"
+    "/historyTests/block" + block_id + "/test" + test_id + "/hronology_questions.json"
   ).then(function (data) {
     hronology_questions = data;
   }),
   fetchJsonData(
-    "../block" + block_id + "/test" + test_id + "/mul_ans_questions.json"
+    "/historyTests/block" + block_id + "/test" + test_id + "/mul_ans_questions.json"
   ).then(function (data) {
     mul_ans_questions = data;
   }),
@@ -344,10 +344,10 @@ function showScore() {
   resetState();
   if (score < 10) {
     document.getElementById("question").src =
-      "../block" + block_id + "/grades/bad.png";
+      "/historyTests/block" + block_id + "/grades/bad.png";
   } else {
     document.getElementById("question").src =
-      "../block" + block_id + "/grades/good.png";
+      "/historyTests/block" + block_id + "/grades/good.png";
   }
   clearInterval(timerInterval);
   questionNumber.innerHTML = `Ви набрали ${score} з 21 балу!`;

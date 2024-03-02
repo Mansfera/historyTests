@@ -74,93 +74,93 @@ switch (blockId) {
   case "2": {
     questionCount = 36;
     promises = [
-      fetchJsonData("../../test6/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test6/questions.json").then(function (data) {
         questions1 = data;
       }),
-      fetchJsonData("../../test6/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block2/test6/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions1 = data;
       }),
-      fetchJsonData("../../test6/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test6/hronology_questions.json").then(function (data) {
         hronology_questions1 = data;
       }),
-      fetchJsonData("../../test6/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test6/mul_ans_questions.json").then(function (data) {
         mul_ans_questions1 = data;
       }),
 
-      fetchJsonData("../../test7/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test7/questions.json").then(function (data) {
         questions2 = data;
       }),
-      fetchJsonData("../../test7/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block2/test7/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions2 = data;
       }),
-      fetchJsonData("../../test7/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test7/hronology_questions.json").then(function (data) {
         hronology_questions2 = data;
       }),
-      fetchJsonData("../../test7/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test7/mul_ans_questions.json").then(function (data) {
         mul_ans_questions2 = data;
       }),
 
-      fetchJsonData("../../test8/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test8/questions.json").then(function (data) {
         questions3 = data;
       }),
-      fetchJsonData("../../test8/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block2/test8/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions3 = data;
       }),
-      fetchJsonData("../../test8/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test8/hronology_questions.json").then(function (data) {
         hronology_questions3 = data;
       }),
-      fetchJsonData("../../test8/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test8/mul_ans_questions.json").then(function (data) {
         mul_ans_questions3 = data;
       }),
 
-      fetchJsonData("../../test9/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test9/questions.json").then(function (data) {
         questions4 = data;
       }),
-      fetchJsonData("../../test9/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block2/test9/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions4 = data;
       }),
-      fetchJsonData("../../test9/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test9/hronology_questions.json").then(function (data) {
         hronology_questions4 = data;
       }),
-      fetchJsonData("../../test9/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test9/mul_ans_questions.json").then(function (data) {
         mul_ans_questions4 = data;
       }),
 
-      fetchJsonData("../../test10/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test10/questions.json").then(function (data) {
         questions5 = data;
       }),
-      fetchJsonData("../../test10/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block2/test10/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions5 = data;
       }),
-      fetchJsonData("../../test10/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test10/hronology_questions.json").then(function (data) {
         hronology_questions5 = data;
       }),
-      fetchJsonData("../../test10/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test10/mul_ans_questions.json").then(function (data) {
         mul_ans_questions5 = data;
       }),
 
-      fetchJsonData("../../test11/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test11/questions.json").then(function (data) {
         questions6 = data;
       }),
-      fetchJsonData("../../test11/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block2/test11/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions6 = data;
       }),
-      fetchJsonData("../../test11/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test11/hronology_questions.json").then(function (data) {
         hronology_questions6 = data;
       }),
-      fetchJsonData("../../test11/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block2/test11/mul_ans_questions.json").then(function (data) {
         mul_ans_questions6 = data;
       }),
     ];
@@ -169,123 +169,123 @@ switch (blockId) {
   case "3": {
     questionCount = 48;
     promises = [
-      fetchJsonData("../../test12/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test12/questions.json").then(function (data) {
         questions1 = data;
       }),
-      fetchJsonData("../../test12/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test12/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions1 = data;
       }),
-      fetchJsonData("../../test12/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test12/hronology_questions.json").then(function (data) {
         hronology_questions1 = data;
       }),
-      fetchJsonData("../../test12/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test12/mul_ans_questions.json").then(function (data) {
         mul_ans_questions1 = data;
       }),
 
-      fetchJsonData("../../test13/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test13/questions.json").then(function (data) {
         questions2 = data;
       }),
-      fetchJsonData("../../test13/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test13/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions2 = data;
       }),
-      fetchJsonData("../../test13/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test13/hronology_questions.json").then(function (data) {
         hronology_questions2 = data;
       }),
-      fetchJsonData("../../test13/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test13/mul_ans_questions.json").then(function (data) {
         mul_ans_questions2 = data;
       }),
 
-      fetchJsonData("../../test14/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test14/questions.json").then(function (data) {
         questions3 = data;
       }),
-      fetchJsonData("../../test14/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test14/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions3 = data;
       }),
-      fetchJsonData("../../test14/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test14/hronology_questions.json").then(function (data) {
         hronology_questions3 = data;
       }),
-      fetchJsonData("../../test14/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test14/mul_ans_questions.json").then(function (data) {
         mul_ans_questions3 = data;
       }),
 
-      fetchJsonData("../../test15/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test15/questions.json").then(function (data) {
         questions4 = data;
       }),
-      fetchJsonData("../../test15/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test15/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions4 = data;
       }),
-      fetchJsonData("../../test15/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test15/hronology_questions.json").then(function (data) {
         hronology_questions4 = data;
       }),
-      fetchJsonData("../../test15/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test15/mul_ans_questions.json").then(function (data) {
         mul_ans_questions4 = data;
       }),
 
-      fetchJsonData("../../test16/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test16/questions.json").then(function (data) {
         questions5 = data;
       }),
-      fetchJsonData("../../test16/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test16/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions5 = data;
       }),
-      fetchJsonData("../../test16/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test16/hronology_questions.json").then(function (data) {
         hronology_questions5 = data;
       }),
-      fetchJsonData("../../test16/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test16/mul_ans_questions.json").then(function (data) {
         mul_ans_questions5 = data;
       }),
 
-      fetchJsonData("../../test17/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test17/questions.json").then(function (data) {
         questions6 = data;
       }),
-      fetchJsonData("../../test17/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test17/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions6 = data;
       }),
-      fetchJsonData("../../test17/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test17/hronology_questions.json").then(function (data) {
         hronology_questions6 = data;
       }),
-      fetchJsonData("../../test17/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test17/mul_ans_questions.json").then(function (data) {
         mul_ans_questions6 = data;
       }),
 
-      fetchJsonData("../../test18/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test18/questions.json").then(function (data) {
         questions7 = data;
       }),
-      fetchJsonData("../../test18/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test18/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions7 = data;
       }),
-      fetchJsonData("../../test18/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test18/hronology_questions.json").then(function (data) {
         hronology_questions7 = data;
       }),
-      fetchJsonData("../../test18/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test18/mul_ans_questions.json").then(function (data) {
         mul_ans_questions7 = data;
       }),
 
-      fetchJsonData("../../test19/questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test19/questions.json").then(function (data) {
         questions8 = data;
       }),
-      fetchJsonData("../../test19/vidpovidnist_questions.json").then(function (
+      fetchJsonData("/historyTests/block3/test19/vidpovidnist_questions.json").then(function (
         data
       ) {
         vidpovidnist_questions8 = data;
       }),
-      fetchJsonData("../../test19/hronology_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test19/hronology_questions.json").then(function (data) {
         hronology_questions8 = data;
       }),
-      fetchJsonData("../../test19/mul_ans_questions.json").then(function (data) {
+      fetchJsonData("/historyTests/block3/test19/mul_ans_questions.json").then(function (data) {
         mul_ans_questions8 = data;
       }),
     ];
