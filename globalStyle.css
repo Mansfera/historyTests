@@ -34,6 +34,9 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
     width: 100vw;
 }
 #background {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 34vmax;
     translate: -50% -50%;
     background: linear-gradient(to right, rgb(223, 255, 127), rgb(112, 202, 216), rgb(216, 139, 255));
@@ -42,6 +45,9 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
 }
 
 #blur {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     backdrop-filter: blur(12vmax);
