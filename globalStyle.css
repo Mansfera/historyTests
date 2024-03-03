@@ -30,8 +30,8 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
     top: 0;
     left: 0;
     overflow: hidden;
-    height: 100vh;
-    width: 100vw;
+    height: 100vmax;
+    width: 100vmax;
 }
 #background {
     height: 34vmax;
