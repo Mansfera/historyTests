@@ -94,7 +94,6 @@
     font-size: 50px;
 }
 .blocked {
-    position: absolute;
     cursor: not-allowed;
     color: dimgray;
     background-color: dimgray;
