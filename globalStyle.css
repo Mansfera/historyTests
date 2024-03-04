@@ -36,7 +36,7 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
 #background {
     height: 34vmax;
     translate: -50% -50%;
-    background: linear-gradient(to right, rgb(223, 255, 127), rgb(112, 202, 216), rgb(216, 139, 255));
+    background: linear-gradient(to right, rgb(223, 255, 127), rgb(97, 234, 255), rgb(228, 173, 255));
     animation: rotate 20s infinite;
     opacity: 0.8;
 }
