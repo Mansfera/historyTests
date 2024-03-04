@@ -94,7 +94,14 @@
     font-size: 50px;
 }
 .blocked {
+    position: relative;
     cursor: not-allowed;
     color: dimgray;
     background-color: dimgray;
+}
+.blocked:hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 0.2s;
 }

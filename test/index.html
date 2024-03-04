@@ -40,72 +40,32 @@
                     <button class="btn">Варіант 3</button> 
                     <button class="btn">Варіант 4</button>
                 </div>
-                <input class="text_input" id="text_input" maxlength="4" type="text">
-                <div class="letter-answers list-answers" id="letter_answers">
-                    <select name="selection1" id="select_letters1">
-                        <option value="A">А</option>
-                        <option value="B">Б</option>
-                        <option value="C">В</option>
-                        <option value="D">Г</option>
-                    </select>
-                    <select name="selection2" id="select_letters2">
-                        <option value="A">А</option>
-                        <option value="B">Б</option>
-                        <option value="C">В</option>
-                        <option value="D">Г</option>
-                    </select>
-                    <select name="selection3" id="select_letters3">
-                        <option value="A">А</option>
-                        <option value="B">Б</option>
-                        <option value="C">В</option>
-                        <option value="D">Г</option>
-                    </select>
-                    <select name="selection4" id="select_letters4">
-                        <option value="A">А</option>
-                        <option value="B">Б</option>
-                        <option value="C">В</option>
-                        <option value="D">Г</option>
-                    </select>
+                <div class="answer-sheet" id="answer_sheet">
+                    <img src="/historyTests/test/sheetImg.png">
+                    <div class="answer-sheet__buttons">
+                        <div class="sheet-btn" id="a1"></div>
+                        <div class="sheet-btn" id="a2"></div>
+                        <div class="sheet-btn" id="a3"></div>
+                        <div class="sheet-btn" id="a4"></div>
+                        <div class="sheet-btn" id="b1"></div>
+                        <div class="sheet-btn" id="b2"></div>
+                        <div class="sheet-btn" id="b3"></div>
+                        <div class="sheet-btn" id="b4"></div>
+                        <div class="sheet-btn" id="c1"></div>
+                        <div class="sheet-btn" id="c2"></div>
+                        <div class="sheet-btn" id="c3"></div>
+                        <div class="sheet-btn" id="c4"></div>
+                        <div class="sheet-btn" id="d1"></div>
+                        <div class="sheet-btn" id="d2"></div>
+                        <div class="sheet-btn" id="d3"></div>
+                        <div class="sheet-btn" id="d4"></div>
+                    </div>
                 </div>
-                <div class="numeric-answers list-answers" id="numeric_answers">
-                    <select name="selection1" id="select_numbers1">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="4">5</option>
-                        <option value="4">6</option>
-                        <option value="4">7</option>
-                    </select>
-                    <select name="selection2" id="select_numbers2">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="4">5</option>
-                        <option value="4">6</option>
-                        <option value="4">7</option>
-                    </select>
-                    <select name="selection3" id="select_numbers3">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="4">5</option>
-                        <option value="4">6</option>
-                        <option value="4">7</option>
-                    </select>
-                    <select name="selection4" id="select_numbers4">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="4">5</option>
-                        <option value="4">6</option>
-                        <option value="4">7</option>
-                    </select>
+                <div class="text-fields" id="text_fields">
+                    <input class="text_input" id="text_input1" maxlength="1" type="text">
+                    <input class="text_input" id="text_input2" maxlength="1" type="text">
+                    <input class="text_input" id="text_input3" maxlength="1" type="text">
                 </div>
-
                 <p id="correct_answer"></p>
                 <button id="next-btn">Наступне запитання</button>
                 <div class="block_answers" id="block_answers"></div>
