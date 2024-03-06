@@ -74,7 +74,7 @@ switch (test_id) {
     default:
         test_name = "Назва тесту"
 }
-document.getElementById("testTitle").innerHTML = test_name+" ПОВНИЙ ПЕРЕЛІК ПИТАНЬ";
+document.getElementById("testTitle").innerHTML = test_name;
 
 let questions = [];
 let vidpovidnist_questions = [];

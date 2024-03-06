@@ -2,9 +2,11 @@ const questionNumber = document.getElementById("questionNumber");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const block_answers = document.getElementById("block_answers");
-const answer_field = document.getElementById("text_input");
-const letter_answers = document.getElementById("letter_answers");
-const numeric_answers = document.getElementById("numeric_answers");
+const answer_field1 = document.getElementById("text_input1");
+const answer_field2 = document.getElementById("text_input2");
+const answer_field3 = document.getElementById("text_input3");
+const ansSheetBtns = document.getElementById("ansSheetBtns");
+const numeric_answers = document.getElementById("text_fields");
 const correct_answer = document.getElementById("correct_answer");
 
 var queryString = window.location.search;
@@ -140,6 +142,8 @@ let RND_question = 0;
 
 let clicked_variant;
 
+let chosen_answers_from_sheet = ""
+
 let startingMinutes = 15;
 let time = startingMinutes * 60;
 let timerInterval;
@@ -229,10 +233,9 @@ function showQuestion() {
     this_Q = currentQuestion;
   } else {
     nextButton.style.display = "block";
-    answer_field.style.display = "block";
     correct_answer.style.display = "block";
     if (currentQuestionIndex == 12) {
-      // letter_answers.style.display = "block";
+      ansSheetBtns.style.display = "grid";
       let randomQuestionIndex = Math.floor(
         Math.random() * vidpovidnist_questions.length
       );
@@ -249,7 +252,7 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else if (currentQuestionIndex == 13) {
-      // numeric_answers.style.display = "block";
+      ansSheetBtns.style.display = "grid";
       let randomQuestionIndex = Math.floor(
         Math.random() * hronology_questions.length
       );
@@ -266,9 +269,7 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else {
-      // numeric_answers.style.display = "block";
-      // document.getElementById("select_numbers4").style.display = "none"
-      answer_field.style.display = "block";
+      numeric_answers.style.display = "block";
       let randomQuestionIndex = Math.floor(
         Math.random() * mul_ans_questions.length
       );
@@ -370,7 +371,7 @@ function handleNextButton() {
     if (currentQuestionIndex == 13) {
       currentQuestion = vidpovidnist_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = answer_field.value;
+      currentQuestion.selected = chosen_answers_from_sheet;
       if (currentQuestion.selected == currentQuestion.correct) {
         answer_field.classList.add("correct");
         score = score + 3;
@@ -387,7 +388,7 @@ function handleNextButton() {
     } else if (currentQuestionIndex == 14) {
       currentQuestion = hronology_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = answer_field.value;
+      currentQuestion.selected = chosen_answers_from_sheet;
       if (
         currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct
       ) {
