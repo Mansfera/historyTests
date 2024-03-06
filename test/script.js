@@ -181,7 +181,7 @@ for (var i = 1; i <= questionCount; i++) {
 }
 function startQuiz() {
     test_completed = false
-    time = startingMinutes * 20
+    time = startingMinutes * 60
     timerInterval = setInterval(updateCountdown, 1000)
     currentQuestionIndex = 0
     score = 0
