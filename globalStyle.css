@@ -78,7 +78,7 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
     padding: 10px 44px;
     font-size: 16px;
     border-radius: 40px;
-    background: #fb9a9a;
+    background: lightsalmon;
 }
 .exit_btn::before {
     border-radius: 40px;
@@ -91,7 +91,7 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
     left: 0;
 }
 .exit_btn:hover::before {
-    background: #f35b5b ;
+    background: lightsalmon ;
     width: 100%;
     font-size: 16px;
     text-align: center;
@@ -102,7 +102,7 @@ meta[name="apple-mobile-web-app-status-bar-style"] {
 }
 .timer {
     border: none;
-    background: #98be63;
+    background: lightsalmon;
     width: 260px;
     height: 44px;
     border-radius: 40px;
