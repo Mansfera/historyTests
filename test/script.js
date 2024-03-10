@@ -205,8 +205,8 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Наступне запитання";
-  answer_field.style.display = "none";
-  answer_field.disabled = false;
+  text_f.style.display = "none";
+  Array.from(numeric_answers.children).forEach((field) => {field.disabled = false})
   correct_answer.style.display = "none";
   block_answers.style.display = "none";
   alreadyAsked = [];
@@ -312,7 +312,6 @@ function resetState() {
   for (i = 1; i < 4; i++) {
     let answer_field = document.getElementById("text_input" + i);
     answer_field.value = "";
-    answer_field.style.display = "none";
     answer_field.classList.remove("correct");
     answer_field.classList.remove("incorrect");
   }
@@ -501,19 +500,19 @@ function handleNextButton() {
       hronology_alreadyAsked.push(currentQuestion);
       nextButton.innerHTML = "Завершити тест";
     } else if (currentQuestionIndex == 15) {
-      document.getElementById("text_fields").style.display = "inline-block";
+      numeric_answers.style.display = "inline-block";
       currentQuestion = mul_ans_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
       currentQuestion.selected =
         "" + answer_field1.value + answer_field2.value + answer_field3.value;
       if (currentQuestion.selected == currentQuestion.correct) {
-        document.getElementById("text_fields").classList.add("correct");
+        numeric_answers.classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
         selectedAnswers.push(currentQuestion.selected);
         mul_selectedAnswers.push(currentQuestion.selected);
       } else {
-        document.getElementById("text_fields").classList.add("incorrect");
+        numeric_answers.classList.add("incorrect");
         selectedAnswers.push(currentQuestion.selected);
         mul_selectedAnswers.push(currentQuestion.selected);
         q_id.classList.add("incorrect");
@@ -557,15 +556,15 @@ function showCorrectAnswer(id) {
       button.disabled = true;
     });
   } else if (id == 12) {
-    answer_field.style.display = "block";
-    answer_field.disabled = true;
+    numeric_answers.style.display = "inline-block";
+    Array.from(numeric_answers.children).forEach((field) => {field.disabled = true;})
     if (
       vidpovidnist_alreadyAsked[0].selected ==
       vidpovidnist_alreadyAsked[0].correct
     ) {
-      answer_field.classList.add("correct");
+      Array.from(numeric_answers.children).forEach((field) => {field.classList.add("correct")})
     } else {
-      answer_field.classList.add("incorrect");
+      Array.from(numeric_answers.children).forEach((field) => {field.classList.add("incorrect")})
       correct_answer.style.display = "block";
       correct_answer.innerHTML =
         "Правильна відповідь: " + vidpovidnist_alreadyAsked[0].correct;
