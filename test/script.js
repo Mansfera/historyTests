@@ -335,7 +335,7 @@ function selectAnswer(e) {
   const q_id = document.getElementById("q" + (currentQuestionIndex + 1));
   const selectedBtn = e.target;
   let currentQuestion = questions[RND_question];
-  if (currentQuestionIndex <= 12) {
+  if (currentQuestionIndex < 12) {
     Array.from(answerButtons.children).forEach((button) => {
       button.classList.remove("selected");
       button.classList.remove("incorrect");
@@ -367,7 +367,7 @@ function selectAnswer(e) {
     this_Q = currentQuestion;
     nextButton.style.display = "block";
   }
-  if (currentQuestionIndex > 12 && currentQuestionIndex < 15) {
+  if (currentQuestionIndex >= 12 && currentQuestionIndex < 15) {
     chosen_answers_from_sheet = "";
     selectedBtn.classList.add("selected");
 
