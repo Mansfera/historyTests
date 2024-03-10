@@ -205,7 +205,7 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Наступне запитання";
-  text_f.style.display = "none";
+  numeric_answers.style.display = "none";
   Array.from(numeric_answers.children).forEach((field) => {field.disabled = false})
   correct_answer.style.display = "none";
   block_answers.style.display = "none";
