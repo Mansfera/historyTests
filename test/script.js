@@ -2,7 +2,11 @@ const questionNumber = document.getElementById("questionNumber");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const block_answers = document.getElementById("block_answers");
-const answer_field = document.getElementById("text_input")
+const answer_field1 = document.getElementById("text_input1");
+const answer_field2 = document.getElementById("text_input2");
+const answer_field3 = document.getElementById("text_input3");
+const ansSheetBtns = document.getElementById("ansSheetBtns");
+const numeric_answers = document.getElementById("text_fields");
 const correct_answer = document.getElementById("correct_answer");
 
 var queryString = window.location.search;
@@ -98,17 +102,29 @@ let promises = [
     questions = data;
   }),
   fetchJsonData(
-    "/historyTests/block" + block_id + "/test" + test_id + "/vidpovidnist_questions.json"
+    "/historyTests/block" +
+      block_id +
+      "/test" +
+      test_id +
+      "/vidpovidnist_questions.json"
   ).then(function (data) {
     vidpovidnist_questions = data;
   }),
   fetchJsonData(
-    "/historyTests/block" + block_id + "/test" + test_id + "/hronology_questions.json"
+    "/historyTests/block" +
+      block_id +
+      "/test" +
+      test_id +
+      "/hronology_questions.json"
   ).then(function (data) {
     hronology_questions = data;
   }),
   fetchJsonData(
-    "/historyTests/block" + block_id + "/test" + test_id + "/mul_ans_questions.json"
+    "/historyTests/block" +
+      block_id +
+      "/test" +
+      test_id +
+      "/mul_ans_questions.json"
   ).then(function (data) {
     mul_ans_questions = data;
   }),
@@ -122,6 +138,10 @@ Promise.all(promises)
     console.error(error);
   });
 
+
+Array.from(ansSheetBtns.children).forEach((button) => {
+  button.addEventListener("click", selectAnswer); 
+})
 let alreadyAsked = [];
 let vidpovidnist_alreadyAsked = [];
 let hronology_alreadyAsked = [];
@@ -138,7 +158,7 @@ let RND_question = 0;
 
 let clicked_variant;
 
-let chosen_answers_from_sheet = ""
+let chosen_answers_from_sheet = "";
 
 let startingMinutes = 15;
 let time = startingMinutes * 60;
@@ -180,25 +200,25 @@ for (var i = 1; i <= questionCount; i++) {
   block_answers.appendChild(btn);
 }
 function startQuiz() {
-    test_completed = false
-    time = startingMinutes * 60
-    timerInterval = setInterval(updateCountdown, 1000)
-    currentQuestionIndex = 0
-    score = 0
-    nextButton.innerHTML = "Наступне запитання"
-    answer_field.style.display = "none"
-    answer_field.disabled = false
-    correct_answer.style.display = "none"
-    block_answers.style.display = "none"
-    alreadyAsked = []
-    vidpovidnist_alreadyAsked = []
-    hronology_alreadyAsked = []
-    mul_ans_alreadyAsked = []
-    selectedAnswers = []
-    vidpovidnist_selectedAnswers = []
-    hronology_selectedAnswers = []
-    mul_selectedAnswers = []
-    showQuestion()
+  test_completed = false;
+  time = startingMinutes * 60;
+  timerInterval = setInterval(updateCountdown, 1000);
+  currentQuestionIndex = 0;
+  score = 0;
+  nextButton.innerHTML = "Наступне запитання";
+  answer_field.style.display = "none";
+  answer_field.disabled = false;
+  correct_answer.style.display = "none";
+  block_answers.style.display = "none";
+  alreadyAsked = [];
+  vidpovidnist_alreadyAsked = [];
+  hronology_alreadyAsked = [];
+  mul_ans_alreadyAsked = [];
+  selectedAnswers = [];
+  vidpovidnist_selectedAnswers = [];
+  hronology_selectedAnswers = [];
+  mul_selectedAnswers = [];
+  showQuestion();
 }
 
 function showQuestion() {
@@ -229,9 +249,9 @@ function showQuestion() {
     this_Q = currentQuestion;
   } else {
     nextButton.style.display = "block";
-    answer_field.style.display = "block"
     correct_answer.style.display = "block";
     if (currentQuestionIndex == 12) {
+      ansSheetBtns.style.display = "grid";
       let randomQuestionIndex = Math.floor(
         Math.random() * vidpovidnist_questions.length
       );
@@ -248,6 +268,7 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else if (currentQuestionIndex == 13) {
+      ansSheetBtns.style.display = "grid";
       let randomQuestionIndex = Math.floor(
         Math.random() * hronology_questions.length
       );
@@ -264,6 +285,7 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else {
+      numeric_answers.style.display = "block";
       let randomQuestionIndex = Math.floor(
         Math.random() * mul_ans_questions.length
       );
@@ -288,51 +310,126 @@ function showQuestion() {
 }
 
 function resetState() {
-  answer_field.value = "";
-  answer_field.style.display = "none";
-  answer_field.classList.remove("correct");
-  answer_field.classList.remove("incorrect");
+  for (i = 1; i < 4; i++) {
+    let answer_field = document.getElementById("text_input" + i);
+    answer_field.value = "";
+    answer_field.style.display = "none";
+    answer_field.classList.remove("correct");
+    answer_field.classList.remove("incorrect");
+  }
   correct_answer.style.display = "none";
   nextButton.style.display = "none";
+  chosen_answers_from_sheet = "XXXX";
   while (answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild);
   }
 }
 
+function removeFromArray(array, element) {
+  const index = array.indexOf(element);
+
+  if (index !== -1) {
+    array.splice(index, 1);
+  }
+}
+
 function selectAnswer(e) {
   const q_id = document.getElementById("q" + (currentQuestionIndex + 1));
-  let currentQuestion = questions[RND_question];
   const selectedBtn = e.target;
-  Array.from(answerButtons.children).forEach((button) => {
-    button.classList.remove("selected");
-    button.classList.remove("incorrect");
-    button.classList.remove("correct");
-  });
-  q_id.classList.remove("incorrect");
-  q_id.classList.remove("correct");
-  if (alreadyAsked[currentQuestion] != null) {
-    if (
-      alreadyAsked[currentQuestionIndex].question == currentQuestion.question
-    ) {
-      alreadyAsked.remove[currentQuestionIndex];
+  let currentQuestion = questions[RND_question];
+  if (currentQuestionIndex <= 12) {
+    Array.from(answerButtons.children).forEach((button) => {
+      button.classList.remove("selected");
+      button.classList.remove("incorrect");
+      button.classList.remove("correct");
+    });
+    q_id.classList.remove("incorrect");
+    q_id.classList.remove("correct");
+    if (alreadyAsked[currentQuestion] != null) {
+      if (
+        alreadyAsked[currentQuestionIndex].question == currentQuestion.question
+      ) {
+        alreadyAsked.remove[currentQuestionIndex];
+      }
     }
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect) {
+      selectedBtn.classList.add("selected");
+      selectedBtn.classList.add("correct");
+      q_id.classList.add("correct");
+      clicked_variant = selectedBtn;
+      score++;
+    } else {
+      selectedBtn.classList.add("selected");
+      selectedBtn.classList.add("incorrect");
+      q_id.classList.add("incorrect");
+      clicked_variant = selectedBtn;
+    }
+    currentQuestion.selected = selectedBtn.innerHTML;
+    this_Q = currentQuestion;
+    nextButton.style.display = "block";
   }
-  const isCorrect = selectedBtn.dataset.correct === "true";
-  if (isCorrect) {
+  if (currentQuestionIndex > 12 && currentQuestionIndex < 15) {
+    chosen_answers_from_sheet = ""
     selectedBtn.classList.add("selected");
-    selectedBtn.classList.add("correct");
-    q_id.classList.add("correct");
-    clicked_variant = selectedBtn;
-    score++;
-  } else {
-    selectedBtn.classList.add("selected");
-    selectedBtn.classList.add("incorrect");
-    q_id.classList.add("incorrect");
-    clicked_variant = selectedBtn;
+
+    let row1selected = []
+    let row2selected = []
+    let row3selected = []
+    let row4selected = []
+
+    Array.from(ansSheetBtns.children).forEach((button) => {
+      if (button.id.startsWith("a") && button.classList.contains("selected")) {
+        row1selected.push(button)
+      } else if (button.id.startsWith("b") && button.classList.contains("selected")) {
+        row2selected.push(button)
+      } else if (button.id.startsWith("c") && button.classList.contains("selected")) {
+        row3selected.push(button)
+      } else if (button.id.startsWith("d") && button.classList.contains("selected")) {
+        row4selected.push(button)
+      }
+    });
+    if (row1selected.length > 1) {
+      row1selected.forEach((rowBtn) => {
+        if (rowBtn != selectedBtn) {
+          rowBtn.classList.remove("selected")
+          removeFromArray(row1selected, rowBtn);
+        }
+      })
+    }
+    if (row2selected.length > 1) {
+      row2selected.forEach((rowBtn) => {
+        if (rowBtn != selectedBtn) {
+          rowBtn.classList.remove("selected")
+          removeFromArray(row2selected, rowBtn);
+        }
+      })
+    }
+    if (row3selected.length > 1) {
+      row3selected.forEach((rowBtn) => {
+        if (rowBtn != selectedBtn) {
+          rowBtn.classList.remove("selected")
+          removeFromArray(row3selected, rowBtn);
+        }
+      })
+    }
+    if (row4selected.length > 1) {
+      row4selected.forEach((rowBtn) => {
+        if (rowBtn != selectedBtn) {
+          rowBtn.classList.remove("selected")
+          removeFromArray(row4selected, rowBtn);
+        }
+      })
+    }
+
+    Array.from(ansSheetBtns.children).forEach((button) => {
+      if (button.classList.contains("selected")) {
+        chosen_answers_from_sheet +=
+          button.innerHTML;
+        this_Q = currentQuestion;
+      }
+    })
   }
-  currentQuestion.selected = selectedBtn.innerHTML;
-  this_Q = currentQuestion;
-  nextButton.style.display = "block";
 }
 
 function showScore() {
@@ -350,7 +447,6 @@ function showScore() {
   nextButton.style.display = "block";
   test_completed = true;
   block_answers.style.display = "block";
-  answer_field.style.display = "none";
 }
 
 function handleNextButton() {
@@ -365,54 +461,53 @@ function handleNextButton() {
     if (currentQuestionIndex == 13) {
       currentQuestion = vidpovidnist_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = answer_field.value;
+      currentQuestion.selected = chosen_answers_from_sheet;
       if (currentQuestion.selected == currentQuestion.correct) {
-        answer_field.classList.add("correct");
+        ansSheetBtns.classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
-        selectedAnswers.push(answer_field);
-        vidpovidnist_selectedAnswers.push(answer_field.value);
+        selectedAnswers.push(ansSheetBtns);
+        vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
       } else {
-        answer_field.classList.add("incorrect");
-        selectedAnswers.push(answer_field);
-        vidpovidnist_selectedAnswers.push(answer_field.value);
+        ansSheetBtns.classList.add("incorrect");
+        selectedAnswers.push(ansSheetBtns);
+        vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
         q_id.classList.add("incorrect");
       }
       vidpovidnist_alreadyAsked.push(currentQuestion);
     } else if (currentQuestionIndex == 14) {
       currentQuestion = hronology_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = answer_field.value;
-      if (
-        currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct
-      ) {
-        answer_field.classList.add("correct");
+      currentQuestion.selected = chosen_answers_from_sheet;
+      if (currentQuestion.selected == currentQuestion.correct) {
+        ansSheetBtns.classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
-        selectedAnswers.push(answer_field);
-        hronology_selectedAnswers.push(answer_field.value);
+        selectedAnswers.push(ansSheetBtns);
+        vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
       } else {
-        answer_field.classList.add("incorrect");
-        selectedAnswers.push(answer_field);
-        hronology_selectedAnswers.push(answer_field.value);
+        ansSheetBtns.classList.add("incorrect");
+        selectedAnswers.push(ansSheetBtns);
+        vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
         q_id.classList.add("incorrect");
       }
       hronology_alreadyAsked.push(currentQuestion);
       nextButton.innerHTML = "Завершити тест";
     } else if (currentQuestionIndex == 15) {
+      document.getElementById("text_fields").style.display = "inline-block";
       currentQuestion = mul_ans_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = answer_field.value;
+      currentQuestion.selected = ("" + answer_field1.value + answer_field2.value + answer_field3.value);
       if (currentQuestion.selected == currentQuestion.correct) {
-        answer_field.classList.add("correct");
+        document.getElementById("text_fields").classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
-        selectedAnswers.push(answer_field);
-        mul_selectedAnswers.push(answer_field.value);
+        selectedAnswers.push(currentQuestion.selected);
+        mul_selectedAnswers.push(currentQuestion.selected);
       } else {
-        answer_field.classList.add("incorrect");
-        selectedAnswers.push(answer_field);
-        mul_selectedAnswers.push(answer_field.value);
+        document.getElementById("text_fields").classList.add("incorrect");
+        selectedAnswers.push(currentQuestion.selected);
+        mul_selectedAnswers.push(currentQuestion.selected);
         q_id.classList.add("incorrect");
       }
       mul_ans_alreadyAsked.push(currentQuestion);

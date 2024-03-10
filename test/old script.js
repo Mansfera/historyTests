@@ -2,11 +2,7 @@ const questionNumber = document.getElementById("questionNumber");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const block_answers = document.getElementById("block_answers");
-const answer_field1 = document.getElementById("text_input1");
-const answer_field2 = document.getElementById("text_input2");
-const answer_field3 = document.getElementById("text_input3");
-const ansSheetBtns = document.getElementById("ansSheetBtns");
-const numeric_answers = document.getElementById("text_fields");
+const answer_field = document.getElementById("text_input")
 const correct_answer = document.getElementById("correct_answer");
 
 var queryString = window.location.search;
@@ -184,25 +180,25 @@ for (var i = 1; i <= questionCount; i++) {
   block_answers.appendChild(btn);
 }
 function startQuiz() {
-  test_completed = false;
-  time = startingMinutes * 60;
-  timerInterval = setInterval(updateCountdown, 1000);
-  currentQuestionIndex = 0;
-  score = 0;
-  nextButton.innerHTML = "Наступне запитання";
-  answer_field.style.display = "none";
-  answer_field.disabled = false;
-  correct_answer.style.display = "none";
-  block_answers.style.display = "none";
-  alreadyAsked = [];
-  vidpovidnist_alreadyAsked = [];
-  hronology_alreadyAsked = [];
-  mul_ans_alreadyAsked = [];
-  selectedAnswers = [];
-  vidpovidnist_selectedAnswers = [];
-  hronology_selectedAnswers = [];
-  mul_selectedAnswers = [];
-  showQuestion();
+    test_completed = false
+    time = startingMinutes * 60
+    timerInterval = setInterval(updateCountdown, 1000)
+    currentQuestionIndex = 0
+    score = 0
+    nextButton.innerHTML = "Наступне запитання"
+    answer_field.style.display = "none"
+    answer_field.disabled = false
+    correct_answer.style.display = "none"
+    block_answers.style.display = "none"
+    alreadyAsked = []
+    vidpovidnist_alreadyAsked = []
+    hronology_alreadyAsked = []
+    mul_ans_alreadyAsked = []
+    selectedAnswers = []
+    vidpovidnist_selectedAnswers = []
+    hronology_selectedAnswers = []
+    mul_selectedAnswers = []
+    showQuestion()
 }
 
 function showQuestion() {
@@ -233,9 +229,9 @@ function showQuestion() {
     this_Q = currentQuestion;
   } else {
     nextButton.style.display = "block";
+    answer_field.style.display = "block"
     correct_answer.style.display = "block";
     if (currentQuestionIndex == 12) {
-      ansSheetBtns.style.display = "grid";
       let randomQuestionIndex = Math.floor(
         Math.random() * vidpovidnist_questions.length
       );
@@ -252,7 +248,6 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else if (currentQuestionIndex == 13) {
-      ansSheetBtns.style.display = "grid";
       let randomQuestionIndex = Math.floor(
         Math.random() * hronology_questions.length
       );
@@ -269,7 +264,6 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else {
-      numeric_answers.style.display = "block";
       let randomQuestionIndex = Math.floor(
         Math.random() * mul_ans_questions.length
       );
@@ -371,7 +365,7 @@ function handleNextButton() {
     if (currentQuestionIndex == 13) {
       currentQuestion = vidpovidnist_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = chosen_answers_from_sheet;
+      currentQuestion.selected = answer_field.value;
       if (currentQuestion.selected == currentQuestion.correct) {
         answer_field.classList.add("correct");
         score = score + 3;
@@ -388,7 +382,7 @@ function handleNextButton() {
     } else if (currentQuestionIndex == 14) {
       currentQuestion = hronology_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = chosen_answers_from_sheet;
+      currentQuestion.selected = answer_field.value;
       if (
         currentQuestion.selected.toLocaleUpperCase() == currentQuestion.correct
       ) {

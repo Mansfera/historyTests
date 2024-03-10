@@ -58,7 +58,7 @@
     cursor: pointer;
     transition: all 0.3s;
 }
-.btn:hover:not([disabled]){
+.btn:hover:not([disabled]), .sheet-btn:hover{
     background: #222;
     color: white;
 }
@@ -67,30 +67,30 @@
 }
 
 .answer-sheet {
-    width: 150px;
-    height: 150px;
-    display: block;
+    margin-top: 20px;
+    width: 100%;
+    display: none;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 .answer-sheet img {
     width: 100%;
     height: 100%;
 }
 .answer-sheet__buttons {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
 .sheet-btn {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid slategray;
     border-radius: 3px;
     background-color: transparent;
+    transition: 0.3s;
 }
 
 .text_input {
