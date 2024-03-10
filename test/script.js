@@ -284,7 +284,7 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else {
-      numeric_answers.style.display = "block";
+      numeric_answers.style.display = "inline-block";
       let randomQuestionIndex = Math.floor(
         Math.random() * mul_ans_questions.length
       );
@@ -469,13 +469,13 @@ function handleNextButton() {
       const q_id = document.getElementById("q" + currentQuestionIndex);
       currentQuestion.selected = chosen_answers_from_sheet;
       if (currentQuestion.selected == currentQuestion.correct) {
-        ansSheetBtns.classList.add("correct");
+        // ansSheetBtns.classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
         selectedAnswers.push(ansSheetBtns);
         vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
       } else {
-        ansSheetBtns.classList.add("incorrect");
+        // ansSheetBtns.classList.add("incorrect");
         selectedAnswers.push(ansSheetBtns);
         vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
         q_id.classList.add("incorrect");
@@ -486,13 +486,13 @@ function handleNextButton() {
       const q_id = document.getElementById("q" + currentQuestionIndex);
       currentQuestion.selected = chosen_answers_from_sheet;
       if (currentQuestion.selected == currentQuestion.correct) {
-        ansSheetBtns.classList.add("correct");
+        // ansSheetBtns.classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
         selectedAnswers.push(ansSheetBtns);
         vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
       } else {
-        ansSheetBtns.classList.add("incorrect");
+        // ansSheetBtns.classList.add("incorrect");
         selectedAnswers.push(ansSheetBtns);
         vidpovidnist_selectedAnswers.push(chosen_answers_from_sheet);
         q_id.classList.add("incorrect");
@@ -506,13 +506,13 @@ function handleNextButton() {
       currentQuestion.selected =
         "" + answer_field1.value + answer_field2.value + answer_field3.value;
       if (currentQuestion.selected == currentQuestion.correct) {
-        numeric_answers.classList.add("correct");
+        // numeric_answers.classList.add("correct");
         score = score + 3;
         q_id.classList.add("correct");
         selectedAnswers.push(currentQuestion.selected);
         mul_selectedAnswers.push(currentQuestion.selected);
       } else {
-        numeric_answers.classList.add("incorrect");
+        // numeric_answers.classList.add("incorrect");
         selectedAnswers.push(currentQuestion.selected);
         mul_selectedAnswers.push(currentQuestion.selected);
         q_id.classList.add("incorrect");
