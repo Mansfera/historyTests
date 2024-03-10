@@ -138,10 +138,9 @@ Promise.all(promises)
     console.error(error);
   });
 
-
 Array.from(ansSheetBtns.children).forEach((button) => {
-  button.addEventListener("click", selectAnswer); 
-})
+  button.addEventListener("click", selectAnswer);
+});
 let alreadyAsked = [];
 let vidpovidnist_alreadyAsked = [];
 let hronology_alreadyAsked = [];
@@ -370,65 +369,73 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
   }
   if (currentQuestionIndex > 12 && currentQuestionIndex < 15) {
-    chosen_answers_from_sheet = ""
+    chosen_answers_from_sheet = "";
     selectedBtn.classList.add("selected");
 
-    let row1selected = []
-    let row2selected = []
-    let row3selected = []
-    let row4selected = []
+    let row1selected = [];
+    let row2selected = [];
+    let row3selected = [];
+    let row4selected = [];
 
     Array.from(ansSheetBtns.children).forEach((button) => {
       if (button.id.startsWith("a") && button.classList.contains("selected")) {
-        row1selected.push(button)
-      } else if (button.id.startsWith("b") && button.classList.contains("selected")) {
-        row2selected.push(button)
-      } else if (button.id.startsWith("c") && button.classList.contains("selected")) {
-        row3selected.push(button)
-      } else if (button.id.startsWith("d") && button.classList.contains("selected")) {
-        row4selected.push(button)
+        row1selected.push(button);
+      } else if (
+        button.id.startsWith("b") &&
+        button.classList.contains("selected")
+      ) {
+        row2selected.push(button);
+      } else if (
+        button.id.startsWith("c") &&
+        button.classList.contains("selected")
+      ) {
+        row3selected.push(button);
+      } else if (
+        button.id.startsWith("d") &&
+        button.classList.contains("selected")
+      ) {
+        row4selected.push(button);
       }
     });
     if (row1selected.length > 1) {
       row1selected.forEach((rowBtn) => {
         if (rowBtn != selectedBtn) {
-          rowBtn.classList.remove("selected")
+          rowBtn.classList.remove("selected");
           removeFromArray(row1selected, rowBtn);
         }
-      })
+      });
     }
     if (row2selected.length > 1) {
       row2selected.forEach((rowBtn) => {
         if (rowBtn != selectedBtn) {
-          rowBtn.classList.remove("selected")
+          rowBtn.classList.remove("selected");
           removeFromArray(row2selected, rowBtn);
         }
-      })
+      });
     }
     if (row3selected.length > 1) {
       row3selected.forEach((rowBtn) => {
         if (rowBtn != selectedBtn) {
-          rowBtn.classList.remove("selected")
+          rowBtn.classList.remove("selected");
           removeFromArray(row3selected, rowBtn);
         }
-      })
+      });
     }
     if (row4selected.length > 1) {
       row4selected.forEach((rowBtn) => {
         if (rowBtn != selectedBtn) {
-          rowBtn.classList.remove("selected")
+          rowBtn.classList.remove("selected");
           removeFromArray(row4selected, rowBtn);
         }
-      })
+      });
     }
 
     Array.from(ansSheetBtns.children).forEach((button) => {
       if (button.classList.contains("selected")) {
-        chosen_answers_from_sheet +=
-          button.innerHTML;
+        chosen_answers_from_sheet += button.innerHTML;
         this_Q = currentQuestion;
       }
-    })
+    });
   }
 }
 
@@ -497,7 +504,8 @@ function handleNextButton() {
       document.getElementById("text_fields").style.display = "inline-block";
       currentQuestion = mul_ans_questions[RND_question];
       const q_id = document.getElementById("q" + currentQuestionIndex);
-      currentQuestion.selected = ("" + answer_field1.value + answer_field2.value + answer_field3.value);
+      currentQuestion.selected =
+        "" + answer_field1.value + answer_field2.value + answer_field3.value;
       if (currentQuestion.selected == currentQuestion.correct) {
         document.getElementById("text_fields").classList.add("correct");
         score = score + 3;

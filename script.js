@@ -21,13 +21,64 @@ function updateTime() {
   let seconds = time % 60;
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
-  let warning = ""
+  let warning = "";
   if (time < 900) {
-    warning = " ⚠️"
+    warning = " ⚠️";
+  }
+
+  let time_str = "";
+  let amount_str = "";
+
+  // відмінювання днів
+  if (days >= 1) {
+    if (days === 1) {
+      amount_str = "день";
+    } else if (days > 1 && days < 5) {
+      amount_str = "дні";
+    } else {
+      amount_str = "днів";
+    }
+    time_str = days + " " + amount_str;
+  }
+
+  // відмінювання годин
+  if (hours > 0) {
+    if (hours === 1) {
+      amount_str = "година";
+    } else if (hours > 1 && hours < 5) {
+      amount_str = "години";
+    } else {
+      amount_str = "годин";
+    }
+    time_str += " " + hours + " " + amount_str;
+  }
+
+  // відмінювання хвилин
+  if (minutes > 0) {
+    if (minutes === 1) {
+      amount_str = "хвилина";
+    } else if (minutes > 1 && minutes < 5) {
+      amount_str = "хвилини";
+    } else {
+      amount_str = "хвилин";
+    }
+    time_str += " " + minutes + " " + amount_str;
+  }
+
+  // відмінювання секунд
+  if (seconds > 0) {
+    if (seconds === 1) {
+      amount_str = "секунда";
+    } else if (seconds > 1 && seconds < 5) {
+      amount_str = "секунди";
+    } else {
+      amount_str = "секунд";
+    }
+    time_str += " " + seconds + " " + amount_str;
   }
 
   document.getElementById("remainingTime").innerHTML =
-    "Часу залишилося: " + days + ":" + hours + ":" + minutes + ":" + seconds + warning;
+    "Часу залишилося:" + time_str + warning;
 
   if (time < 0) {
     window.location = "./expired_token.html?" + params;
