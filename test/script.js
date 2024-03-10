@@ -250,7 +250,7 @@ function showQuestion() {
     nextButton.style.display = "block";
     correct_answer.style.display = "block";
     if (currentQuestionIndex == 12) {
-      ansSheetBtns.style.display = "grid";
+      document.getElementById("answer_sheet").style.display = "block";
       let randomQuestionIndex = Math.floor(
         Math.random() * vidpovidnist_questions.length
       );
