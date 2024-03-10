@@ -31,11 +31,19 @@
 .test-info {
     font-size: 19px;
 }
+.options {
+    height: 40%;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .option {
-    width: 90%;
-    height: 35px;
+    width: 350px;
+    height: 50px;
     margin-top: 10px;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(135, 135, 135);
     border-radius: 7px;
     display: flex;
     justify-content: center;
@@ -45,9 +53,10 @@
 .option:hover {
     cursor: pointer;
     background-color: rgb(179, 179, 179);
-    transition: 1s;
 }
-.option p {
+.option-text {
     height: auto;
-    color: black;
+    color: snow;
+    font-size: 24px;
+    font-weight: 400;
 }

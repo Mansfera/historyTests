@@ -77,19 +77,6 @@
     font-size: 24px;
     font-weight: 400;
 }
-.test-final {
-    width: 40%;
-    height: 140px;
-    background-color: #ee6437;
-    transition: 1s;
-    display: flex;
-    align-items: center;
-}
-.test-final:hover {
-    cursor: pointer;
-    background-color: #ba4d29;
-    transition: 1s;
-}
 .NMT-title {
     font-size: 50px;
 }

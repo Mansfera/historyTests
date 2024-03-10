@@ -1,87 +1,104 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Mansfera's history tests">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, initial-scale=.7" media="(max-width: 600px)">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="format-detection" content="telephone=no">
-    <link rel="apple-touch-icon" href="site-icon.png"/>
-    <meta name="description" content="Тест з історії для самоперевірки та підготовки до ЗНО/НМТ! © Mansfera"/>
-    <link rel="icon" type="image/x-icon" href="site-icon.ico">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mansfera's history tests" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=.7"
+      media="(max-width: 600px)"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-icon" href="site-icon.png" />
+    <meta
+      name="description"
+      content="Тест з історії для самоперевірки та підготовки до ЗНО/НМТ! © Mansfera"
+    />
+    <link rel="icon" type="image/x-icon" href="site-icon.ico" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="/historyTests/globalStyle.css" />
     <title>Тест з історії</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="effects">
-        <div id="background"></div>
-        <div id="blur"></div>
+      <div id="background"></div>
+      <div id="blur"></div>
     </div>
     <div class="main-wrapper">
-        <div id="remainingTime"></div>
-        <div class="tests-wrapper">
-            <div class="tests">
-                <div class="test b1 blocked" id="b1">
-                    <div class="block-text title">Блок 1</div>
-                    <div class="block-text">‌ </div>
-                </div>
-                <div class="test b2 blocked" id="b2">
-                    <div class="block-text title">Блок 2</div>
-                    <div class="block-text">‌ </div>
-                    <div class="block-text">Українські землі</div>
-                    <div class="block-text">в другій половині XVI -</div>
-                    <div class="block-text">наприкінці XVIII ст.</div>
-                    <div class="options">
-                        <div class="option" onclick="openBlock(2)">
-                            <div class="option-text">Тематичний тест</div>
-                        </div>
-                        <div class="option" onclick="openFinalTest(2)">
-                            <div class="option-text">Підсумковий тест</div>
-                        </div>
-                        <div class="option" onclick="openConspect(2)">
-                            <div class="option-text">Відео</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="test b3 blocked" id="b3">
-                    <div class="block-text title">Блок 3</div>
-                    <div class="block-text">‌ </div>
-                    <div class="block-text">Українські землі</div>
-                    <div class="block-text">наприкінці XVIII -</div>
-                    <div class="block-text">на початку XX ст.</div>
-                    <div class="options">
-                        <div class="option b3" onclick="openBlock(3)">
-                            <div class="option-text b3o">Тематичний тест</div>
-                        </div>
-                        <div class="option b3" onclick="openFinalTest(3)">
-                            <div class="option-text b3o">Підсумковий тест</div>
-                        </div>
-                        <div class="option b3" onclick="openConspect(3)">
-                            <div class="option-text b3o">Відео</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="test b4 blocked" id="b4">
-                    <div class="block-text title">Блок 4</div>
-                    <div class="block-text">‌ </div>
-                </div>
-                <div class="test b5 blocked" id="b5">
-                    <div class="block-text title">Блок 5</div>
-                    <div class="block-text">‌ </div>
-                </div>
-                <div class="test NMT blocked" id="NMT">
-                    <div class="block-text title NMT-title">НМТ</div>
-                    <div class="block-text">‌ </div>
-                </div>
+      <div id="remainingTime"></div>
+      <div class="tests-wrapper">
+        <div class="tests">
+          <div class="test b1 blocked" id="b1">
+            <div class="block-text title">Блок 1</div>
+            <div class="block-text">‌</div>
+          </div>
+          <div class="test b2 blocked" id="b2">
+            <div class="block-text title">Блок 2</div>
+            <div class="block-text">‌</div>
+            <div class="block-text">Українські землі</div>
+            <div class="block-text">в другій половині XVI -</div>
+            <div class="block-text">наприкінці XVIII ст.</div>
+            <div class="options">
+              <div class="option" onclick="openBlock(2)">
+                <div class="option-text">Тематичний тест</div>
+              </div>
+              <div class="option" onclick="openFinalTest(2)">
+                <div class="option-text">Підсумковий тест</div>
+              </div>
+              <div class="option" onclick="openConspect(2)">
+                <div class="option-text">Відео</div>
+              </div>
             </div>
+          </div>
+          <div class="test b3 blocked" id="b3">
+            <div class="block-text title">Блок 3</div>
+            <div class="block-text">‌</div>
+            <div class="block-text">Українські землі</div>
+            <div class="block-text">наприкінці XVIII -</div>
+            <div class="block-text">на початку XX ст.</div>
+            <div class="options">
+              <div class="option b3" onclick="openBlock(3)">
+                <div class="option-text b3o">Тематичний тест</div>
+              </div>
+              <div class="option b3" onclick="openFinalTest(3)">
+                <div class="option-text b3o">Підсумковий тест</div>
+              </div>
+              <div class="option b3" onclick="openConspect(3)">
+                <div class="option-text b3o">Відео</div>
+              </div>
+            </div>
+          </div>
+          <div class="test b4 blocked" id="b4">
+            <div class="block-text title">Блок 4</div>
+            <div class="block-text">‌</div>
+          </div>
+          <div class="test b5 blocked" id="b5">
+            <div class="block-text title">Блок 5</div>
+            <div class="block-text">‌</div>
+          </div>
+          <div class="test NMT blocked" id="NMT">
+            <div class="block-text title NMT-title">НМТ</div>
+            <div class="block-text">‌</div>
+          </div>
         </div>
+      </div>
     </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
+      integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
     <script src="pageOpener.js"></script>
-</body>
+  </body>
 </html>
