@@ -310,6 +310,7 @@ function showQuestion() {
 
 function resetState() {
   document.getElementById("answer_sheet").style.display = "none"
+  numeric_answers.style.display = "none"
   Array.from(ansSheetBtns.children).forEach((button) => {
     if (button.classList.contains("selected")) {
       button.classList.remove("selected");
