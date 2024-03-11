@@ -139,7 +139,9 @@ Promise.all(promises)
   });
 
 Array.from(ansSheetBtns.children).forEach((button) => {
-  button.addEventListener("click", selectAnswer);
+  if (button.classList.contains("sheet-btn")) {
+    button.addEventListener("click", selectAnswer);
+  }
 });
 let alreadyAsked = [];
 let vidpovidnist_alreadyAsked = [];
@@ -267,7 +269,34 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else if (currentQuestionIndex == 13) {
-      ansSheetBtns.style.display = "grid";
+      document.getElementById("answer_sheet").style.display = "flex";
+      Array.from(ansSheetBtns.children).forEach((button) => {
+        if (button.classList.contains("sheet-btn")) {
+          if (button.id.contains("1")) {
+            button.innerHTML = "А"
+          } else if (button.id.contains("2")) {
+            button.innerHTML = "Б"
+          } else if (button.id.contains("3")) {
+            button.innerHTML = "В"
+          } else if (button.id.contains("4")) {
+            button.innerHTML = "Г"
+          } else if (button.id.contains("5")) {
+            button.innerHTML = "Д"
+          }
+        } else if (button.classList.contains("sheet-row-name")) {
+          if (button.id.contains("1")) {
+            button.innerHTML = "1"
+          } else if (button.id.contains("2")) {
+            button.innerHTML = "2"
+          } else if (button.id.contains("3")) {
+            button.innerHTML = "3"
+          } else if (button.id.contains("4")) {
+            button.innerHTML = "4"
+          } else if (button.id.contains("5")) {
+            button.innerHTML = "5"
+          }
+        }
+      });
       let randomQuestionIndex = Math.floor(
         Math.random() * hronology_questions.length
       );
@@ -384,7 +413,8 @@ function selectAnswer(e) {
     let row4selected = [];
 
     Array.from(ansSheetBtns.children).forEach((button) => {
-      if (button.id.startsWith("a") && button.classList.contains("selected")) {
+      if (button.id.startsWith("a") &&
+        button.classList.contains("selected")) {
         row1selected.push(button);
       } else if (
         button.id.startsWith("b") &&

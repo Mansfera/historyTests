@@ -87,7 +87,7 @@
     width: 200px;
     height: 90%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
 }
 .sheet-btn {
@@ -96,6 +96,10 @@
     border-radius: 3px;
     background-color: transparent;
     transition: 0.3s;
+}
+.sheet-row-name {
+    padding: 5px;
+    font-weight: bold;
 }
 
 #text_fields {
