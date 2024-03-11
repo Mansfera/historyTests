@@ -272,27 +272,27 @@ function showQuestion() {
       document.getElementById("answer_sheet").style.display = "flex";
       Array.from(ansSheetBtns.children).forEach((button) => {
         if (button.classList.contains("sheet-btn")) {
-          if (button.id.contains("1")) {
+          if (button.id.endsWith("1")) {
             button.innerHTML = "А"
-          } else if (button.id.contains("2")) {
+          } else if (button.id.endsWith("2")) {
             button.innerHTML = "Б"
-          } else if (button.id.contains("3")) {
+          } else if (button.id.endsWith("3")) {
             button.innerHTML = "В"
-          } else if (button.id.contains("4")) {
+          } else if (button.id.endsWith("4")) {
             button.innerHTML = "Г"
-          } else if (button.id.contains("5")) {
+          } else if (button.id.endsWith("5")) {
             button.innerHTML = "Д"
           }
         } else if (button.classList.contains("sheet-row-name")) {
-          if (button.id.contains("1")) {
+          if (button.id.endsWith("1")) {
             button.innerHTML = "1"
-          } else if (button.id.contains("2")) {
+          } else if (button.id.endsWith("2")) {
             button.innerHTML = "2"
-          } else if (button.id.contains("3")) {
+          } else if (button.id.endsWith("3")) {
             button.innerHTML = "3"
-          } else if (button.id.contains("4")) {
+          } else if (button.id.endsWith("4")) {
             button.innerHTML = "4"
-          } else if (button.id.contains("5")) {
+          } else if (button.id.endsWith("5")) {
             button.innerHTML = "5"
           }
         }
