@@ -18,7 +18,7 @@
 .test {
     margin: 4px;
     min-width: 320px;
-    width: calc(30% - 10px);
+    width: calc(35% - 10px);
     max-width: 385px;
     height: 240px;
     background-color: rgb(245, 245, 245);
