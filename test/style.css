@@ -126,13 +126,20 @@
     display: none;
 }
 
-.block_answers {
-    display: none;
-    display: flexbox;
-    margin: auto;
-    margin-top: 30px;
-    width: 20%;
+.bottom-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.block_answers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+}
+
 .q_id {
     font-size: large;
     background: white;

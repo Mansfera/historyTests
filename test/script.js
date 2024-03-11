@@ -453,7 +453,7 @@ function showScore() {
   nextButton.innerHTML = "Пройти знову";
   nextButton.style.display = "block";
   test_completed = true;
-  block_answers.style.display = "block";
+  block_answers.style.display = "grid";
 }
 
 function handleNextButton() {
