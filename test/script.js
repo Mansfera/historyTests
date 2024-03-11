@@ -284,7 +284,9 @@ function showQuestion() {
 
       document.getElementById("question").src = currentQuestion.question;
     } else {
-      numeric_answers.style.display = "inline-block";
+      Array.from(numeric_answers.children).forEach((button) => {
+        button.style.display = "inline-block";
+      })
       let randomQuestionIndex = Math.floor(
         Math.random() * mul_ans_questions.length
       );
