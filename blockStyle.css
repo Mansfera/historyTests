@@ -28,12 +28,16 @@
     justify-content: center;
     align-items: center;
 }
+.block-info-text {
+    height: 60%;
+    width: 100%;
+}
 .test-info {
     font-size: 19px;
 }
 .options {
     height: 40%;
-    min-height: 150px;
+    /* min-height: 150px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -43,7 +47,6 @@
 .option {
     width: 90%;
     height: 50px;
-    margin-top: 10px;
     background-color: rgb(135, 135, 135);
     border-radius: 7px;
     display: flex;
