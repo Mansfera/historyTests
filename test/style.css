@@ -1,8 +1,9 @@
 .app {
     background: white;
     width: 90%;
-    max-width: 730px;
-    margin: 5px auto 0;
+    max-width: 1000px;
+    height: 90%;
+    margin-top: 50px;
     border-radius: 10px;
     padding: 30px;
     overflow: hidden;

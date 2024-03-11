@@ -447,13 +447,7 @@ function selectAnswer(e) {
 
 function showScore() {
   resetState();
-  if (score < 10) {
-    document.getElementById("question").src =
-      "/historyTests/block" + block_id + "/grades/bad.png";
-  } else {
-    document.getElementById("question").src =
-      "/historyTests/block" + block_id + "/grades/good.png";
-  }
+  document.getElementById("question").src = ""
   clearInterval(timerInterval);
   questionNumber.innerHTML = `Ви набрали ${score} з 21 балу!`;
   nextButton.innerHTML = "Пройти знову";
