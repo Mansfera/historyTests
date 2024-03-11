@@ -309,6 +309,11 @@ function showQuestion() {
 }
 
 function resetState() {
+  Array.from(ansSheetBtns.children).forEach((button) => {
+    if (button.classList.contains("selected")) {
+      button.classList.remove("selected");
+    }
+  });
   for (i = 1; i < 4; i++) {
     let answer_field = document.getElementById("text_input" + i);
     answer_field.value = "";
