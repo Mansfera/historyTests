@@ -6,7 +6,7 @@ var allowedPart = params.get("allowedPart");
 var decrypted_token = Number(
   CryptoJS.AES.decrypt(access_token, "lag@history").toString(CryptoJS.enc.Utf8)
 );
-var decrypted_bmesss = CryptoJS.AES.decrypt(
+var decrypted_blocks = CryptoJS.AES.decrypt(
   allowedPart,
   "lag@history"
 ).toString(CryptoJS.enc.Utf8);
@@ -91,28 +91,28 @@ if (decrypted_token < Date.now()) {
   window.location = "./expired_token.html?" + params;
 } else {
   for (var i = 1; i < 6; i++) {
-    var bmess = document.getElementById("b" + i);
-    if (decrypted_bmesss.includes(i)) {
-      bmess.classList.remove("bmessed");
+    var block = document.getElementById("b" + i);
+    if (decrypted_blocks.includes(i)) {
+      block.classList.remove("blocked");
     } else {
-      while (bmess.firstChild) {
-        bmess.removeChild(bmess.firstChild);
+      while (block.firstChild) {
+        block.removeChild(block.firstChild);
       }
       var oImg = document.createElement("img");
       oImg.setAttribute('src', './mess.png');
-      bmess.appendChild(oImg);
+      block.appendChild(oImg);
     }
   }
 
-  var bmess = document.getElementById("NMT");
-  if (decrypted_bmesss.includes("6")) {
-    bmess.classList.remove("bmessed");
+  var block = document.getElementById("NMT");
+  if (decrypted_blocks.includes("6")) {
+    block.classList.remove("blocked");
   } else {
-    while (bmess.firstChild) {
-      bmess.removeChild(bmess.firstChild);
+    while (block.firstChild) {
+      block.removeChild(block.firstChild);
     }
     var oImg = document.createElement("img");
       oImg.setAttribute('src', './mess.png');
-      bmess.appendChild(oImg);
+      block.appendChild(oImg);
   }
 }
