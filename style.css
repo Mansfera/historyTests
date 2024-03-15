@@ -38,7 +38,7 @@
     width: 100%;
     opacity: 0;
     overflow: hidden;
-    transition: 0.3ms;
+    transition: 0.3s;
 }
 .test img:hover {
     opacity: 1;
