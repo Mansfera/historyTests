@@ -19,26 +19,32 @@
 }
 .test {
     margin: 4px;
-    width: calc(40% - 120px);
-    max-width: 500px;
-    min-width: 420px;
-    min-height: 350px;
-    height: 35vh;
-    max-height: 400px;
+    width: 100%;
+    height: 100%;
     background-color: snow;
     border-radius: 11px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
+
+.b-wrapper {
+    overflow: hidden;
+    width: calc(40% - 120px);
+    max-width: 500px;
+    min-width: 420px;
+    min-height: 350px;
+    height: 35vh;
+    max-height: 400px;
+}
+
 .test img {
     /* height: 40%; */
     width: 100%;
     opacity: 0;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 3s;
 }
 .test img:hover {
     opacity: 1;
