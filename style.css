@@ -31,11 +31,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow:hidden;
+    overflow: hidden;
 }
 .test img {
     /* height: 40%; */
     width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.3ms;
+}
+.test img:hover {
+    opacity: 1;
 }
 .title {
     font-weight: 600;

@@ -112,7 +112,7 @@ if (decrypted_token < Date.now()) {
       block.removeChild(block.firstChild);
     }
     var oImg = document.createElement("img");
-      oImg.setAttribute('src', './lock.png');
+      oImg.setAttribute('src', './mess.png');
       block.appendChild(oImg);
   }
 }
